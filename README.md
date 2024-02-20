@@ -18,7 +18,7 @@ Next, install necessary packages using the following script. (Note: virtual envi
 pip -r requirements.txt
 ```
 
-Then, copy the `hiereason_config_template.py` and rename it to `hiereason_config.py`. Open the file, and replace `sk-...` with your own OpenAI API key.
+Then, copy the `hiereason_config_template.yaml` and rename it to `hiereason_config.yaml`. Open the file, and replace `sk-...` with your own OpenAI API key.
 
 ## Run experiments
 
@@ -28,8 +28,10 @@ Scripts that can run experiments are stored as `hiereason/run_*.py`. For example
 python hiereason/run_symba.py --dataset proofwriter_dep5
 ```
 
-Values for the `--dataset` argument directly correspond to the folder names in `data/`, which are:
+Values for the `--dataset` argument are the folder names in `data/`, which are:
 - `proofwriter_dep5`, `birdselectricity`, `gsm8k`, `clutrr`, `ecthr`
+
+You can find the experiment logs in `logs/` directory.
 
 ## Code anatomy
 
@@ -43,4 +45,4 @@ python -m pysolver.run_proof
 
 The __main algorithm__ (Algorithm 1 in the paper) is defined in pysolver/solve.py. The callback logic for single-step statement generation is implemented from # 5. Post-tasks: add to cache, failure callback. This part of the code activates only when the unproved_callback parameter is provided.
 
-The modular __single-statement generation__ process is defined in `hiereason/symba/_symba.py`. Prompts for different methods are stored together in `data/(dataset name)/prompt_data.json`.
+The modular __single-statement generation__ process is defined in `hiereason/symba/_symba.py`. Prompts for the tested methods can be found in `data/(dataset name)/prompt_data.json`.
