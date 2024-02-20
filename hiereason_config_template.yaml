@@ -1,0 +1,14 @@
+hiereason:
+  langchain:
+    openai:
+      chat_model: "gpt-4-1106-preview"
+      api_key: "sk-..." # API key for OpenAI model
+      temperature: 0.0
+  datasets:
+    proofwriter_dep5: "data/proofwriter_dep5"
+    birdselectricity: "data/birdselectricity"
+    gsm8k: "data/gsm8k"
+    clutrr: "data/clutrr"
+    ecthr: "data/ecthr"
+
+  retry_count: 3

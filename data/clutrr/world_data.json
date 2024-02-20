@@ -1,0 +1,203 @@
+[
+    {
+        "id": 0,
+        "name": "family_relation_rules",
+        "statements": [
+            {
+                "id": 0,
+                "statement": "relation(A, R, B) :- isRelationOf(A, R, B).",
+                "description": "If A is the some_relation of B, then A can be inferred as the some_relation of B."
+            },
+            {
+                "id": 1,
+                "statement": "relation(A, son, B) :- isRelationOf(A, brother, C), relation(C, (son;daughter), B), B != A.",
+                "description": "If A is the brother of C, and C can be inferred as the son or the daughter of B, then A can be inferred as the son of B."
+            },
+            {
+                "id": 2,
+                "statement": "relation(A, daughter, B) :- isRelationOf(A, sister, C), relation(C, (son;daughter), B), B != A.",
+                "description": "If A is the sister of C, and C can be inferred as the son or the daughter of B, then A can be inferred as the daughter of B."
+            },
+            {
+                "id": 3,
+                "statement": "relation(A, son, B) :- isRelationOf(A, son, C), relation(C, (husband;wife), B), B != A.",
+                "description": "If A is the son of C, and C can be inferred as the husband or the wife of B, then A can be inferred as the son of B."
+            },
+            {
+                "id": 4,
+                "statement": "relation(A, daughter, B) :- isRelationOf(A, daughter, C), relation(C, (husband;wife), B), B != A.",
+                "description": "If A is the daughter of C, and C can be inferred as the husband or the wife of B, then A can be inferred as the daughter of B."
+            },
+            {
+                "id": 5,
+                "statement": "relation(A, father, B) :- isRelationOf(A, grandfather, C), relation(C, (son;daughter), B), B != A.",
+                "description": "If A is the grandfather of C, and C can be inferred as the son or the daughter of B, then A can be inferred as the father of B."
+            },
+            {
+                "id": 6,
+                "statement": "relation(A, mother, B) :- isRelationOf(A, grandmother, C), relation(C, (son;daughter), B), B != A.",
+                "description": "If A is the grandmother of C, and C can be inferred as the son or the daughter of B, then A can be inferred as the mother of B."
+            },
+            {
+                "id": 7,
+                "statement": "relation(A, father, B) :- isRelationOf(A, father, C), relation(C, (brother;sister), B), B != A.",
+                "description": "If A is the father of C, and C can be inferred as the brother or the sister of B, then A can be inferred as the father of B."
+            },
+            {
+                "id": 8,
+                "statement": "relation(A, mother, B) :- isRelationOf(A, mother, C), relation(C, (brother;sister), B), B != A.",
+                "description": "If A is the mother of C, and C can be inferred as the brother or the sister of B, then A can be inferred as the mother of B."
+            },
+            {
+                "id": 9,
+                "statement": "relation(A, uncle, B) :- isRelationOf(A, (brother;brother_in_law), C), relation(C, (father;mother), B), B != A.",
+                "description": "If A is the brother or the brother-in-law of C, and C can be inferred as the father or the mother of B, then A can be inferred as the uncle of B."
+            },
+            {
+                "id": 10,
+                "statement": "relation(A, aunt, B) :- isRelationOf(A, (sister;sister_in_law), C), relation(C, (father;mother), B), B != A.",
+                "description": "If A is the sister or the sister-in-law of C, and C can be inferred as the father or the mother of B, then A can be inferred as the aunt of B."
+            },
+            {
+                "id": 11,
+                "statement": "relation(A, nephew, B) :- isRelationOf(A, son, C), relation(C, (brother;sister;brother_in_law;sister_in_law), B), B != A.",
+                "description": "If A is the son of C, and C can be inferred as the brother / sister / brother-in-law / sister-in-law of B, then A can be inferred as the aunt of B."
+            },
+            {
+                "id": 12,
+                "statement": "relation(A, niece, B) :- isRelationOf(A, daughter, C), relation(C, (brother;sister;brother_in_law;sister_in_law), B), B != A.",
+                "description": "If A is the daughter of C, and C can be inferred as the brother / sister / brother-in-law / sister-in-law of B, then A can be inferred as the niece of B."
+            },
+            {
+                "id": 13,
+                "statement": "relation(A, grandfather, B) :- isRelationOf(A, father, C), relation(C, (father;mother), B), B != A.",
+                "description": "If A is the father of C, and C can be inferred as the father or the mother of B, then A can be inferred as the grandfather of B."
+            },
+            {
+                "id": 14,
+                "statement": "relation(A, grandmother, B) :- isRelationOf(A, mother, C), relation(C, (father;mother), B), B != A.",
+                "description": "If A is the mother of C, and C can be inferred as the father or the mother of B, then A can be inferred as the grandmother of B."
+            },
+            {
+                "id": 15,
+                "statement": "relation(A, grandfather, B) :- isRelationOf(A, grandfather, C), relation(C, (brother;sister), B), B != A.",
+                "description": "If A is the grandfather of C, and C can be inferred as the brother or the sister of B, then A can be inferred as the grandfather of B."
+            },
+            {
+                "id": 16,
+                "statement": "relation(A, grandmother, B) :- isRelationOf(A, grandmother, C), relation(C, (brother;sister), B), B != A.",
+                "description": "If A is the grandmother of C, and C can be inferred as the brother or the sister of B, then A can be inferred as the grandmother of B."
+            },
+            {
+                "id": 17,
+                "statement": "relation(A, grandson, B) :- isRelationOf(A, son, C), relation(C, (son;daughter), B), B != A.",
+                "description": "If A is the son of C, and C can be inferred as the son or the daughter of B, then A can be inferred as the grandson of B."
+            },
+            {
+                "id": 18,
+                "statement": "relation(A, granddaughter, B) :- isRelationOf(A, daughter, C), relation(C, (son;daughter), B), B != A.",
+                "description": "If A is the daughter of C, and C can be inferred as the son or the daughter of B, then A can be inferred as the granddaughter of B."
+            },
+            {
+                "id": 19,
+                "statement": "relation(A, grandson, B) :- isRelationOf(A, grandson, C), relation(C, (husband;wife), B), B != A.",
+                "description": "If A is the grandson of C, and C can be inferred as the husband or the wife of B, then A can be inferred as the grandson of B."
+            },
+            {
+                "id": 20,
+                "statement": "relation(A, granddaughter, B) :- isRelationOf(A, granddaughter, C), relation(C, (husband;wife), B), B != A.",
+                "description": "If A is the granddaughter of C, and C can be inferred as the husband or the wife of B, then A can be inferred as the granddaughter of B."
+            },
+            {
+                "id": 21,
+                "statement": "relation(A, grandson, B) :- isRelationOf(A, brother, C), relation(C, (grandson;granddaughter), B), B != A.",
+                "description": "If A is the brother of C, and C can be inferred as the grandson or the granddaughter of B, then A can be inferred as the grandson of B."
+            },
+            {
+                "id": 22,
+                "statement": "relation(A, granddaughter, B) :- isRelationOf(A, sister, C), relation(C, (grandson;granddaughter), B), B != A.",
+                "description": "If A is the sister of C, and C can be inferred as the grandson or the granddaughter of B, then A can be inferred as the granddaughter of B."
+            },
+            {
+                "id": 23,
+                "statement": "relation(A, father_in_law, B) :- isRelationOf(A, father, C), relation(C, (husband;wife), B), B != A.",
+                "description": "If A is the father of C, and C can be inferred as the husband or the wife of B, then A can be inferred as the father-in-law of B."
+            },
+            {
+                "id": 24,
+                "statement": "relation(A, mother_in_law, B) :- isRelationOf(A, mother, C), relation(C, (husband;wife), B), B != A.",
+                "description": "If A is the mother of C, and C can be inferred as the husband or the wife of B, then A can be inferred as the mother-in-law of B."
+            },
+            {
+                "id": 25,
+                "statement": "relation(A, son_in_law, B) :- isRelationOf(A, husband, C), relation(C, daughter, B), B != A.",
+                "description": "If A is the husband of C, and C can be inferred as the daughter of B, then A can be inferred as the son-in-law of B."
+            },
+            {
+                "id": 26,
+                "statement": "relation(A, daughter_in_law, B) :- isRelationOf(A, wife, C), relation(C, son, B), B != A.",
+                "description": "If A is the wife of C, and C can be inferred as the son of B, then A can be inferred as the daughter-in-law of B."
+            },
+            {
+                "id": 27,
+                "statement": "relation(A, brother_in_law, B) :- isRelationOf(A, husband, C), relation(C, sister, B), B != A.",
+                "description": "If A is the husband of C, and C can be inferred as the sister of B, then A can be inferred as the brother-in-law of B."
+            },
+            {
+                "id": 28,
+                "statement": "relation(A, sister_in_law, B) :- isRelationOf(A, wife, C), relation(C, brother, B), B != A.",
+                "description": "If A is the wife of C, and C can be inferred as the brother of B, then A can be inferred as the sister-in-law of B."
+            },
+            {
+                "id": 29,
+                "statement": "relation(A, husband, B) :- isRelationOf(B, wife, A), B != A.",
+                "description": "If A is the wife of B, then A can be inferred as the husband of B."
+            },
+            {
+                "id": 30,
+                "statement": "relation(A, wife, B) :- isRelationOf(B, husband, A), B != A.",
+                "description": "If A is the husband of B, then A can be inferred as the wife of B."
+            },
+            {
+                "id": 31,
+                "statement": "relation(A, husband, B) :- isRelationOf(A, father, C), relation(C, (daughter;son), B), B != A.",
+                "description": "If A is the father of C, and C can be inferred as the daughter or the son of B, then A can be inferred as the husband of B."
+            },
+            {
+                "id": 32,
+                "statement": "relation(A, wife, B) :- isRelationOf(A, mother, C), relation(C, (daughter;son), B), B != A.",
+                "description": "If A is the mother of C, and C can be inferred as the daughter or the son of B, then A can be inferred as the wife of B."
+            },
+            {
+                "id": 33,
+                "statement": "relation(A, brother, B) :- isRelationOf(A, uncle, C), relation(C, (son;daughter), B), B != A.",
+                "description": "If A is the uncle of C, and C can be inferred as the son or the daughter of B, then A can be inferred as the brother of B."
+            },
+            {
+                "id": 34,
+                "statement": "relation(A, sister, B) :- isRelationOf(A, aunt, C), relation(C, (son;daughter), B), B != A.",
+                "description": "If A is the aunt of C, and C can be inferred as the son or the daughter of B, then A can be inferred as the sister of B."
+            },
+            {
+                "id": 35,
+                "statement": "relation(A, brother, B) :- isRelationOf(A, son, C), relation(C, (father;mother), B), B != A.",
+                "description": "If A is the son of C, and C can be inferred as the father or the mother of B, then A can be inferred as the brother of B."
+            },
+            {
+                "id": 36,
+                "statement": "relation(A, sister, B) :- isRelationOf(A, daughter, C), relation(C, (father;mother), B), B != A.",
+                "description": "If A is the daughter of C, and C can be inferred as the father or the mother of B, then A can be inferred as the sister of B."
+            },
+            {
+                "id": 37,
+                "statement": "relation(A, brother, B) :- isRelationOf(A, brother, C), relation(C, (brother;sister), B), B != A.",
+                "description": "If A is the brother of C, and C can be inferred as the brother or the sister of B, then A can be inferred as the brother of B."
+            },
+            {
+                "id": 38,
+                "statement": "relation(A, sister, B) :- isRelationOf(A, sister, C), relation(C, (brother;sister), B), B != A.",
+                "description": "If A is the sister of C, and C can be inferred as the brother or the sister of B, then A can be inferred as the sister of B."
+            }
+        ]
+    }
+]

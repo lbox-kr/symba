@@ -1,0 +1,3160 @@
+[
+    {
+        "id": 0,
+        "body_text": "[Jenny] spent a great day shopping with her daughter, [Mary]. [Kelley] took her sister, [Mary], out to dinner for her birthday. [Kelley] watched a golf tournament with her aunt [April]. [April] had picked her daughter [Melba] out the cutest new dress to wear on her birthday.",
+        "world_model": [
+            "family_relation_rules"
+        ],
+        "goal": "relation(melba, niece, jenny)",
+        "label": true,
+        "program": [
+            {
+                "statement": "isRelationOf(melba, daughter, april).",
+                "description": "[April] had picked her daughter [Melba] out the cutest new dress to wear on her birthday."
+            },
+            {
+                "statement": "isRelationOf(april, aunt, kelley).",
+                "description": "[Kelley] watched a golf tournament with her aunt [April]."
+            },
+            {
+                "statement": "isRelationOf(mary, daughter, jenny).",
+                "description": "[Jenny] spent a great day shopping with her daughter, [Mary]."
+            },
+            {
+                "statement": "isRelationOf(kelley, sister, mary).",
+                "description": "[Kelley] took her sister, [Mary], out to dinner for her birthday."
+            }
+        ]
+    },
+    {
+        "id": 1,
+        "body_text": "[Ruth] wanted to play basketball with her brother [Stephen]. [Stephen] asked his mom, [Laura] if they could go outside. [Ruth] went to her father [Seth] Birthday party [Seth] and his daughter [Rosa] made a pizza. [Rosa]'s daughter [Margaret] really enjoyed the pizza.",
+        "world_model": [
+            "family_relation_rules"
+        ],
+        "goal": "relation(margaret, son_in_law, laura)",
+        "_answer": "relation(margaret, granddaughter, laura)",
+        "label": false,
+        "program": [
+            {
+                "statement": "isRelationOf(margaret, daughter, rosa).",
+                "description": "[Rosa]'s daughter [Margaret] really enjoyed the pizza."
+            },
+            {
+                "statement": "isRelationOf(stephen, son, laura).",
+                "description": "[Stephen] asked his mom, [Laura] if they could go outside."
+            },
+            {
+                "statement": "isRelationOf(ruth, sister, stephen).",
+                "description": "[Ruth] wanted to play basketball with her brother [Stephen]."
+            },
+            {
+                "statement": "isRelationOf(seth, father, ruth).",
+                "description": "[Ruth] went to her father [Seth] Birthday party [Seth] and his daughter [Rosa] made a pizza."
+            },
+            {
+                "statement": "isRelationOf(rosa, daughter, seth).",
+                "description": "[Ruth] went to her father [Seth] Birthday party [Seth] and his daughter [Rosa] made a pizza."
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "body_text": "[Michael] and [Michelle] were lucky to marry each other. [Michelle] already had a kid named [Jeremy]. [Molly] loved to take care of her new grandson, [Jeremy].",
+        "world_model": [
+            "family_relation_rules"
+        ],
+        "goal": "relation(molly, grandfather, michael)",
+        "_answer": "relation(molly, mother, michael)",
+        "label": false,
+        "program": [
+            {
+                "statement": "isRelationOf(molly, grandmother, jeremy).",
+                "description": "[Molly] loved to take care of her new grandson, [Jeremy]."
+            },
+            {
+                "statement": "isRelationOf(michelle, wife, michael).",
+                "description": "[Michael] and [Michelle] were lucky to marry each other."
+            },
+            {
+                "statement": "isRelationOf(jeremy, son, michelle).",
+                "description": "[Michelle] already had a kid named [Jeremy]."
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "body_text": "[Evelyn] wanted to meet with her brother, [Jonathan], but she had to cancel when her sister, [Rosa], had an emergency that she needed to attend to. [Ruth] went to the store with her sister [Rosa] [Rosa], who is the sister of [Ruth], is a lovely girl. [Rosa] 'father [Seth] became enraged when she failed to complete her homework. [Rosa] was grounded for a month and unable to spend time with friends.",
+        "world_model": [
+            "family_relation_rules"
+        ],
+        "goal": "relation(seth, grandson, jonathan)",
+        "_answer": "relation(seth, father, jonathan)",
+        "label": false,
+        "program": [
+            {
+                "statement": "isRelationOf(rosa, sister, ruth).",
+                "description": "[Rosa], who is the sister of [Ruth], is a lovely girl."
+            },
+            {
+                "statement": "isRelationOf(seth, father, rosa).",
+                "description": "[Rosa] 'father [Seth] became enraged when she failed to complete her homework."
+            },
+            {
+                "statement": "isRelationOf(ruth, sister, rosa).",
+                "description": "[Rosa], who is the sister of [Ruth], is a lovely girl."
+            },
+            {
+                "statement": "isRelationOf(evelyn, sister, jonathan).",
+                "description": "[Evelyn] wanted to meet with her brother, [Jonathan], but she had to cancel when her sister, [Rosa], had an emergency that she needed to attend to."
+            },
+            {
+                "statement": "isRelationOf(rosa, sister, evelyn).",
+                "description": "[Evelyn] wanted to meet with her brother, [Jonathan], but she had to cancel when her sister, [Rosa], had an emergency that she needed to attend to."
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "body_text": "[William] drove his daughter [Christina] to soccer practice. [Christine] and her sisters [Connie] went to the spa. [Christina], another sister of [Christine], had to babysit and could n't join them. [Timothy] and his sister, [Connie] love it when their grandmother visits because she spoils them. She is coming this week to watch them while their parents are out of town.",
+        "world_model": [
+            "family_relation_rules"
+        ],
+        "goal": "relation(timothy, mother_in_law, william)",
+        "_answer": "relation(timothy, son, william)",
+        "label": false,
+        "program": [
+            {
+                "statement": "isRelationOf(christina, daughter, william).",
+                "description": "[William] drove his daughter [Christina] to soccer practice."
+            },
+            {
+                "statement": "isRelationOf(christine, sister, christina).",
+                "description": "[Christina], another sister of [Christine], had to babysit and could n't join them."
+            },
+            {
+                "statement": "isRelationOf(connie, sister, christine).",
+                "description": "[Christine] and her sisters [Connie] went to the spa."
+            },
+            {
+                "statement": "isRelationOf(timothy, brother, connie).",
+                "description": "[Timothy] and his sister, [Connie] love it when their grandmother visits because she spoils them."
+            }
+        ]
+    },
+    {
+        "id": 5,
+        "body_text": "[Roger] loved going to the store with his mom [Sarah]. She always bought him snacks [Sarah], a female, took her husband who is a male, [Carlos], out for lunch. [Sarah] and [Carlos] have been married for 35 years. [Sarah] spent a great day shopping with her daughter, [Julie]. [Lisa] and [Roger] did the Father daughter dance at the recital and his wife [Julie] was so happy she cried [Lisa] and her aunt, [Jamie], went to the bookstore. [Lisa] bought some fantasy books, while [Jamie] picked up some mysteries. [Jamie] loves her son [Richard] very much. He loves her, too.",
+        "world_model": [
+            "family_relation_rules"
+        ],
+        "goal": "relation(richard, nephew, roger)",
+        "label": true,
+        "program": [
+            {
+                "statement": "isRelationOf(richard, son, jamie).",
+                "description": "[Jamie] loves her son [Richard] very much."
+            },
+            {
+                "statement": "isRelationOf(sarah, mother, roger).",
+                "description": "[Roger] loved going to the store with his mom [Sarah]."
+            },
+            {
+                "statement": "isRelationOf(carlos, husband, sarah).",
+                "description": "She always bought him snacks [Sarah], a female, took her husband who is a male, [Carlos], out for lunch."
+            },
+            {
+                "statement": "isRelationOf(jamie, aunt, lisa).",
+                "description": "[Lisa] and [Roger] did the Father daughter dance at the recital and his wife [Julie] was so happy she cried [Lisa] and her aunt, [Jamie], went to the bookstore."
+            },
+            {
+                "statement": "isRelationOf(roger, husband, julie).",
+                "description": "[Lisa] and [Roger] did the Father daughter dance at the recital and his wife [Julie] was so happy she cried [Lisa] and her aunt, [Jamie], went to the bookstore."
+            },
+            {
+                "statement": "isRelationOf(lisa, daughter, roger).",
+                "description": "[Lisa] and [Roger] did the Father daughter dance at the recital and his wife [Julie] was so happy she cried [Lisa] and her aunt, [Jamie], went to the bookstore."
+            },
+            {
+                "statement": "isRelationOf(sarah, wife, carlos).",
+                "description": "She always bought him snacks [Sarah], a female, took her husband who is a male, [Carlos], out for lunch."
+            },
+            {
+                "statement": "isRelationOf(julie, daughter, sarah).",
+                "description": "[Sarah] spent a great day shopping with her daughter, [Julie]."
+            }
+        ]
+    },
+    {
+        "id": 6,
+        "body_text": "[Gabrielle] and her husband [Jason] wanted a child badly [Jason] bought a new dress for his daughter [Lisa].",
+        "world_model": [
+            "family_relation_rules"
+        ],
+        "goal": "relation(lisa, daughter, gabrielle)",
+        "label": true,
+        "program": [
+            {
+                "statement": "isRelationOf(jason, husband, gabrielle).",
+                "description": "[Gabrielle] and her husband [Jason] wanted a child badly [Jason] bought a new dress for his daughter [Lisa]."
+            },
+            {
+                "statement": "isRelationOf(lisa, daughter, jason).",
+                "description": "[Gabrielle] and her husband [Jason] wanted a child badly [Jason] bought a new dress for his daughter [Lisa]."
+            }
+        ]
+    },
+    {
+        "id": 7,
+        "body_text": "[Dorothy] and her daughter [Kecia] went to see a movie yesterday and then got ice cream afterwards. [Dorothy] and her son, [Kent], went to the park, and had a wonderful time. [Thomas] was thrilled his brother, [Kent], was able to make it to the party. [James] watched the football game with his son [Thomas]. [James]'s daughter [Florence] was bored and played with her phone instead. [Florence] went to the mall, because she wanted to look for a present for her daughter, [Janet].",
+        "world_model": [
+            "family_relation_rules"
+        ],
+        "goal": "relation(janet, nephew, kecia)",
+        "_answer": "relation(janet, niece, kecia)",
+        "label": false,
+        "program": [
+            {
+                "statement": "isRelationOf(janet, daughter, florence).",
+                "description": "[Florence] went to the mall, because she wanted to look for a present for her daughter, [Janet]."
+            },
+            {
+                "statement": "isRelationOf(thomas, brother, kent).",
+                "description": "[Thomas] was thrilled his brother, [Kent], was able to make it to the party."
+            },
+            {
+                "statement": "isRelationOf(dorothy, mother, kecia).",
+                "description": "[Dorothy] and her daughter [Kecia] went to see a movie yesterday and then got ice cream afterwards."
+            },
+            {
+                "statement": "isRelationOf(kent, son, dorothy).",
+                "description": "[Dorothy] and her son, [Kent], went to the park, and had a wonderful time."
+            },
+            {
+                "statement": "isRelationOf(james, father, thomas).",
+                "description": "[James] watched the football game with his son [Thomas]."
+            },
+            {
+                "statement": "isRelationOf(florence, daughter, james).",
+                "description": "[James]'s daughter [Florence] was bored and played with her phone instead."
+            }
+        ]
+    },
+    {
+        "id": 8,
+        "body_text": "[Evelyn] 'daughter [Nichole] visited for Christmas. [Nichole]'s brother [Darren] was out of town for the holidays. [Darren] took his grandmother [Laura] a basket of strawberries. [Stephanie] went with her mother [Ruth] to pick out a gift for [Ruth]'s mother, [Laura].",
+        "world_model": [
+            "family_relation_rules"
+        ],
+        "goal": "relation(stephanie, niece, evelyn)",
+        "label": true,
+        "program": [
+            {
+                "statement": "isRelationOf(stephanie, daughter, ruth).",
+                "description": "[Stephanie] went with her mother [Ruth] to pick out a gift for [Ruth]'s mother, [Laura]."
+            },
+            {
+                "statement": "isRelationOf(ruth, daughter, laura).",
+                "description": "[Stephanie] went with her mother [Ruth] to pick out a gift for [Ruth]'s mother, [Laura]."
+            },
+            {
+                "statement": "isRelationOf(laura, grandmother, darren).",
+                "description": "[Darren] took his grandmother [Laura] a basket of strawberries."
+            },
+            {
+                "statement": "isRelationOf(nichole, daughter, evelyn).",
+                "description": "[Evelyn] 'daughter [Nichole] visited for Christmas."
+            },
+            {
+                "statement": "isRelationOf(darren, brother, nichole).",
+                "description": "[Nichole]'s brother [Darren] was out of town for the holidays."
+            }
+        ]
+    },
+    {
+        "id": 9,
+        "body_text": "[Peter] and his brother [Michael] went shopping at an electronics store. [Peter] found the perfect pair of headphones for his brother [Mark]'s birthday. [Martha] made mixed drinks for her son [Michael]. [Martha]'s daughter [Brandi] was jealous because she was n't offered one. [Spencer] took his son [Michael] and daughter [Brandi] to the zoo on Saturday and they had a great time. [Carmelita] was excited because she got to go to the zoo with her grandson [Michael].",
+        "world_model": [
+            "family_relation_rules"
+        ],
+        "goal": "relation(carmelita, son, mark)",
+        "_answer": "relation(carmelita, grandmother, mark)",
+        "label": false,
+        "program": [
+            {
+                "statement": "isRelationOf(spencer, father, brandi).",
+                "description": "[Spencer] took his son [Michael] and daughter [Brandi] to the zoo on Saturday and they had a great time."
+            },
+            {
+                "statement": "isRelationOf(peter, brother, mark).",
+                "description": "[Peter] found the perfect pair of headphones for his brother [Mark]'s birthday."
+            },
+            {
+                "statement": "isRelationOf(michael, brother, peter).",
+                "description": "[Peter] and his brother [Michael] went shopping at an electronics store."
+            },
+            {
+                "statement": "isRelationOf(martha, mother, michael).",
+                "description": "[Martha] made mixed drinks for her son [Michael]."
+            },
+            {
+                "statement": "isRelationOf(brandi, daughter, martha).",
+                "description": "[Martha]'s daughter [Brandi] was jealous because she was n't offered one."
+            },
+            {
+                "statement": "isRelationOf(michael, son, spencer).",
+                "description": "[Spencer] took his son [Michael] and daughter [Brandi] to the zoo on Saturday and they had a great time."
+            },
+            {
+                "statement": "isRelationOf(carmelita, grandmother, michael).",
+                "description": "[Carmelita] was excited because she got to go to the zoo with her grandson [Michael]."
+            }
+        ]
+    },
+    {
+        "id": 10,
+        "body_text": "[Sharon] and her sister, [Melba], frequently bicker. However, they always make up quickly. [Sharon] 'father [Benjamin] became enraged when she failed to complete her homework. [Sharon] was grounded for a month and unable to spend time with friends. [Benjamin] has a daughter called [Lucille]. [Benjamin] sat with his daughter, [Lucille], for ice cream at a local shop.",
+        "world_model": [
+            "family_relation_rules"
+        ],
+        "goal": "relation(benjamin, granddaughter, melba)",
+        "_answer": "relation(benjamin, father, melba)",
+        "label": false,
+        "program": [
+            {
+                "statement": "isRelationOf(benjamin, father, lucille).",
+                "description": "[Benjamin] has a daughter called [Lucille]."
+            },
+            {
+                "statement": "isRelationOf(sharon, sister, melba).",
+                "description": "[Sharon] and her sister, [Melba], frequently bicker."
+            },
+            {
+                "statement": "isRelationOf(benjamin, father, sharon).",
+                "description": "[Sharon] 'father [Benjamin] became enraged when she failed to complete her homework."
+            },
+            {
+                "statement": "isRelationOf(lucille, daughter, benjamin).",
+                "description": "[Benjamin] sat with his daughter, [Lucille], for ice cream at a local shop."
+            }
+        ]
+    },
+    {
+        "id": 11,
+        "body_text": "[Richard] took his sister, [Patricia], to a baseball game. [Patricia] and her father, [Cornelius], went to the marina. [Cornelius]'s daughter, [April], had purchased a boat, and they were eager to see it. [Lucille] went to dinner with her daughter [April]. They then went to the park afterwards.",
+        "world_model": [
+            "family_relation_rules"
+        ],
+        "goal": "relation(lucille, father, richard)",
+        "_answer": "relation(lucille, niece, richard)",
+        "label": false,
+        "program": [
+            {
+                "statement": "isRelationOf(lucille, daughter, april).",
+                "description": "[Lucille] went to dinner with her daughter [April]."
+            },
+            {
+                "statement": "isRelationOf(patricia, sister, richard).",
+                "description": "[Richard] took his sister, [Patricia], to a baseball game."
+            },
+            {
+                "statement": "isRelationOf(cornelius, father, patricia).",
+                "description": "[Patricia] and her father, [Cornelius], went to the marina."
+            },
+            {
+                "statement": "isRelationOf(april, daughter, cornelius).",
+                "description": "[Cornelius]'s daughter, [April], had purchased a boat, and they were eager to see it."
+            }
+        ]
+    },
+    {
+        "id": 12,
+        "body_text": "[Martha] gave birth to a son named [Mark]. [Martha] loves cooking for her son. His name is [Michael] [Martha] is proud that her son graduated college. His name is [Michael]. [Martha] had picked her daughter [Brandi] out the cutest new dress to wear on her birthday. [Brandi] went to her brother [Peter]'s birthday party [Spencer] took his son [Peter] out for ice cream. [Spencer] played basketball with his brother [Chuck].",
+        "world_model": [
+            "family_relation_rules"
+        ],
+        "goal": "relation(chuck, father, mark)",
+        "_answer": "relation(chuck, uncle, mark)",
+        "label": false,
+        "program": [
+            {
+                "statement": "isRelationOf(martha, mother, mark).",
+                "description": "[Martha] gave birth to a son named [Mark]."
+            },
+            {
+                "statement": "isRelationOf(spencer, father, peter).",
+                "description": "[Brandi] went to her brother [Peter]'s birthday party [Spencer] took his son [Peter] out for ice cream."
+            },
+            {
+                "statement": "isRelationOf(chuck, brother, spencer).",
+                "description": "[Spencer] played basketball with his brother [Chuck]."
+            },
+            {
+                "statement": "isRelationOf(peter, brother, brandi).",
+                "description": "[Brandi] went to her brother [Peter]'s birthday party [Spencer] took his son [Peter] out for ice cream."
+            },
+            {
+                "statement": "isRelationOf(brandi, daughter, martha).",
+                "description": "[Martha] had picked her daughter [Brandi] out the cutest new dress to wear on her birthday."
+            }
+        ]
+    },
+    {
+        "id": 13,
+        "body_text": "[Judy] went to her brother [William]'s birthday party [Joseph] and his brother [William] went to the mall. [Joseph]'s son, [Lawrence], went with them. [Lawrence]'s brother, [Freddie], could n't come because he was busy with his homework. [Michele] attended the graduation of her sister's son [Freddie]. [Joseph] likes to visit his sister. Her name is [Michele]. [Dana] was eager to spend time with her son, [Joseph]. [Dana] and her son, [Larry], went to the park to fly a kite. They had fun doing it all day. [Gordon] and his son [Larry] went to look at cars. [Gordon] ended up buying the Mustang.",
+        "world_model": [
+            "family_relation_rules"
+        ],
+        "goal": "relation(gordon, daughter_in_law, judy)",
+        "_answer": "relation(gordon, nephew, judy)",
+        "label": false,
+        "program": [
+            {
+                "statement": "isRelationOf(gordon, son, larry).",
+                "description": "[Gordon] and his son [Larry] went to look at cars."
+            },
+            {
+                "statement": "isRelationOf(larry, son, dana).",
+                "description": "[Dana] and her son, [Larry], went to the park to fly a kite."
+            },
+            {
+                "statement": "isRelationOf(william, brother, judy).",
+                "description": "[Judy] went to her brother [William]'s birthday party [Joseph] and his brother [William] went to the mall."
+            },
+            {
+                "statement": "isRelationOf(dana, mother, joseph).",
+                "description": "[Dana] was eager to spend time with her son, [Joseph]."
+            },
+            {
+                "statement": "isRelationOf(joseph, brother, william).",
+                "description": "[Judy] went to her brother [William]'s birthday party [Joseph] and his brother [William] went to the mall."
+            },
+            {
+                "statement": "isRelationOf(michele, aunt, freddie).",
+                "description": "[Michele] attended the graduation of her sister's son [Freddie]."
+            },
+            {
+                "statement": "isRelationOf(lawrence, son, joseph).",
+                "description": "[Joseph]'s son, [Lawrence], went with them."
+            },
+            {
+                "statement": "isRelationOf(freddie, brother, lawrence).",
+                "description": "[Lawrence]'s brother, [Freddie], could n't come because he was busy with his homework."
+            }
+        ]
+    },
+    {
+        "id": 14,
+        "body_text": "[Pennie] went to her brother [Darren]'s birthday party [Sean] enjoys going fishing with his brother. His name is [Darren]. [Evelyn] took her son [Sean] to the dentist. [Evelyn]'s daughter [Nichole] did n't go because she takes care of her teeth. [Nichole] vowed to never trust her father, [Christian] with her debit card again.",
+        "world_model": [
+            "family_relation_rules"
+        ],
+        "goal": "relation(christian, daughter_in_law, pennie)",
+        "_answer": "relation(christian, father, pennie)",
+        "label": false,
+        "program": [
+            {
+                "statement": "isRelationOf(darren, brother, pennie).",
+                "description": "[Pennie] went to her brother [Darren]'s birthday party [Sean] enjoys going fishing with his brother."
+            },
+            {
+                "statement": "isRelationOf(sean, brother, darren).",
+                "description": "[Pennie] went to her brother [Darren]'s birthday party [Sean] enjoys going fishing with his brother."
+            },
+            {
+                "statement": "isRelationOf(christian, father, nichole).",
+                "description": "[Nichole] vowed to never trust her father, [Christian] with her debit card again."
+            },
+            {
+                "statement": "isRelationOf(evelyn, mother, sean).",
+                "description": "[Evelyn] took her son [Sean] to the dentist."
+            },
+            {
+                "statement": "isRelationOf(nichole, daughter, evelyn).",
+                "description": "[Evelyn]'s daughter [Nichole] did n't go because she takes care of her teeth."
+            }
+        ]
+    },
+    {
+        "id": 15,
+        "body_text": "[Bruce] went to his brother [John]'s Birthday party [Linda] enjoys playing cards with her brother. His name is [Bruce]. [Brian] is buying his daughter [Linda] a brand new car for her birthday. [Melissa] asked her husband [Brian] if he could chop up some vegetables for dinner. [Melissa] was excited to visit her son, [Scott], at college. [Brian] picked up his son [Scott] from baseball practice and his daughter [Linda] from ballet practice. [Scott] and his sister, [Linda] love it when their grandmother visits because she spoils them. She is coming this week to watch them while their parents are out of town. [Debra] went to church with her daughter [Melissa]. [Melissa]'s son [Scott] is the preacher at the church.",
+        "world_model": [
+            "family_relation_rules"
+        ],
+        "goal": "relation(debra, brother, john)",
+        "_answer": "relation(debra, grandmother, john)",
+        "label": false,
+        "program": [
+            {
+                "statement": "isRelationOf(debra, mother, melissa).",
+                "description": "[Debra] went to church with her daughter [Melissa]."
+            },
+            {
+                "statement": "isRelationOf(bruce, brother, john).",
+                "description": "[Bruce] went to his brother [John]'s Birthday party [Linda] enjoys playing cards with her brother."
+            },
+            {
+                "statement": "isRelationOf(scott, brother, linda).",
+                "description": "[Brian] picked up his son [Scott] from baseball practice and his daughter [Linda] from ballet practice."
+            },
+            {
+                "statement": "isRelationOf(melissa, mother, scott).",
+                "description": "[Melissa] was excited to visit her son, [Scott], at college."
+            },
+            {
+                "statement": "isRelationOf(linda, sister, bruce).",
+                "description": "[Bruce] went to his brother [John]'s Birthday party [Linda] enjoys playing cards with her brother."
+            },
+            {
+                "statement": "isRelationOf(brian, father, linda).",
+                "description": "[Brian] is buying his daughter [Linda] a brand new car for her birthday."
+            },
+            {
+                "statement": "isRelationOf(brian, father, scott).",
+                "description": "[Brian] picked up his son [Scott] from baseball practice and his daughter [Linda] from ballet practice."
+            },
+            {
+                "statement": "isRelationOf(linda, daughter, brian).",
+                "description": "[Brian] picked up his son [Scott] from baseball practice and his daughter [Linda] from ballet practice."
+            },
+            {
+                "statement": "isRelationOf(melissa, wife, brian).",
+                "description": "[Melissa] asked her husband [Brian] if he could chop up some vegetables for dinner."
+            },
+            {
+                "statement": "isRelationOf(scott, son, melissa).",
+                "description": "[Melissa]'s son [Scott] is the preacher at the church."
+            }
+        ]
+    },
+    {
+        "id": 16,
+        "body_text": "[Stanley] went to lunch with his wife [Molly]. [Matthew] was playing on his bike outside his grandfather [Stanley]'s house and his brother [Ellis] told him he needed to come inside and finish his homework before it got dark.",
+        "world_model": [
+            "family_relation_rules"
+        ],
+        "goal": "relation(ellis, uncle, molly)",
+        "_answer": "relation(ellis, grandson, molly)",
+        "label": false,
+        "program": [
+            {
+                "statement": "isRelationOf(ellis, brother, matthew).",
+                "description": "[Matthew] was playing on his bike outside his grandfather [Stanley]'s house and his brother [Ellis] told him he needed to come inside and finish his homework before it got dark."
+            },
+            {
+                "statement": "isRelationOf(stanley, husband, molly).",
+                "description": "[Stanley] went to lunch with his wife [Molly]."
+            },
+            {
+                "statement": "isRelationOf(matthew, grandson, stanley).",
+                "description": "[Matthew] was playing on his bike outside his grandfather [Stanley]'s house and his brother [Ellis] told him he needed to come inside and finish his homework before it got dark."
+            }
+        ]
+    },
+    {
+        "id": 17,
+        "body_text": "[Jonathan] is out playing tennis with his daughter [Diana] because it is nice and sunny outside. [Diana] and her mother [Jonathan] made breakfast together. [Cristina] invited her sister [Rosa] and son [William] to breakfast. [William]'s sister [Diana] slept in instead.",
+        "world_model": [
+            "family_relation_rules"
+        ],
+        "goal": "relation(rosa, aunt, diana)",
+        "label": true,
+        "program": [
+            {
+                "statement": "isRelationOf(jonathan, father, diana).",
+                "description": "[Jonathan] is out playing tennis with his daughter [Diana] because it is nice and sunny outside."
+            },
+            {
+                "statement": "isRelationOf(cristina, mother, william).",
+                "description": "[Cristina] invited her sister [Rosa] and son [William] to breakfast."
+            },
+            {
+                "statement": "isRelationOf(rosa, sister, cristina).",
+                "description": "[Cristina] invited her sister [Rosa] and son [William] to breakfast."
+            },
+            {
+                "statement": "isRelationOf(diana, daughter, jonathan).",
+                "description": "[Jonathan] is out playing tennis with his daughter [Diana] because it is nice and sunny outside."
+            },
+            {
+                "statement": "isRelationOf(william, brother, diana).",
+                "description": "[William]'s sister [Diana] slept in instead."
+            }
+        ]
+    },
+    {
+        "id": 18,
+        "body_text": "[Stephanie] went shoe shopping with her sister [Gloria]. [Ruth] and her daughter [Stephanie] went to see a movie yesterday and then got ice cream afterwards. [Stephanie] cooked dinner for her mother [Ruth] and her brothers [Jeff] and [Jeremy].",
+        "world_model": [
+            "family_relation_rules"
+        ],
+        "goal": "relation(jeremy, brother, gloria)",
+        "label": true,
+        "program": [
+            {
+                "statement": "isRelationOf(jeremy, brother, jeff).",
+                "description": "[Stephanie] cooked dinner for her mother [Ruth] and her brothers [Jeff] and [Jeremy]."
+            },
+            {
+                "statement": "isRelationOf(stephanie, sister, gloria).",
+                "description": "[Stephanie] went shoe shopping with her sister [Gloria]."
+            },
+            {
+                "statement": "isRelationOf(ruth, mother, stephanie).",
+                "description": "[Stephanie] cooked dinner for her mother [Ruth] and her brothers [Jeff] and [Jeremy]."
+            },
+            {
+                "statement": "isRelationOf(stephanie, daughter, ruth).",
+                "description": "[Ruth] and her daughter [Stephanie] went to see a movie yesterday and then got ice cream afterwards."
+            },
+            {
+                "statement": "isRelationOf(jeff, brother, stephanie).",
+                "description": "[Stephanie] cooked dinner for her mother [Ruth] and her brothers [Jeff] and [Jeremy]."
+            }
+        ]
+    },
+    {
+        "id": 19,
+        "body_text": "[Beverly] and her sister, [Rachel], frequently bicker. However, they always make up quickly. [Charles] and his sister, [Beverly] love it when their grandmother visits because she spoils them. She is coming this week to watch them while their parents are out of town. [Dorothy] was wondering where her daughter [Julia] was, so she texted her. [Julia] replied that she was with her brother [Charles] at the mall.",
+        "world_model": [
+            "family_relation_rules"
+        ],
+        "goal": "relation(dorothy, mother, rachel)",
+        "label": true,
+        "program": [
+            {
+                "statement": "isRelationOf(dorothy, mother, julia).",
+                "description": "[Dorothy] was wondering where her daughter [Julia] was, so she texted her."
+            },
+            {
+                "statement": "isRelationOf(julia, sister, charles).",
+                "description": "[Julia] replied that she was with her brother [Charles] at the mall."
+            },
+            {
+                "statement": "isRelationOf(beverly, sister, rachel).",
+                "description": "[Beverly] and her sister, [Rachel], frequently bicker."
+            },
+            {
+                "statement": "isRelationOf(charles, brother, beverly).",
+                "description": "[Charles] and his sister, [Beverly] love it when their grandmother visits because she spoils them."
+            }
+        ]
+    },
+    {
+        "id": 20,
+        "body_text": "[Myrna] and her husband [Christopher] went on a cruise. They had a wonderful time. [Christopher] and his daughter [Lucille] took a day off school to go to the zoo.",
+        "world_model": [
+            "family_relation_rules"
+        ],
+        "goal": "relation(lucille, daughter, myrna)",
+        "label": true,
+        "program": [
+            {
+                "statement": "isRelationOf(christopher, husband, myrna).",
+                "description": "[Myrna] and her husband [Christopher] went on a cruise."
+            },
+            {
+                "statement": "isRelationOf(lucille, daughter, christopher).",
+                "description": "[Christopher] and his daughter [Lucille] took a day off school to go to the zoo."
+            }
+        ]
+    },
+    {
+        "id": 21,
+        "body_text": "[Ruth] and her son, [Jeff], went to the park, and had a wonderful time. [Jeff] bought a steak dinner for himself and his brother [Jeremy]. [Jeremy] went to the game with his sister [Stephanie]. [Stephanie] went to her father [Jason] Birthday party [Jason] took his daughter, [Gloria], to a baseball game.",
+        "world_model": [
+            "family_relation_rules"
+        ],
+        "goal": "relation(gloria, daughter, ruth)",
+        "label": true,
+        "program": [
+            {
+                "statement": "isRelationOf(stephanie, sister, jeremy).",
+                "description": "[Jeremy] went to the game with his sister [Stephanie]."
+            },
+            {
+                "statement": "isRelationOf(jeff, son, ruth).",
+                "description": "[Ruth] and her son, [Jeff], went to the park, and had a wonderful time."
+            },
+            {
+                "statement": "isRelationOf(jeremy, brother, jeff).",
+                "description": "[Jeff] bought a steak dinner for himself and his brother [Jeremy]."
+            },
+            {
+                "statement": "isRelationOf(jason, father, stephanie).",
+                "description": "[Stephanie] went to her father [Jason] Birthday party [Jason] took his daughter, [Gloria], to a baseball game."
+            },
+            {
+                "statement": "isRelationOf(gloria, daughter, jason).",
+                "description": "[Stephanie] went to her father [Jason] Birthday party [Jason] took his daughter, [Gloria], to a baseball game."
+            }
+        ]
+    },
+    {
+        "id": 22,
+        "body_text": "[Maxine] was on her way to pick up her daughter [Diane] from the park. [Diane] had spent the entire day there playing soccer with her sister [Joyce]. [Reynaldo] went with his wife [Maxine] and their daughter [Joyce] to the park. [Joyce]'s brother [Philip] has bad allergies and decided to stay home. [Philip]'s father [Reynaldo] has been in prison for 5 years. [Reynaldo]'s sister, [Martha] is the only one who visits him.",
+        "world_model": [
+            "family_relation_rules"
+        ],
+        "goal": "relation(martha, aunt, joyce)",
+        "label": true,
+        "program": [
+            {
+                "statement": "isRelationOf(joyce, daughter, maxine).",
+                "description": "[Reynaldo] went with his wife [Maxine] and their daughter [Joyce] to the park."
+            },
+            {
+                "statement": "isRelationOf(reynaldo, father, joyce).",
+                "description": "[Reynaldo] went with his wife [Maxine] and their daughter [Joyce] to the park."
+            },
+            {
+                "statement": "isRelationOf(philip, son, reynaldo).",
+                "description": "[Philip]'s father [Reynaldo] has been in prison for 5 years."
+            },
+            {
+                "statement": "isRelationOf(diane, sister, joyce).",
+                "description": "[Diane] had spent the entire day there playing soccer with her sister [Joyce]."
+            },
+            {
+                "statement": "isRelationOf(maxine, mother, diane).",
+                "description": "[Maxine] was on her way to pick up her daughter [Diane] from the park."
+            },
+            {
+                "statement": "isRelationOf(reynaldo, father, philip).",
+                "description": "[Philip]'s father [Reynaldo] has been in prison for 5 years."
+            },
+            {
+                "statement": "isRelationOf(martha, sister, reynaldo).",
+                "description": "[Reynaldo]'s sister, [Martha] is the only one who visits him."
+            }
+        ]
+    },
+    {
+        "id": 23,
+        "body_text": "[Annie] and her sisters [Margaret] went to the spa. [Melissa], another sister of [Annie], had to babysit and could n't join them. [Lisa] took her sister, [Margaret], out to dinner for her birthday. [Lisa] just had a baby and presented the baby proudly to the new maternal grandmother, [Rosa]. [Cristina], who is the sister of [Rosa], is a lovely girl.",
+        "world_model": [
+            "family_relation_rules"
+        ],
+        "goal": "relation(cristina, aunt, melissa)",
+        "label": true,
+        "program": [
+            {
+                "statement": "isRelationOf(cristina, sister, rosa).",
+                "description": "[Cristina], who is the sister of [Rosa], is a lovely girl."
+            },
+            {
+                "statement": "isRelationOf(lisa, sister, margaret).",
+                "description": "[Lisa] took her sister, [Margaret], out to dinner for her birthday."
+            },
+            {
+                "statement": "isRelationOf(rosa, mother, lisa).",
+                "description": "[Lisa] just had a baby and presented the baby proudly to the new maternal grandmother, [Rosa]."
+            },
+            {
+                "statement": "isRelationOf(annie, sister, melissa).",
+                "description": "[Melissa], another sister of [Annie], had to babysit and could n't join them."
+            },
+            {
+                "statement": "isRelationOf(margaret, sister, annie).",
+                "description": "[Annie] and her sisters [Margaret] went to the spa."
+            }
+        ]
+    },
+    {
+        "id": 24,
+        "body_text": "[Kerrie] and her brother [Victor] went to see a movie. [Harry] and his son [Victor] went to the cinema together. [Harry] bought a new dress for his daughter [Machelle]. [Isabel], who is the sister of [Machelle], is a lovely girl. [Joy] and her daughter [Isabel] went to see a movie yesterday and then got ice cream afterwards. [Joy] did the laundry with her son [Victor]. [Victor]'s sister [Isabel] never washes clothes. [Kerrie] took her sister, [Isabel], out to dinner for her birthday. [Harry] took his daughter, [Kerrie], ice skating. [Harry]'s father, [Kevin], watched them ice skate from the stands.",
+        "world_model": [
+            "family_relation_rules"
+        ],
+        "goal": "relation(kevin, daughter_in_law, kerrie)",
+        "_answer": "relation(kevin, grandfather, kerrie)",
+        "label": false,
+        "program": [
+            {
+                "statement": "isRelationOf(isabel, sister, victor).",
+                "description": "[Victor]'s sister [Isabel] never washes clothes."
+            },
+            {
+                "statement": "isRelationOf(victor, brother, kerrie).",
+                "description": "[Kerrie] and her brother [Victor] went to see a movie."
+            },
+            {
+                "statement": "isRelationOf(harry, father, victor).",
+                "description": "[Harry] and his son [Victor] went to the cinema together."
+            },
+            {
+                "statement": "isRelationOf(machelle, daughter, harry).",
+                "description": "[Harry] bought a new dress for his daughter [Machelle]."
+            },
+            {
+                "statement": "isRelationOf(isabel, sister, machelle).",
+                "description": "[Isabel], who is the sister of [Machelle], is a lovely girl."
+            },
+            {
+                "statement": "isRelationOf(kevin, father, harry).",
+                "description": "[Harry]'s father, [Kevin], watched them ice skate from the stands."
+            },
+            {
+                "statement": "isRelationOf(joy, mother, isabel).",
+                "description": "[Joy] and her daughter [Isabel] went to see a movie yesterday and then got ice cream afterwards."
+            },
+            {
+                "statement": "isRelationOf(victor, son, joy).",
+                "description": "[Joy] did the laundry with her son [Victor]."
+            },
+            {
+                "statement": "isRelationOf(kerrie, sister, isabel).",
+                "description": "[Kerrie] took her sister, [Isabel], out to dinner for her birthday."
+            },
+            {
+                "statement": "isRelationOf(harry, father, kerrie).",
+                "description": "[Harry] took his daughter, [Kerrie], ice skating."
+            }
+        ]
+    },
+    {
+        "id": 25,
+        "body_text": "[Stanley] asked his wife [Molly] if she did the shopping. [Stanley] spent Saturday afternoon helping his grandson, [Clarence], build a model airplane. [Clarence] was excited about the new airplane, and showed it to his brother [Jason] as soon as he got home.",
+        "world_model": [
+            "family_relation_rules"
+        ],
+        "goal": "relation(jason, brother, molly)",
+        "_answer": "relation(jason, grandson, molly)",
+        "label": false,
+        "program": [
+            {
+                "statement": "isRelationOf(stanley, husband, molly).",
+                "description": "[Stanley] asked his wife [Molly] if she did the shopping."
+            },
+            {
+                "statement": "isRelationOf(clarence, grandson, stanley).",
+                "description": "[Stanley] spent Saturday afternoon helping his grandson, [Clarence], build a model airplane."
+            },
+            {
+                "statement": "isRelationOf(jason, brother, clarence).",
+                "description": "[Clarence] was excited about the new airplane, and showed it to his brother [Jason] as soon as he got home."
+            }
+        ]
+    },
+    {
+        "id": 26,
+        "body_text": "[William] took his son [Timothy] to the park to feed the squirrels. [Timothy] and his sister, [Christina], went to a sneak preview of the Avengers movie and loved it. [Christina] went to her brother [Timothy]'s birthday party [Connie] and [Timothy] are siblings who are enjoying lunch together.",
+        "world_model": [
+            "family_relation_rules"
+        ],
+        "goal": "relation(connie, daughter, william)",
+        "label": true,
+        "program": [
+            {
+                "statement": "isRelationOf(timothy, brother, christina).",
+                "description": "[Christina] went to her brother [Timothy]'s birthday party [Connie] and [Timothy] are siblings who are enjoying lunch together."
+            },
+            {
+                "statement": "isRelationOf(connie, sister, timothy).",
+                "description": "[Christina] went to her brother [Timothy]'s birthday party [Connie] and [Timothy] are siblings who are enjoying lunch together."
+            },
+            {
+                "statement": "isRelationOf(timothy, son, william).",
+                "description": "[William] took his son [Timothy] to the park to feed the squirrels."
+            },
+            {
+                "statement": "isRelationOf(christina, sister, timothy).",
+                "description": "[Timothy] and his sister, [Christina], went to a sneak preview of the Avengers movie and loved it."
+            }
+        ]
+    },
+    {
+        "id": 27,
+        "body_text": "[Tommy] went fishing with his daughter [Judy]. [Judy]'s sister, [Maxine], was n't invited because she hates fishing. [Maxine] and her son, [Philip], went to the park to fly a kite. They had fun doing it all day. [Reynaldo] was so proud of his son, [Philip]. he received a great scholarship to college. [Elizabeth] told a secret to her sister, [Judy]. [Judy] passed it along to her brother, [Reynaldo]. [Martha] went to the store with her sister [Elizabeth]",
+        "world_model": [
+            "family_relation_rules"
+        ],
+        "goal": "relation(martha, daughter, tommy)",
+        "label": true,
+        "program": [
+            {
+                "statement": "isRelationOf(martha, sister, elizabeth).",
+                "description": "[Martha] went to the store with her sister [Elizabeth]"
+            },
+            {
+                "statement": "isRelationOf(philip, son, maxine).",
+                "description": "[Maxine] and her son, [Philip], went to the park to fly a kite."
+            },
+            {
+                "statement": "isRelationOf(judy, daughter, tommy).",
+                "description": "[Tommy] went fishing with his daughter [Judy]."
+            },
+            {
+                "statement": "isRelationOf(maxine, sister, judy).",
+                "description": "[Judy]'s sister, [Maxine], was n't invited because she hates fishing."
+            },
+            {
+                "statement": "isRelationOf(reynaldo, father, philip).",
+                "description": "[Reynaldo] was so proud of his son, [Philip]."
+            },
+            {
+                "statement": "isRelationOf(judy, sister, reynaldo).",
+                "description": "[Judy] passed it along to her brother, [Reynaldo]."
+            },
+            {
+                "statement": "isRelationOf(elizabeth, sister, judy).",
+                "description": "[Elizabeth] told a secret to her sister, [Judy]."
+            }
+        ]
+    },
+    {
+        "id": 28,
+        "body_text": "[Jason] and his wife [Gabrielle] baked a cake for [Lisa], his daughter.",
+        "world_model": [
+            "family_relation_rules"
+        ],
+        "goal": "relation(lisa, daughter, gabrielle)",
+        "label": true,
+        "program": [
+            {
+                "statement": "isRelationOf(jason, husband, gabrielle).",
+                "description": "[Jason] and his wife [Gabrielle] baked a cake for [Lisa], his daughter."
+            },
+            {
+                "statement": "isRelationOf(lisa, daughter, jason).",
+                "description": "[Jason] and his wife [Gabrielle] baked a cake for [Lisa], his daughter."
+            }
+        ]
+    },
+    {
+        "id": 29,
+        "body_text": "[Julie] went shopping at the mall with her father [Carlos]. [Carlos] rushed to the hospital to find out that his wife and already given birth to a boy and had named him [Roger]. [Dustin] got his son, [Roger], a car for his birthday. [Dustin] went to the game with his sister [Lisa]. [Lisa] went to her aunt [Faye]'s house for dinner. [Faye] made meatloaf, and it was delicious. [Faye] wanted her sister, [Jamie], to go the same college she attends. [Jamie] chose to attend college with her brother, [Roger], instead. [Charles] played chess with his brother [Roger].",
+        "world_model": [
+            "family_relation_rules"
+        ],
+        "goal": "relation(charles, niece, julie)",
+        "_answer": "relation(charles, brother, julie)",
+        "label": false,
+        "program": [
+            {
+                "statement": "isRelationOf(roger, brother, jamie).",
+                "description": "[Jamie] chose to attend college with her brother, [Roger], instead."
+            },
+            {
+                "statement": "isRelationOf(charles, brother, roger).",
+                "description": "[Charles] played chess with his brother [Roger]."
+            },
+            {
+                "statement": "isRelationOf(carlos, father, julie).",
+                "description": "[Julie] went shopping at the mall with her father [Carlos]."
+            },
+            {
+                "statement": "isRelationOf(jamie, sister, faye).",
+                "description": "[Faye] wanted her sister, [Jamie], to go the same college she attends."
+            },
+            {
+                "statement": "isRelationOf(roger, son, carlos).",
+                "description": "[Carlos] rushed to the hospital to find out that his wife and already given birth to a boy and had named him [Roger]."
+            },
+            {
+                "statement": "isRelationOf(faye, aunt, lisa).",
+                "description": "[Lisa] went to her aunt [Faye]'s house for dinner."
+            },
+            {
+                "statement": "isRelationOf(dustin, son, roger).",
+                "description": "[Dustin] got his son, [Roger], a car for his birthday."
+            },
+            {
+                "statement": "isRelationOf(lisa, sister, dustin).",
+                "description": "[Dustin] went to the game with his sister [Lisa]."
+            }
+        ]
+    },
+    {
+        "id": 30,
+        "body_text": "[William] and his sister [Traci] went out for ice cream. [Traci] went to her father [Jonathan] Birthday party [Jonathan] walked his daughter [Sheila] down the aisle on her wedding day. [Sheila] was excited to play Dress up with her sister [Traci]. [Traci] was on her way back from her grandmother [Laura]'s house.",
+        "world_model": [
+            "family_relation_rules"
+        ],
+        "goal": "relation(laura, nephew, william)",
+        "_answer": "relation(laura, grandmother, william)",
+        "label": false,
+        "program": [
+            {
+                "statement": "isRelationOf(traci, sister, sheila).",
+                "description": "[Sheila] was excited to play Dress up with her sister [Traci]."
+            },
+            {
+                "statement": "isRelationOf(laura, grandmother, traci).",
+                "description": "[Traci] was on her way back from her grandmother [Laura]'s house."
+            },
+            {
+                "statement": "isRelationOf(traci, sister, william).",
+                "description": "[William] and his sister [Traci] went out for ice cream."
+            },
+            {
+                "statement": "isRelationOf(jonathan, father, traci).",
+                "description": "[Traci] went to her father [Jonathan] Birthday party [Jonathan] walked his daughter [Sheila] down the aisle on her wedding day."
+            },
+            {
+                "statement": "isRelationOf(sheila, daughter, jonathan).",
+                "description": "[Traci] went to her father [Jonathan] Birthday party [Jonathan] walked his daughter [Sheila] down the aisle on her wedding day."
+            }
+        ]
+    },
+    {
+        "id": 31,
+        "body_text": "[James] and his wife [Dorothy] went to the beach to watch the fireworks on the 4th of July. [James] and his daughter [Theresa] took a day off school to go to the zoo.",
+        "world_model": [
+            "family_relation_rules"
+        ],
+        "goal": "relation(theresa, sister, dorothy)",
+        "_answer": "relation(theresa, daughter, dorothy)",
+        "label": false,
+        "program": [
+            {
+                "statement": "isRelationOf(james, husband, dorothy).",
+                "description": "[James] and his wife [Dorothy] went to the beach to watch the fireworks on the 4th of July."
+            },
+            {
+                "statement": "isRelationOf(theresa, daughter, james).",
+                "description": "[James] and his daughter [Theresa] took a day off school to go to the zoo."
+            }
+        ]
+    },
+    {
+        "id": 32,
+        "body_text": "[Harry] played basketball with his brother [Kenneth]. [Valerie] called her mother, [Debra], and asked if she could borrow a book. [Debra] said she could have her son, [Kenneth], send it over. [Kevin] hung his son [Brian]'s finger paintings on the refrigerator. The paintings were right next to the paintings of [Morgan], [Brian]'s sister. [Valerie] was n't old enough to make any paintings for her father, [Kevin]. [Joy] went to the store with her sister [Morgan] [Morgan] took her sister, [Joy], out to dinner for her birthday. As a female, [Morgan] sometimes had a hard time relating to her husband [Dale] since he was a male. [Dale] and his daughter [Danielle] took a day off school to go to the zoo.",
+        "world_model": [
+            "family_relation_rules"
+        ],
+        "goal": "relation(danielle, niece, harry)",
+        "label": true,
+        "program": [
+            {
+                "statement": "isRelationOf(kevin, father, valerie).",
+                "description": "[Valerie] was n't old enough to make any paintings for her father, [Kevin]."
+            },
+            {
+                "statement": "isRelationOf(valerie, daughter, debra).",
+                "description": "[Valerie] called her mother, [Debra], and asked if she could borrow a book."
+            },
+            {
+                "statement": "isRelationOf(morgan, sister, joy).",
+                "description": "[Morgan] took her sister, [Joy], out to dinner for her birthday."
+            },
+            {
+                "statement": "isRelationOf(brian, son, kevin).",
+                "description": "[Kevin] hung his son [Brian]'s finger paintings on the refrigerator."
+            },
+            {
+                "statement": "isRelationOf(dale, husband, morgan).",
+                "description": "As a female, [Morgan] sometimes had a hard time relating to her husband [Dale] since he was a male."
+            },
+            {
+                "statement": "isRelationOf(danielle, daughter, dale).",
+                "description": "[Dale] and his daughter [Danielle] took a day off school to go to the zoo."
+            },
+            {
+                "statement": "isRelationOf(kenneth, brother, harry).",
+                "description": "[Harry] played basketball with his brother [Kenneth]."
+            },
+            {
+                "statement": "isRelationOf(debra, mother, kenneth).",
+                "description": "[Debra] said she could have her son, [Kenneth], send it over."
+            },
+            {
+                "statement": "isRelationOf(morgan, sister, brian).",
+                "description": "The paintings were right next to the paintings of [Morgan], [Brian]'s sister."
+            },
+            {
+                "statement": "isRelationOf(joy, sister, morgan).",
+                "description": "[Morgan] took her sister, [Joy], out to dinner for her birthday."
+            }
+        ]
+    },
+    {
+        "id": 33,
+        "body_text": "[Anthony] and his sister, [Ashley] love it when their grandmother visits because she spoils them. She is coming this week to watch them while their parents are out of town. [Charles] made sandwiches for his sons [Floyd] and [Brad]. [Floyd]'s brother [Anthony] ate a salad instead. [Mary] took her son [Floyd] to the state fair. [Charles] gave his wife, [Mary] tickets so that they could get in. [Mary] was eager to spend time with her son, [Floyd]. [Faye] took her sister, [Mary], out to dinner for her birthday.",
+        "world_model": [
+            "family_relation_rules"
+        ],
+        "goal": "relation(faye, aunt, ashley)",
+        "label": true,
+        "program": [
+            {
+                "statement": "isRelationOf(mary, mother, floyd).",
+                "description": "[Mary] took her son [Floyd] to the state fair."
+            },
+            {
+                "statement": "isRelationOf(faye, sister, mary).",
+                "description": "[Faye] took her sister, [Mary], out to dinner for her birthday."
+            },
+            {
+                "statement": "isRelationOf(anthony, brother, ashley).",
+                "description": "[Anthony] and his sister, [Ashley] love it when their grandmother visits because she spoils them."
+            },
+            {
+                "statement": "isRelationOf(floyd, brother, anthony).",
+                "description": "[Floyd]'s brother [Anthony] ate a salad instead."
+            },
+            {
+                "statement": "isRelationOf(mary, wife, charles).",
+                "description": "[Charles] gave his wife, [Mary] tickets so that they could get in."
+            },
+            {
+                "statement": "isRelationOf(floyd, son, mary).",
+                "description": "[Mary] was eager to spend time with her son, [Floyd]."
+            },
+            {
+                "statement": "isRelationOf(brad, brother, floyd).",
+                "description": "[Charles] made sandwiches for his sons [Floyd] and [Brad]."
+            },
+            {
+                "statement": "isRelationOf(charles, father, brad).",
+                "description": "[Charles] made sandwiches for his sons [Floyd] and [Brad]."
+            }
+        ]
+    },
+    {
+        "id": 34,
+        "body_text": "[Lee] and her sister, [Laura], frequently bicker. However, they always make up quickly. [Laura] took her sister, [Lee], out to dinner for her birthday. [Thomas] bought toys for his son [Matthew] and his daughter [Laura]. [Kecia] took her son [Matthew] to school because he missed the bus. [Sharon] and her sister, [Kecia], frequently bicker. However, they always make up quickly.",
+        "world_model": [
+            "family_relation_rules"
+        ],
+        "goal": "relation(sharon, daughter_in_law, laura)",
+        "_answer": "relation(sharon, aunt, laura)",
+        "label": false,
+        "program": [
+            {
+                "statement": "isRelationOf(sharon, sister, kecia).",
+                "description": "[Sharon] and her sister, [Kecia], frequently bicker."
+            },
+            {
+                "statement": "isRelationOf(lee, sister, laura).",
+                "description": "[Laura] took her sister, [Lee], out to dinner for her birthday."
+            },
+            {
+                "statement": "isRelationOf(kecia, mother, matthew).",
+                "description": "[Kecia] took her son [Matthew] to school because he missed the bus."
+            },
+            {
+                "statement": "isRelationOf(matthew, son, thomas).",
+                "description": "[Thomas] bought toys for his son [Matthew] and his daughter [Laura]."
+            },
+            {
+                "statement": "isRelationOf(laura, sister, lee).",
+                "description": "[Laura] took her sister, [Lee], out to dinner for her birthday."
+            },
+            {
+                "statement": "isRelationOf(thomas, father, laura).",
+                "description": "[Thomas] bought toys for his son [Matthew] and his daughter [Laura]."
+            }
+        ]
+    },
+    {
+        "id": 35,
+        "body_text": "[Toni], who is the sister of [Lucille], is a lovely girl. [Sharon]'s mother, [April], thought [Sharon] should wear a black dress. [Sharon]'s sister [Toni], however, thought she would look better in a blue one. [April] took her father, [Cornelius], out to dinner.",
+        "world_model": [
+            "family_relation_rules"
+        ],
+        "goal": "relation(cornelius, granddaughter, lucille)",
+        "_answer": "relation(cornelius, grandfather, lucille)",
+        "label": false,
+        "program": [
+            {
+                "statement": "isRelationOf(cornelius, father, april).",
+                "description": "[April] took her father, [Cornelius], out to dinner."
+            },
+            {
+                "statement": "isRelationOf(april, mother, sharon).",
+                "description": "[Sharon]'s mother, [April], thought [Sharon] should wear a black dress."
+            },
+            {
+                "statement": "isRelationOf(toni, sister, lucille).",
+                "description": "[Toni], who is the sister of [Lucille], is a lovely girl."
+            },
+            {
+                "statement": "isRelationOf(sharon, sister, toni).",
+                "description": "[Sharon]'s sister [Toni], however, thought she would look better in a blue one."
+            }
+        ]
+    },
+    {
+        "id": 36,
+        "body_text": "[April] took her brother [Frank] and other brother [William] with her to eat pasta at a pasta buffet. [Dorothy] just recently married her husband, [Frank]. [Dorothy] asked her daughter, [Beverly], if she would like to go to a movie with her on Saturday night.",
+        "world_model": [
+            "family_relation_rules"
+        ],
+        "goal": "relation(beverly, mother, william)",
+        "_answer": "relation(beverly, niece, william)",
+        "label": false,
+        "program": [
+            {
+                "statement": "isRelationOf(april, sister, william).",
+                "description": "[April] took her brother [Frank] and other brother [William] with her to eat pasta at a pasta buffet."
+            },
+            {
+                "statement": "isRelationOf(frank, brother, april).",
+                "description": "[April] took her brother [Frank] and other brother [William] with her to eat pasta at a pasta buffet."
+            },
+            {
+                "statement": "isRelationOf(dorothy, wife, frank).",
+                "description": "[Dorothy] just recently married her husband, [Frank]."
+            },
+            {
+                "statement": "isRelationOf(beverly, daughter, dorothy).",
+                "description": "[Dorothy] asked her daughter, [Beverly], if she would like to go to a movie with her on Saturday night."
+            }
+        ]
+    },
+    {
+        "id": 37,
+        "body_text": "[Cristina], who is the sister of [Ruth], is a lovely girl. [Cristina] wanted her sister, [Rosa], to go the same college she attends. [Rosa] chose to attend college with her brother, [Christian], instead. [Rosa] and [Christian] are siblings who are enjoying lunch together. [Jonathan] and his sister, [Rosa] love it when their grandmother visits because she spoils them. She is coming this week to watch them while their parents are out of town.",
+        "world_model": [
+            "family_relation_rules"
+        ],
+        "goal": "relation(jonathan, grandfather, ruth)",
+        "_answer": "relation(jonathan, brother, ruth)",
+        "label": false,
+        "program": [
+            {
+                "statement": "isRelationOf(rosa, sister, christian).",
+                "description": "[Rosa] chose to attend college with her brother, [Christian], instead."
+            },
+            {
+                "statement": "isRelationOf(jonathan, brother, rosa).",
+                "description": "[Jonathan] and his sister, [Rosa] love it when their grandmother visits because she spoils them."
+            },
+            {
+                "statement": "isRelationOf(cristina, sister, ruth).",
+                "description": "[Cristina], who is the sister of [Ruth], is a lovely girl."
+            },
+            {
+                "statement": "isRelationOf(rosa, sister, cristina).",
+                "description": "[Cristina] wanted her sister, [Rosa], to go the same college she attends."
+            },
+            {
+                "statement": "isRelationOf(christian, brother, rosa).",
+                "description": "[Rosa] chose to attend college with her brother, [Christian], instead."
+            }
+        ]
+    },
+    {
+        "id": 38,
+        "body_text": "[Ashley] went to her brother [Floyd]'s birthday party [Brad] was thrilled his brother, [Floyd], was able to make it to the party. [Brad] and his brother, [Anthony] run a turtle farm. [Charles] was so proud of his son, [Anthony]. he received a great scholarship to college. [Brad] invited his father [Charles] and his brother [Floyd] to go on a weekend fishing trip. [Mary] and her son [Floyd] went to visit [Mary]'s mother [Sarah] in the hospital.",
+        "world_model": [
+            "family_relation_rules"
+        ],
+        "goal": "relation(sarah, daughter_in_law, ashley)",
+        "_answer": "relation(sarah, grandmother, ashley)",
+        "label": false,
+        "program": [
+            {
+                "statement": "isRelationOf(sarah, mother, mary).",
+                "description": "[Mary] and her son [Floyd] went to visit [Mary]'s mother [Sarah] in the hospital."
+            },
+            {
+                "statement": "isRelationOf(anthony, brother, brad).",
+                "description": "[Brad] and his brother, [Anthony] run a turtle farm."
+            },
+            {
+                "statement": "isRelationOf(floyd, brother, ashley).",
+                "description": "[Ashley] went to her brother [Floyd]'s birthday party [Brad] was thrilled his brother, [Floyd], was able to make it to the party."
+            },
+            {
+                "statement": "isRelationOf(brad, brother, floyd).",
+                "description": "[Brad] invited his father [Charles] and his brother [Floyd] to go on a weekend fishing trip."
+            },
+            {
+                "statement": "isRelationOf(charles, father, anthony).",
+                "description": "[Charles] was so proud of his son, [Anthony]."
+            },
+            {
+                "statement": "isRelationOf(brad, son, charles).",
+                "description": "[Brad] invited his father [Charles] and his brother [Floyd] to go on a weekend fishing trip."
+            },
+            {
+                "statement": "isRelationOf(floyd, brother, brad).",
+                "description": "[Brad] invited his father [Charles] and his brother [Floyd] to go on a weekend fishing trip."
+            },
+            {
+                "statement": "isRelationOf(mary, mother, floyd).",
+                "description": "[Mary] and her son [Floyd] went to visit [Mary]'s mother [Sarah] in the hospital."
+            }
+        ]
+    },
+    {
+        "id": 39,
+        "body_text": "[Oscar] got his son, [Daniel], a car for his birthday. [Oscar] likes to sing with his brother [Joel]. [Joel]'s sister [Nola] hates when they sing. [Nola] and her uncle [Charles] went to the pet shop. [Nola] saw a puppy that she loved, so [Charles] bought it for her. [Charles]'s mother, [Sarah], took him shopping for a new television [Faye] and her sister, [Julie], went to church. [Julie]'s mom, [Sarah], was sick, and could n't make it, and [Julie] told the pastor so he would pray for a speedy recovery. [Mary] went to the store with her sister [Faye]",
+        "world_model": [
+            "family_relation_rules"
+        ],
+        "goal": "relation(mary, grandfather, daniel)",
+        "_answer": "relation(mary, sister, daniel)",
+        "label": false,
+        "program": [
+            {
+                "statement": "isRelationOf(mary, sister, faye).",
+                "description": "[Mary] went to the store with her sister [Faye]"
+            },
+            {
+                "statement": "isRelationOf(charles, uncle, nola).",
+                "description": "[Nola] and her uncle [Charles] went to the pet shop."
+            },
+            {
+                "statement": "isRelationOf(sarah, mother, charles).",
+                "description": "[Charles]'s mother, [Sarah], took him shopping for a new television [Faye] and her sister, [Julie], went to church."
+            },
+            {
+                "statement": "isRelationOf(julie, daughter, sarah).",
+                "description": "[Charles]'s mother, [Sarah], took him shopping for a new television [Faye] and her sister, [Julie], went to church."
+            },
+            {
+                "statement": "isRelationOf(faye, sister, julie).",
+                "description": "[Charles]'s mother, [Sarah], took him shopping for a new television [Faye] and her sister, [Julie], went to church."
+            },
+            {
+                "statement": "isRelationOf(nola, sister, joel).",
+                "description": "[Joel]'s sister [Nola] hates when they sing."
+            },
+            {
+                "statement": "isRelationOf(oscar, son, daniel).",
+                "description": "[Oscar] got his son, [Daniel], a car for his birthday."
+            },
+            {
+                "statement": "isRelationOf(joel, brother, oscar).",
+                "description": "[Oscar] likes to sing with his brother [Joel]."
+            }
+        ]
+    },
+    {
+        "id": 40,
+        "body_text": "[Rosa] vowed to never trust her father, [Seth] with her debit card again. [Jason] and his brother, [Stephen], went to the movies with their father, [Seth]. Afterwards, [Jason]'s brother [Christian] met them for dinner at a restaurant. [Christian] took his daughter, [Nichole], to a baseball game.",
+        "world_model": [
+            "family_relation_rules"
+        ],
+        "goal": "relation(nichole, niece, rosa)",
+        "label": true,
+        "program": [
+            {
+                "statement": "isRelationOf(nichole, daughter, christian).",
+                "description": "[Christian] took his daughter, [Nichole], to a baseball game."
+            },
+            {
+                "statement": "isRelationOf(seth, father, rosa).",
+                "description": "[Rosa] vowed to never trust her father, [Seth] with her debit card again."
+            },
+            {
+                "statement": "isRelationOf(christian, brother, jason).",
+                "description": "Afterwards, [Jason]'s brother [Christian] met them for dinner at a restaurant."
+            },
+            {
+                "statement": "isRelationOf(stephen, son, seth).",
+                "description": "[Jason] and his brother, [Stephen], went to the movies with their father, [Seth]."
+            },
+            {
+                "statement": "isRelationOf(jason, brother, stephen).",
+                "description": "[Jason] and his brother, [Stephen], went to the movies with their father, [Seth]."
+            }
+        ]
+    },
+    {
+        "id": 41,
+        "body_text": "[Sharon] and her sister, [Toni], frequently bicker. However, they always make up quickly. [Melba] went to the store with her sister [Sharon] [Melba] asked her mother, [April], what they were going to have for lunch. [April] went to the mall, because she wanted to look for a present for her daughter, [Melba].",
+        "world_model": [
+            "family_relation_rules"
+        ],
+        "goal": "relation(melba, niece, toni)",
+        "_answer": "relation(melba, sister, toni)",
+        "label": false,
+        "program": [
+            {
+                "statement": "isRelationOf(melba, daughter, april).",
+                "description": "[April] went to the mall, because she wanted to look for a present for her daughter, [Melba]."
+            },
+            {
+                "statement": "isRelationOf(sharon, sister, toni).",
+                "description": "[Sharon] and her sister, [Toni], frequently bicker."
+            },
+            {
+                "statement": "isRelationOf(melba, sister, sharon).",
+                "description": "[Melba] went to the store with her sister [Sharon]"
+            },
+            {
+                "statement": "isRelationOf(april, mother, melba).",
+                "description": "[Melba] asked her mother, [April], what they were going to have for lunch."
+            }
+        ]
+    },
+    {
+        "id": 42,
+        "body_text": "[Sharon] went to her son [Brian]'s House [Brian] likes to watch baseball with his brother. His name is [Oliver]. [Sharon] took her son [Oliver] to school because he missed the bus. [Kent] and [Sharon] were married twenty years ago today, becoming husband and wife on a glorious spring day. [Davis] bought to dress for his father [Kent] [Rick] and his brother [Davis] always played pranks on each other",
+        "world_model": [
+            "family_relation_rules"
+        ],
+        "goal": "relation(rick, sister, sharon)",
+        "_answer": "relation(rick, son, sharon)",
+        "label": false,
+        "program": [
+            {
+                "statement": "isRelationOf(brian, son, sharon).",
+                "description": "[Sharon] went to her son [Brian]'s House [Brian] likes to watch baseball with his brother."
+            },
+            {
+                "statement": "isRelationOf(rick, brother, davis).",
+                "description": "[Rick] and his brother [Davis] always played pranks on each other"
+            },
+            {
+                "statement": "isRelationOf(kent, husband, sharon).",
+                "description": "[Kent] and [Sharon] were married twenty years ago today, becoming husband and wife on a glorious spring day."
+            },
+            {
+                "statement": "isRelationOf(davis, son, kent).",
+                "description": "[Davis] bought to dress for his father [Kent]"
+            },
+            {
+                "statement": "isRelationOf(sharon, mother, oliver).",
+                "description": "[Sharon] took her son [Oliver] to school because he missed the bus."
+            }
+        ]
+    },
+    {
+        "id": 43,
+        "body_text": "[Rachel], who is the sister of [Julia], is a lovely girl. [Beverly] and her sister [Rachel] can now be heard gossiping about [Beverly]'s father [Frank]. [Charles] and his son [Frank] went to look at cars. [Charles] ended up buying the Mustang.",
+        "world_model": [
+            "family_relation_rules"
+        ],
+        "goal": "relation(charles, brother, julia)",
+        "label": true,
+        "program": [
+            {
+                "statement": "isRelationOf(charles, son, frank).",
+                "description": "[Charles] and his son [Frank] went to look at cars."
+            },
+            {
+                "statement": "isRelationOf(rachel, sister, julia).",
+                "description": "[Rachel], who is the sister of [Julia], is a lovely girl."
+            },
+            {
+                "statement": "isRelationOf(beverly, sister, rachel).",
+                "description": "[Beverly] and her sister [Rachel] can now be heard gossiping about [Beverly]'s father [Frank]."
+            },
+            {
+                "statement": "isRelationOf(frank, father, beverly).",
+                "description": "[Beverly] and her sister [Rachel] can now be heard gossiping about [Beverly]'s father [Frank]."
+            }
+        ]
+    },
+    {
+        "id": 44,
+        "body_text": "[Frank] took his son [Cornelius] out to play gold later that night. [William] and his brother [Richard] went shopping at an electronics store. [William] found the perfect pair of headphones for his brother [Frank]'s birthday. [Richard] bought a new dress for his daughter [Kimberley].",
+        "world_model": [
+            "family_relation_rules"
+        ],
+        "goal": "relation(kimberley, granddaughter, cornelius)",
+        "label": true,
+        "program": [
+            {
+                "statement": "isRelationOf(kimberley, daughter, richard).",
+                "description": "[Richard] bought a new dress for his daughter [Kimberley]."
+            },
+            {
+                "statement": "isRelationOf(frank, son, cornelius).",
+                "description": "[Frank] took his son [Cornelius] out to play gold later that night."
+            },
+            {
+                "statement": "isRelationOf(william, brother, frank).",
+                "description": "[William] found the perfect pair of headphones for his brother [Frank]'s birthday."
+            },
+            {
+                "statement": "isRelationOf(richard, brother, william).",
+                "description": "[William] and his brother [Richard] went shopping at an electronics store."
+            }
+        ]
+    },
+    {
+        "id": 45,
+        "body_text": "[Jeff] played basketball with his brother [Jeremy]. [Jeremy] and his sister, [Stephanie], went to a sneak preview of the Avengers movie and loved it. [Stephanie] asked her mother, [Ruth], what they were going to have for lunch. [Laura] enjoys watching her grandson, [Jeremy], every day after school. His mother, [Ruth], picks him up at 5 pm.",
+        "world_model": [
+            "family_relation_rules"
+        ],
+        "goal": "relation(laura, grandmother, jeff)",
+        "label": true,
+        "program": [
+            {
+                "statement": "isRelationOf(ruth, mother, stephanie).",
+                "description": "[Stephanie] asked her mother, [Ruth], what they were going to have for lunch."
+            },
+            {
+                "statement": "isRelationOf(jeremy, brother, jeff).",
+                "description": "[Jeff] played basketball with his brother [Jeremy]."
+            },
+            {
+                "statement": "isRelationOf(stephanie, sister, jeremy).",
+                "description": "[Jeremy] and his sister, [Stephanie], went to a sneak preview of the Avengers movie and loved it."
+            },
+            {
+                "statement": "isRelationOf(laura, grandmother, jeremy).",
+                "description": "[Laura] enjoys watching her grandson, [Jeremy], every day after school."
+            }
+        ]
+    },
+    {
+        "id": 46,
+        "body_text": "[Nicole] spent a great day shopping with her daughter, [Dorothy]. [Patricia] was dancing with her sister [Dorothy], when see saw her father [Cornelius] leaving the party. [Frank] took his son [Cornelius] out to play gold later that night.",
+        "world_model": [
+            "family_relation_rules"
+        ],
+        "goal": "relation(frank, son, nicole)",
+        "label": true,
+        "program": [
+            {
+                "statement": "isRelationOf(cornelius, father, patricia).",
+                "description": "[Patricia] was dancing with her sister [Dorothy], when see saw her father [Cornelius] leaving the party."
+            },
+            {
+                "statement": "isRelationOf(frank, son, cornelius).",
+                "description": "[Frank] took his son [Cornelius] out to play gold later that night."
+            },
+            {
+                "statement": "isRelationOf(dorothy, daughter, nicole).",
+                "description": "[Nicole] spent a great day shopping with her daughter, [Dorothy]."
+            },
+            {
+                "statement": "isRelationOf(patricia, sister, dorothy).",
+                "description": "[Patricia] was dancing with her sister [Dorothy], when see saw her father [Cornelius] leaving the party."
+            }
+        ]
+    },
+    {
+        "id": 47,
+        "body_text": "[Lisa] and her sister, [Margaret], frequently bicker. However, they always make up quickly. [Lisa] and her father, [Stephen], went to the marina. [Stephen]'s daughter, [Melissa], had purchased a boat, and they were eager to see it. [Melissa] bought her mother, [Rosa], a puppy for her birthday. [Rosa] asked her mother, [Laura], what they were going to have for lunch.",
+        "world_model": [
+            "family_relation_rules"
+        ],
+        "goal": "relation(laura, grandson, margaret)",
+        "_answer": "relation(laura, grandmother, margaret)",
+        "label": false,
+        "program": [
+            {
+                "statement": "isRelationOf(laura, mother, rosa).",
+                "description": "[Rosa] asked her mother, [Laura], what they were going to have for lunch."
+            },
+            {
+                "statement": "isRelationOf(rosa, mother, melissa).",
+                "description": "[Melissa] bought her mother, [Rosa], a puppy for her birthday."
+            },
+            {
+                "statement": "isRelationOf(lisa, sister, margaret).",
+                "description": "[Lisa] and her sister, [Margaret], frequently bicker."
+            },
+            {
+                "statement": "isRelationOf(stephen, father, lisa).",
+                "description": "[Lisa] and her father, [Stephen], went to the marina."
+            },
+            {
+                "statement": "isRelationOf(melissa, daughter, stephen).",
+                "description": "[Stephen]'s daughter, [Melissa], had purchased a boat, and they were eager to see it."
+            }
+        ]
+    },
+    {
+        "id": 48,
+        "body_text": "[Martha] likes taking her son [Peter] to baseball practice. She also likes taking her son [Mark] to soccer practice. [Spencer] is teaching his sister, [Elizabeth] and his son, [Mark] how to ski. [George] and his sister, [Elizabeth] love it when their grandmother visits because she spoils them. She is coming this week to watch them while their parents are out of town. [George] and [Martha] asked their mother, if they could go play in the pool. [Martha] 'father [Tommy] became enraged when she failed to complete her homework. [Martha] was grounded for a month and unable to spend time with friends.",
+        "world_model": [
+            "family_relation_rules"
+        ],
+        "goal": "relation(tommy, grandfather, peter)",
+        "label": true,
+        "program": [
+            {
+                "statement": "isRelationOf(spencer, father, mark).",
+                "description": "[Spencer] is teaching his sister, [Elizabeth] and his son, [Mark] how to ski."
+            },
+            {
+                "statement": "isRelationOf(elizabeth, sister, spencer).",
+                "description": "[Spencer] is teaching his sister, [Elizabeth] and his son, [Mark] how to ski."
+            },
+            {
+                "statement": "isRelationOf(tommy, father, martha).",
+                "description": "[Martha] 'father [Tommy] became enraged when she failed to complete her homework."
+            },
+            {
+                "statement": "isRelationOf(george, brother, elizabeth).",
+                "description": "[George] and his sister, [Elizabeth] love it when their grandmother visits because she spoils them."
+            },
+            {
+                "statement": "isRelationOf(martha, sister, george).",
+                "description": "[George] and [Martha] asked their mother, if they could go play in the pool."
+            },
+            {
+                "statement": "isRelationOf(martha, mother, peter).",
+                "description": "[Martha] likes taking her son [Peter] to baseball practice."
+            }
+        ]
+    },
+    {
+        "id": 49,
+        "body_text": "[Laura] had picked her daughter [Ruth] out the cutest new dress to wear on her birthday. [Seth] sat with his daughter, [Ruth], for ice cream at a local shop. [Jason] has a few children, [Seth], Bradley and Claire [Jonathan] was thrilled his brother, [Jason], was able to make it to the party. [Evelyn] planned a trip to the zoo for her brother, [Jonathan]. They had a great time.",
+        "world_model": [
+            "family_relation_rules"
+        ],
+        "goal": "relation(evelyn, father, laura)",
+        "_answer": "relation(evelyn, daughter, laura)",
+        "label": false,
+        "program": [
+            {
+                "statement": "isRelationOf(evelyn, sister, jonathan).",
+                "description": "[Evelyn] planned a trip to the zoo for her brother, [Jonathan]."
+            },
+            {
+                "statement": "isRelationOf(ruth, daughter, laura).",
+                "description": "[Laura] had picked her daughter [Ruth] out the cutest new dress to wear on her birthday."
+            },
+            {
+                "statement": "isRelationOf(seth, father, ruth).",
+                "description": "[Seth] sat with his daughter, [Ruth], for ice cream at a local shop."
+            },
+            {
+                "statement": "isRelationOf(jason, son, seth).",
+                "description": "[Jason] has a few children, [Seth], Bradley and Claire [Jonathan] was thrilled his brother, [Jason], was able to make it to the party."
+            },
+            {
+                "statement": "isRelationOf(jonathan, brother, jason).",
+                "description": "[Jason] has a few children, [Seth], Bradley and Claire [Jonathan] was thrilled his brother, [Jason], was able to make it to the party."
+            }
+        ]
+    },
+    {
+        "id": 50,
+        "body_text": "[Mary] went to visit her daughter [Ashley] the other day. [Mary]'s son [Anthony] was too busy at work to go along. [Charles] took his son [Floyd] to the junkyard. [Charles]'s son [Anthony] did n't go because he thought is was a gross place. [Floyd] was disappointed that his father, [Charles], would n't be at the play to see him perform. [Charles] and [Mary] got married in 2017 [Mary] was excited to visit her son, [Brad], at college. [Carlos] took his grandson [Brad] to the zoo.",
+        "world_model": [
+            "family_relation_rules"
+        ],
+        "goal": "relation(carlos, grandfather, ashley)",
+        "label": true,
+        "program": [
+            {
+                "statement": "isRelationOf(carlos, grandfather, brad).",
+                "description": "[Carlos] took his grandson [Brad] to the zoo."
+            },
+            {
+                "statement": "isRelationOf(charles, father, floyd).",
+                "description": "[Floyd] was disappointed that his father, [Charles], would n't be at the play to see him perform."
+            },
+            {
+                "statement": "isRelationOf(mary, wife, charles).",
+                "description": "[Charles] and [Mary] got married in 2017 [Mary] was excited to visit her son, [Brad], at college."
+            },
+            {
+                "statement": "isRelationOf(brad, son, mary).",
+                "description": "[Charles] and [Mary] got married in 2017 [Mary] was excited to visit her son, [Brad], at college."
+            },
+            {
+                "statement": "isRelationOf(charles, father, anthony).",
+                "description": "[Charles]'s son [Anthony] did n't go because he thought is was a gross place."
+            },
+            {
+                "statement": "isRelationOf(floyd, son, charles).",
+                "description": "[Charles] took his son [Floyd] to the junkyard."
+            },
+            {
+                "statement": "isRelationOf(mary, mother, ashley).",
+                "description": "[Mary] went to visit her daughter [Ashley] the other day."
+            },
+            {
+                "statement": "isRelationOf(anthony, son, mary).",
+                "description": "[Mary]'s son [Anthony] was too busy at work to go along."
+            }
+        ]
+    },
+    {
+        "id": 51,
+        "body_text": "[Frank] went to lunch with his wife [Dorothy]. [Frank] bought a new dress for his daughter [Rachel]. [Beverly] took her sister, [Rachel], out to dinner for her birthday. [Beverly] and her uncle [William] went to the pet shop. [Beverly] saw a puppy that she loved, so [William] bought it for her.",
+        "world_model": [
+            "family_relation_rules"
+        ],
+        "goal": "relation(william, grandmother, dorothy)",
+        "_answer": "relation(william, brother, dorothy)",
+        "label": false,
+        "program": [
+            {
+                "statement": "isRelationOf(william, uncle, beverly).",
+                "description": "[Beverly] and her uncle [William] went to the pet shop."
+            },
+            {
+                "statement": "isRelationOf(frank, husband, dorothy).",
+                "description": "[Frank] went to lunch with his wife [Dorothy]."
+            },
+            {
+                "statement": "isRelationOf(rachel, daughter, frank).",
+                "description": "[Frank] bought a new dress for his daughter [Rachel]."
+            },
+            {
+                "statement": "isRelationOf(beverly, sister, rachel).",
+                "description": "[Beverly] took her sister, [Rachel], out to dinner for her birthday."
+            }
+        ]
+    },
+    {
+        "id": 52,
+        "body_text": "[Jonathan] went to the Farmer's market with his mother [Laura] and his brother [Stephen]. [Darren] and his sister [Nichole] bought a painting for [Darren]'s father [Christian]. [Christian]'s brother [Stephen] said it was an ugly painting.",
+        "world_model": [
+            "family_relation_rules"
+        ],
+        "goal": "relation(nichole, granddaughter, laura)",
+        "label": true,
+        "program": [
+            {
+                "statement": "isRelationOf(jonathan, son, laura).",
+                "description": "[Jonathan] went to the Farmer's market with his mother [Laura] and his brother [Stephen]."
+            },
+            {
+                "statement": "isRelationOf(stephen, brother, jonathan).",
+                "description": "[Jonathan] went to the Farmer's market with his mother [Laura] and his brother [Stephen]."
+            },
+            {
+                "statement": "isRelationOf(christian, brother, stephen).",
+                "description": "[Christian]'s brother [Stephen] said it was an ugly painting."
+            },
+            {
+                "statement": "isRelationOf(darren, son, christian).",
+                "description": "[Darren] and his sister [Nichole] bought a painting for [Darren]'s father [Christian]."
+            },
+            {
+                "statement": "isRelationOf(nichole, sister, darren).",
+                "description": "[Darren] and his sister [Nichole] bought a painting for [Darren]'s father [Christian]."
+            }
+        ]
+    },
+    {
+        "id": 53,
+        "body_text": "[Johnny] was so excited to surprise his son, [Leo], with the tickets to the playoffs. [Joanne] took her father [Johnny] to his doctor's appointment and afterward her brother [Clyde] came over and visited for awhile. [Gene] asked his brother [Clyde] if he would come help him fix his car next weekend. [Gene]'s mother [Helen] had to help him with his homework because he was having a test soon. [Kecia] and her sister, [Helen], frequently bicker. However, they always make up quickly.",
+        "world_model": [
+            "family_relation_rules"
+        ],
+        "goal": "relation(kecia, aunt, leo)",
+        "label": true,
+        "program": [
+            {
+                "statement": "isRelationOf(kecia, sister, helen).",
+                "description": "[Kecia] and her sister, [Helen], frequently bicker."
+            },
+            {
+                "statement": "isRelationOf(helen, mother, gene).",
+                "description": "[Gene]'s mother [Helen] had to help him with his homework because he was having a test soon."
+            },
+            {
+                "statement": "isRelationOf(johnny, father, leo).",
+                "description": "[Johnny] was so excited to surprise his son, [Leo], with the tickets to the playoffs."
+            },
+            {
+                "statement": "isRelationOf(joanne, daughter, johnny).",
+                "description": "[Joanne] took her father [Johnny] to his doctor's appointment and afterward her brother [Clyde] came over and visited for awhile."
+            },
+            {
+                "statement": "isRelationOf(clyde, brother, joanne).",
+                "description": "[Joanne] took her father [Johnny] to his doctor's appointment and afterward her brother [Clyde] came over and visited for awhile."
+            },
+            {
+                "statement": "isRelationOf(gene, brother, clyde).",
+                "description": "[Gene] asked his brother [Clyde] if he would come help him fix his car next weekend."
+            }
+        ]
+    },
+    {
+        "id": 54,
+        "body_text": "[Paul] and his son [Michael] went to look at cars. [Paul] ended up buying the Mustang. [Paul]'s brother, [Kirk], recently made it into town. [Kirk] loves talking to his grandfather [Stanley] on the phone.",
+        "world_model": [
+            "family_relation_rules"
+        ],
+        "goal": "relation(stanley, father, michael)",
+        "label": true,
+        "program": [
+            {
+                "statement": "isRelationOf(stanley, grandfather, kirk).",
+                "description": "[Kirk] loves talking to his grandfather [Stanley] on the phone."
+            },
+            {
+                "statement": "isRelationOf(paul, son, michael).",
+                "description": "[Paul] and his son [Michael] went to look at cars."
+            },
+            {
+                "statement": "isRelationOf(kirk, brother, paul).",
+                "description": "[Paul]'s brother, [Kirk], recently made it into town."
+            }
+        ]
+    },
+    {
+        "id": 55,
+        "body_text": "[Pennie] went to her brother [Darren]'s birthday party [Christian] was n't able to leave work early to go watch his son [Darren] play in his first high school football game. [Christian] instead sent his oldest daughter, [Nichole], to film the game for him so that he could watch it later that night. [Evelyn] made a pizza for her son [Sean]. [Sean]'s sister [Nichole] tried a piece and liked it.",
+        "world_model": [
+            "family_relation_rules"
+        ],
+        "goal": "relation(evelyn, mother, pennie)",
+        "label": true,
+        "program": [
+            {
+                "statement": "isRelationOf(darren, brother, pennie).",
+                "description": "[Pennie] went to her brother [Darren]'s birthday party [Christian] was n't able to leave work early to go watch his son [Darren] play in his first high school football game."
+            },
+            {
+                "statement": "isRelationOf(sean, brother, nichole).",
+                "description": "[Sean]'s sister [Nichole] tried a piece and liked it."
+            },
+            {
+                "statement": "isRelationOf(evelyn, mother, sean).",
+                "description": "[Evelyn] made a pizza for her son [Sean]."
+            },
+            {
+                "statement": "isRelationOf(christian, father, darren).",
+                "description": "[Pennie] went to her brother [Darren]'s birthday party [Christian] was n't able to leave work early to go watch his son [Darren] play in his first high school football game."
+            },
+            {
+                "statement": "isRelationOf(nichole, daughter, christian).",
+                "description": "[Christian] instead sent his oldest daughter, [Nichole], to film the game for him so that he could watch it later that night."
+            }
+        ]
+    },
+    {
+        "id": 56,
+        "body_text": "[Carlos] took his son [Gregory] out for ice cream. [Mary] was always arguing with her mother's husband [Carlos]. [Julie] went to the store with her sister [Mary] [Mary] went shoe shopping with her sister [Julie]. [Sarah] and her daughter [Mary] went to see a movie yesterday and then got ice cream afterwards. [Jamie]'s mother [Sarah] was teaching her how to teach when [Jamie]'s husband [Daniel] arrived home. [Oscar] took his favorite son [Daniel] to a baseball game where he caught a foul ball as a souvenir.",
+        "world_model": [
+            "family_relation_rules"
+        ],
+        "goal": "relation(oscar, son_in_law, gregory)",
+        "_answer": "relation(oscar, nephew, gregory)",
+        "label": false,
+        "program": [
+            {
+                "statement": "isRelationOf(julie, sister, mary).",
+                "description": "[Mary] went shoe shopping with her sister [Julie]."
+            },
+            {
+                "statement": "isRelationOf(jamie, daughter, sarah).",
+                "description": "[Jamie]'s mother [Sarah] was teaching her how to teach when [Jamie]'s husband [Daniel] arrived home."
+            },
+            {
+                "statement": "isRelationOf(carlos, father, gregory).",
+                "description": "[Carlos] took his son [Gregory] out for ice cream."
+            },
+            {
+                "statement": "isRelationOf(mary, daughter, carlos).",
+                "description": "[Mary] was always arguing with her mother's husband [Carlos]."
+            },
+            {
+                "statement": "isRelationOf(mary, sister, julie).",
+                "description": "[Mary] went shoe shopping with her sister [Julie]."
+            },
+            {
+                "statement": "isRelationOf(sarah, mother, mary).",
+                "description": "[Sarah] and her daughter [Mary] went to see a movie yesterday and then got ice cream afterwards."
+            },
+            {
+                "statement": "isRelationOf(daniel, husband, jamie).",
+                "description": "[Jamie]'s mother [Sarah] was teaching her how to teach when [Jamie]'s husband [Daniel] arrived home."
+            },
+            {
+                "statement": "isRelationOf(oscar, son, daniel).",
+                "description": "[Oscar] took his favorite son [Daniel] to a baseball game where he caught a foul ball as a souvenir."
+            }
+        ]
+    },
+    {
+        "id": 57,
+        "body_text": "[Gabrielle] has a grandson who is [Kevin]. [Dan] went to his brother [Kevin]'s Birthday party",
+        "world_model": [
+            "family_relation_rules"
+        ],
+        "goal": "relation(dan, niece, gabrielle)",
+        "_answer": "relation(dan, grandson, gabrielle)",
+        "label": false,
+        "program": [
+            {
+                "statement": "isRelationOf(kevin, grandson, gabrielle).",
+                "description": "[Gabrielle] has a grandson who is [Kevin]."
+            },
+            {
+                "statement": "isRelationOf(dan, brother, kevin).",
+                "description": "[Dan] went to his brother [Kevin]'s Birthday party"
+            }
+        ]
+    },
+    {
+        "id": 58,
+        "body_text": "[Kimberley] and her sister, [Kelley], frequently bicker. However, they always make up quickly. [Anne] wanted to go shopping with her grandmother, [Nicole] instead of having dinner with her sister [Kimberley] and father, [Richard].",
+        "world_model": [
+            "family_relation_rules"
+        ],
+        "goal": "relation(nicole, granddaughter, kelley)",
+        "_answer": "relation(nicole, grandmother, kelley)",
+        "label": false,
+        "program": [
+            {
+                "statement": "isRelationOf(anne, daughter, richard).",
+                "description": "[Anne] wanted to go shopping with her grandmother, [Nicole] instead of having dinner with her sister [Kimberley] and father, [Richard]."
+            },
+            {
+                "statement": "isRelationOf(nicole, grandmother, anne).",
+                "description": "[Anne] wanted to go shopping with her grandmother, [Nicole] instead of having dinner with her sister [Kimberley] and father, [Richard]."
+            },
+            {
+                "statement": "isRelationOf(kimberley, sister, kelley).",
+                "description": "[Kimberley] and her sister, [Kelley], frequently bicker."
+            },
+            {
+                "statement": "isRelationOf(richard, father, kimberley).",
+                "description": "[Anne] wanted to go shopping with her grandmother, [Nicole] instead of having dinner with her sister [Kimberley] and father, [Richard]."
+            }
+        ]
+    },
+    {
+        "id": 59,
+        "body_text": "[Alan] would n't let his son [Jason] go to the park by himself. [Jason]'s brother [Clarence] offered to go with him. [Stanley] enjoys reading books to his grandson, [Clarence].",
+        "world_model": [
+            "family_relation_rules"
+        ],
+        "goal": "relation(stanley, uncle, alan)",
+        "_answer": "relation(stanley, father, alan)",
+        "label": false,
+        "program": [
+            {
+                "statement": "isRelationOf(jason, son, alan).",
+                "description": "[Alan] would n't let his son [Jason] go to the park by himself."
+            },
+            {
+                "statement": "isRelationOf(clarence, brother, jason).",
+                "description": "[Jason]'s brother [Clarence] offered to go with him."
+            },
+            {
+                "statement": "isRelationOf(stanley, grandfather, clarence).",
+                "description": "[Stanley] enjoys reading books to his grandson, [Clarence]."
+            }
+        ]
+    },
+    {
+        "id": 60,
+        "body_text": "[Margaret] took her sister, [Melissa], out to dinner for her birthday. [Annie] took her sister, [Margaret], out to dinner for her birthday. [Lisa] took her sister, [Annie], out to dinner for her birthday. [Stephen] loves to fish with his brother, [Jonathan] and his daughter [Lisa].",
+        "world_model": [
+            "family_relation_rules"
+        ],
+        "goal": "relation(jonathan, uncle, melissa)",
+        "label": true,
+        "program": [
+            {
+                "statement": "isRelationOf(jonathan, brother, stephen).",
+                "description": "[Stephen] loves to fish with his brother, [Jonathan] and his daughter [Lisa]."
+            },
+            {
+                "statement": "isRelationOf(stephen, father, lisa).",
+                "description": "[Stephen] loves to fish with his brother, [Jonathan] and his daughter [Lisa]."
+            },
+            {
+                "statement": "isRelationOf(margaret, sister, melissa).",
+                "description": "[Margaret] took her sister, [Melissa], out to dinner for her birthday."
+            },
+            {
+                "statement": "isRelationOf(annie, sister, margaret).",
+                "description": "[Annie] took her sister, [Margaret], out to dinner for her birthday."
+            },
+            {
+                "statement": "isRelationOf(lisa, sister, annie).",
+                "description": "[Lisa] took her sister, [Annie], out to dinner for her birthday."
+            }
+        ]
+    },
+    {
+        "id": 61,
+        "body_text": "[Philip] took his sister [Diane] out to lunch after learning that she got accepted into her first choice for university. [Joyce] and her brother [Philip] enlisted in the army [Reynaldo] took his son [Philip] and his daughter [Joyce] out for pizza. [Joyce] and [Philip], a brother and sister, asked their mother, [Maxine], if they can go to the arcade with her brother [Chuck].",
+        "world_model": [
+            "family_relation_rules"
+        ],
+        "goal": "relation(chuck, sister, diane)",
+        "_answer": "relation(chuck, uncle, diane)",
+        "label": false,
+        "program": [
+            {
+                "statement": "isRelationOf(philip, son, reynaldo).",
+                "description": "[Joyce] and her brother [Philip] enlisted in the army [Reynaldo] took his son [Philip] and his daughter [Joyce] out for pizza."
+            },
+            {
+                "statement": "isRelationOf(chuck, brother, maxine).",
+                "description": "[Joyce] and [Philip], a brother and sister, asked their mother, [Maxine], if they can go to the arcade with her brother [Chuck]."
+            },
+            {
+                "statement": "isRelationOf(joyce, sister, philip).",
+                "description": "[Joyce] and [Philip], a brother and sister, asked their mother, [Maxine], if they can go to the arcade with her brother [Chuck]."
+            },
+            {
+                "statement": "isRelationOf(maxine, mother, joyce).",
+                "description": "[Joyce] and [Philip], a brother and sister, asked their mother, [Maxine], if they can go to the arcade with her brother [Chuck]."
+            },
+            {
+                "statement": "isRelationOf(philip, brother, diane).",
+                "description": "[Philip] took his sister [Diane] out to lunch after learning that she got accepted into her first choice for university."
+            },
+            {
+                "statement": "isRelationOf(joyce, sister, philip).",
+                "description": "[Joyce] and [Philip], a brother and sister, asked their mother, [Maxine], if they can go to the arcade with her brother [Chuck]."
+            },
+            {
+                "statement": "isRelationOf(reynaldo, father, joyce).",
+                "description": "[Joyce] and her brother [Philip] enlisted in the army [Reynaldo] took his son [Philip] and his daughter [Joyce] out for pizza."
+            }
+        ]
+    },
+    {
+        "id": 62,
+        "body_text": "[Ruth] told her son [Jeremy] to give the dog a bath. [Jeremy]'s sister [Gloria] helped him. [Ruth] and her son, [Jeff], went to the park to fly a kite. They had fun doing it all day. [Jeff] bought gifts for his lovely sister, [Stephanie] [Stephanie] bought her grandfather, [Seth], a tie for his birthday.",
+        "world_model": [
+            "family_relation_rules"
+        ],
+        "goal": "relation(seth, grandfather, gloria)",
+        "label": true,
+        "program": [
+            {
+                "statement": "isRelationOf(jeremy, brother, gloria).",
+                "description": "[Jeremy]'s sister [Gloria] helped him."
+            },
+            {
+                "statement": "isRelationOf(ruth, mother, jeremy).",
+                "description": "[Ruth] told her son [Jeremy] to give the dog a bath."
+            },
+            {
+                "statement": "isRelationOf(seth, grandfather, stephanie).",
+                "description": "[Stephanie] bought her grandfather, [Seth], a tie for his birthday."
+            },
+            {
+                "statement": "isRelationOf(jeff, son, ruth).",
+                "description": "[Ruth] and her son, [Jeff], went to the park to fly a kite."
+            },
+            {
+                "statement": "isRelationOf(stephanie, sister, jeff).",
+                "description": "[Jeff] bought gifts for his lovely sister, [Stephanie]"
+            }
+        ]
+    },
+    {
+        "id": 63,
+        "body_text": "[Lucille] and her father [Christopher] are having a very nice chicken dinner with [Christopher]'s wife [Myrna].",
+        "world_model": [
+            "family_relation_rules"
+        ],
+        "goal": "relation(lucille, daughter, myrna)",
+        "label": true,
+        "program": [
+            {
+                "statement": "isRelationOf(christopher, husband, myrna).",
+                "description": "[Lucille] and her father [Christopher] are having a very nice chicken dinner with [Christopher]'s wife [Myrna]."
+            },
+            {
+                "statement": "isRelationOf(lucille, daughter, christopher).",
+                "description": "[Lucille] and her father [Christopher] are having a very nice chicken dinner with [Christopher]'s wife [Myrna]."
+            }
+        ]
+    },
+    {
+        "id": 64,
+        "body_text": "Since retiring, [Laura] spends much of her time with daughter [Rosa] and son [Jonathan]. She enjoys playing with [Rosa]'s daughter [Annie] especially. [Lisa], who is the sister of [Annie], is a lovely girl. [Melissa] and her sister, [Lisa], frequently bicker. However, they always make up quickly.",
+        "world_model": [
+            "family_relation_rules"
+        ],
+        "goal": "relation(melissa, granddaughter, laura)",
+        "label": true,
+        "program": [
+            {
+                "statement": "isRelationOf(jonathan, son, laura).",
+                "description": "Since retiring, [Laura] spends much of her time with daughter [Rosa] and son [Jonathan]."
+            },
+            {
+                "statement": "isRelationOf(rosa, sister, jonathan).",
+                "description": "Since retiring, [Laura] spends much of her time with daughter [Rosa] and son [Jonathan]."
+            },
+            {
+                "statement": "isRelationOf(melissa, sister, lisa).",
+                "description": "[Melissa] and her sister, [Lisa], frequently bicker."
+            },
+            {
+                "statement": "isRelationOf(annie, daughter, rosa).",
+                "description": "She enjoys playing with [Rosa]'s daughter [Annie] especially."
+            },
+            {
+                "statement": "isRelationOf(lisa, sister, annie).",
+                "description": "[Lisa], who is the sister of [Annie], is a lovely girl."
+            }
+        ]
+    },
+    {
+        "id": 65,
+        "body_text": "[Donald] invited his father [Chuck] and his brother [Leandro] to go on a weekend fishing trip. [Leandro] waited at dinner for his sister, [Sara]. She was running late due to a phone call with her brother, [Donald]. [Donald]'s mother, [Elizabeth], waited impatiently for him at the diner. [Elizabeth] asked her daughter, [Sara], if she would like to go to a movie with her on Saturday night. [Sara] decided to give her uncle, [Spencer], a call on his birthday.",
+        "world_model": [
+            "family_relation_rules"
+        ],
+        "goal": "relation(spencer, brother, chuck)",
+        "label": true,
+        "program": [
+            {
+                "statement": "isRelationOf(elizabeth, mother, donald).",
+                "description": "[Donald]'s mother, [Elizabeth], waited impatiently for him at the diner."
+            },
+            {
+                "statement": "isRelationOf(sara, daughter, elizabeth).",
+                "description": "[Elizabeth] asked her daughter, [Sara], if she would like to go to a movie with her on Saturday night."
+            },
+            {
+                "statement": "isRelationOf(spencer, uncle, sara).",
+                "description": "[Sara] decided to give her uncle, [Spencer], a call on his birthday."
+            },
+            {
+                "statement": "isRelationOf(donald, son, chuck).",
+                "description": "[Donald] invited his father [Chuck] and his brother [Leandro] to go on a weekend fishing trip."
+            },
+            {
+                "statement": "isRelationOf(leandro, brother, donald).",
+                "description": "[Donald] invited his father [Chuck] and his brother [Leandro] to go on a weekend fishing trip."
+            },
+            {
+                "statement": "isRelationOf(sara, sister, leandro).",
+                "description": "[Leandro] waited at dinner for his sister, [Sara]."
+            }
+        ]
+    },
+    {
+        "id": 66,
+        "body_text": "[Helen] took her father [James] to his doctor's appointment and afterward her brother [Thomas] came over and visited for awhile. [Thomas] went to the game with his sister [Florence]. [Kecia], who is the sister of [Florence], is a lovely girl. [Thomas] and [Kecia] have a happy marriage. [Thomas] rushed to the hospital to find out that his wife and already given birth to a boy and had named him [Matthew].",
+        "world_model": [
+            "family_relation_rules"
+        ],
+        "goal": "relation(matthew, grandson, james)",
+        "label": true,
+        "program": [
+            {
+                "statement": "isRelationOf(thomas, husband, kecia).",
+                "description": "[Thomas] and [Kecia] have a happy marriage."
+            },
+            {
+                "statement": "isRelationOf(matthew, son, thomas).",
+                "description": "[Thomas] rushed to the hospital to find out that his wife and already given birth to a boy and had named him [Matthew]."
+            },
+            {
+                "statement": "isRelationOf(kecia, sister, florence).",
+                "description": "[Kecia], who is the sister of [Florence], is a lovely girl."
+            },
+            {
+                "statement": "isRelationOf(florence, sister, thomas).",
+                "description": "[Thomas] went to the game with his sister [Florence]."
+            },
+            {
+                "statement": "isRelationOf(helen, daughter, james).",
+                "description": "[Helen] took her father [James] to his doctor's appointment and afterward her brother [Thomas] came over and visited for awhile."
+            },
+            {
+                "statement": "isRelationOf(thomas, brother, helen).",
+                "description": "[Helen] took her father [James] to his doctor's appointment and afterward her brother [Thomas] came over and visited for awhile."
+            }
+        ]
+    },
+    {
+        "id": 67,
+        "body_text": "[Gabrielle] invited her grandson [Micheal] to go ice skating. [Micheal] was only willing to go if his brother [Kevin] could come along.",
+        "world_model": [
+            "family_relation_rules"
+        ],
+        "goal": "relation(kevin, grandson, gabrielle)",
+        "label": true,
+        "program": [
+            {
+                "statement": "isRelationOf(micheal, grandson, gabrielle).",
+                "description": "[Gabrielle] invited her grandson [Micheal] to go ice skating."
+            },
+            {
+                "statement": "isRelationOf(kevin, brother, micheal).",
+                "description": "[Micheal] was only willing to go if his brother [Kevin] could come along."
+            }
+        ]
+    },
+    {
+        "id": 68,
+        "body_text": "[April] asked her daughter, [Sharon], if she would like to go to a movie with her on Saturday night. [Melba] went to the store with her sister [Sharon] [Lucille] was helping her grandmother [Nicole] work in the garden while her sister [Melba] played nearby.",
+        "world_model": [
+            "family_relation_rules"
+        ],
+        "goal": "relation(nicole, grandmother, april)",
+        "_answer": "relation(nicole, mother, april)",
+        "label": false,
+        "program": [
+            {
+                "statement": "isRelationOf(sharon, daughter, april).",
+                "description": "[April] asked her daughter, [Sharon], if she would like to go to a movie with her on Saturday night."
+            },
+            {
+                "statement": "isRelationOf(melba, sister, sharon).",
+                "description": "[Melba] went to the store with her sister [Sharon]"
+            },
+            {
+                "statement": "isRelationOf(lucille, sister, melba).",
+                "description": "[Lucille] was helping her grandmother [Nicole] work in the garden while her sister [Melba] played nearby."
+            },
+            {
+                "statement": "isRelationOf(nicole, grandmother, lucille).",
+                "description": "[Lucille] was helping her grandmother [Nicole] work in the garden while her sister [Melba] played nearby."
+            }
+        ]
+    },
+    {
+        "id": 69,
+        "body_text": "[Ellen] went shoe shopping with her sister [Lisa]. [Carolyn] and her sister, [Ellen], frequently bicker. However, they always make up quickly. [Roger] is buying his daughter [Carolyn] a brand new car for her birthday. [Roger]'s daughter, [Carolyn], made a dinner for her sister, [Ellen]. [Lisa] and her sister, [Ellen], frequently bicker. However, they always make up quickly. [Lisa]'s mother, [Julie], wanted to throw a surprise birthday party for [Julie]'s sister, [Mary], this weekend.",
+        "world_model": [
+            "family_relation_rules"
+        ],
+        "goal": "relation(mary, son_in_law, lisa)",
+        "_answer": "relation(mary, aunt, lisa)",
+        "label": false,
+        "program": [
+            {
+                "statement": "isRelationOf(carolyn, daughter, roger).",
+                "description": "[Roger]'s daughter, [Carolyn], made a dinner for her sister, [Ellen]."
+            },
+            {
+                "statement": "isRelationOf(ellen, sister, lisa).",
+                "description": "[Lisa] and her sister, [Ellen], frequently bicker."
+            },
+            {
+                "statement": "isRelationOf(mary, sister, julie).",
+                "description": "[Lisa]'s mother, [Julie], wanted to throw a surprise birthday party for [Julie]'s sister, [Mary], this weekend."
+            },
+            {
+                "statement": "isRelationOf(carolyn, sister, ellen).",
+                "description": "[Roger]'s daughter, [Carolyn], made a dinner for her sister, [Ellen]."
+            },
+            {
+                "statement": "isRelationOf(roger, father, carolyn).",
+                "description": "[Roger] is buying his daughter [Carolyn] a brand new car for her birthday."
+            },
+            {
+                "statement": "isRelationOf(ellen, sister, carolyn).",
+                "description": "[Roger]'s daughter, [Carolyn], made a dinner for her sister, [Ellen]."
+            },
+            {
+                "statement": "isRelationOf(lisa, sister, ellen).",
+                "description": "[Lisa] and her sister, [Ellen], frequently bicker."
+            },
+            {
+                "statement": "isRelationOf(julie, mother, lisa).",
+                "description": "[Lisa]'s mother, [Julie], wanted to throw a surprise birthday party for [Julie]'s sister, [Mary], this weekend."
+            }
+        ]
+    },
+    {
+        "id": 70,
+        "body_text": "[Nola] went to her brother [Oscar]'s birthday party [Oscar] was so happy for his brother, [Joel], getting a promotion. [Joel] adored his brother, [Richard]. [Richard]'s brother, [Oscar], also adored him. [Daniel] was so proud of his son, [Oscar]. he received a great scholarship to college. [Richard] took his son [Daniel] out to play gold later that night. [Richard]'s mother [Jamie] had to help him with his homework because he was having a test soon. [Faye] took her sister, [Jamie], out to dinner for her birthday.",
+        "world_model": [
+            "family_relation_rules"
+        ],
+        "goal": "relation(faye, aunt, nola)",
+        "label": true,
+        "program": [
+            {
+                "statement": "isRelationOf(richard, son, daniel).",
+                "description": "[Richard] took his son [Daniel] out to play gold later that night."
+            },
+            {
+                "statement": "isRelationOf(richard, brother, joel).",
+                "description": "[Joel] adored his brother, [Richard]."
+            },
+            {
+                "statement": "isRelationOf(oscar, brother, nola).",
+                "description": "[Nola] went to her brother [Oscar]'s birthday party [Oscar] was so happy for his brother, [Joel], getting a promotion."
+            },
+            {
+                "statement": "isRelationOf(joel, brother, oscar).",
+                "description": "[Nola] went to her brother [Oscar]'s birthday party [Oscar] was so happy for his brother, [Joel], getting a promotion."
+            },
+            {
+                "statement": "isRelationOf(oscar, brother, richard).",
+                "description": "[Richard]'s brother, [Oscar], also adored him."
+            },
+            {
+                "statement": "isRelationOf(daniel, father, oscar).",
+                "description": "[Daniel] was so proud of his son, [Oscar]."
+            },
+            {
+                "statement": "isRelationOf(jamie, mother, richard).",
+                "description": "[Richard]'s mother [Jamie] had to help him with his homework because he was having a test soon."
+            },
+            {
+                "statement": "isRelationOf(faye, sister, jamie).",
+                "description": "[Faye] took her sister, [Jamie], out to dinner for her birthday."
+            }
+        ]
+    },
+    {
+        "id": 71,
+        "body_text": "[Margaret] took her sister, [Melissa], out to dinner for her birthday. [Margaret] asked her mother, [Rosa], what they were going to have for lunch. [Rosa] asked her daughter, [Lisa], if she would like to go to a movie with her on Saturday night. [Annie] went shoe shopping with her sister [Lisa]. [Annie] went shopping at the mall with her father [Stephen].",
+        "world_model": [
+            "family_relation_rules"
+        ],
+        "goal": "relation(stephen, grandson, melissa)",
+        "_answer": "relation(stephen, father, melissa)",
+        "label": false,
+        "program": [
+            {
+                "statement": "isRelationOf(stephen, father, annie).",
+                "description": "[Annie] went shopping at the mall with her father [Stephen]."
+            },
+            {
+                "statement": "isRelationOf(margaret, sister, melissa).",
+                "description": "[Margaret] took her sister, [Melissa], out to dinner for her birthday."
+            },
+            {
+                "statement": "isRelationOf(rosa, mother, margaret).",
+                "description": "[Margaret] asked her mother, [Rosa], what they were going to have for lunch."
+            },
+            {
+                "statement": "isRelationOf(lisa, daughter, rosa).",
+                "description": "[Rosa] asked her daughter, [Lisa], if she would like to go to a movie with her on Saturday night."
+            },
+            {
+                "statement": "isRelationOf(annie, sister, lisa).",
+                "description": "[Annie] went shoe shopping with her sister [Lisa]."
+            }
+        ]
+    },
+    {
+        "id": 72,
+        "body_text": "[Faye] just recently married her husband, [Gregory]. [Thomas] and [Christopher] were both still very upset with their mother, [Faye]. [Thomas] loved going to the store with his mom [Faye]. She always bought him snacks [Faye] put her son [Thomas] into the car and began to drive to Florida. [Thomas] was beyond excited to see his grandfather [Carlos]. [Carlos] went fishing with his daughter [Faye]. [Faye]'s sister, [Julie], was n't invited because she hates fishing.",
+        "world_model": [
+            "family_relation_rules"
+        ],
+        "goal": "relation(julie, sister, gregory)",
+        "label": true,
+        "program": [
+            {
+                "statement": "isRelationOf(faye, daughter, carlos).",
+                "description": "[Carlos] went fishing with his daughter [Faye]."
+            },
+            {
+                "statement": "isRelationOf(julie, sister, faye).",
+                "description": "[Faye]'s sister, [Julie], was n't invited because she hates fishing."
+            },
+            {
+                "statement": "isRelationOf(faye, wife, gregory).",
+                "description": "[Faye] just recently married her husband, [Gregory]."
+            },
+            {
+                "statement": "isRelationOf(christopher, son, faye).",
+                "description": "[Thomas] and [Christopher] were both still very upset with their mother, [Faye]."
+            },
+            {
+                "statement": "isRelationOf(thomas, brother, christopher).",
+                "description": "[Thomas] and [Christopher] were both still very upset with their mother, [Faye]."
+            },
+            {
+                "statement": "isRelationOf(faye, mother, thomas).",
+                "description": "[Thomas] and [Christopher] were both still very upset with their mother, [Faye]."
+            },
+            {
+                "statement": "isRelationOf(thomas, son, faye).",
+                "description": "She always bought him snacks [Faye] put her son [Thomas] into the car and began to drive to Florida."
+            },
+            {
+                "statement": "isRelationOf(carlos, grandfather, thomas).",
+                "description": "[Thomas] was beyond excited to see his grandfather [Carlos]."
+            }
+        ]
+    },
+    {
+        "id": 73,
+        "body_text": "[Rosa] made breakfast for her daughter [Melissa] before calling her husband [Stephen] to pick her up. [Annie] went shoe shopping with her sister [Melissa]. [Lisa] went to the store with her sister [Annie] [Annie] and her sister, [Lisa], frequently bicker. However, they always make up quickly.",
+        "world_model": [
+            "family_relation_rules"
+        ],
+        "goal": "relation(annie, niece, stephen)",
+        "_answer": "relation(annie, daughter, stephen)",
+        "label": false,
+        "program": [
+            {
+                "statement": "isRelationOf(annie, sister, lisa).",
+                "description": "[Annie] and her sister, [Lisa], frequently bicker."
+            },
+            {
+                "statement": "isRelationOf(annie, sister, melissa).",
+                "description": "[Annie] went shoe shopping with her sister [Melissa]."
+            },
+            {
+                "statement": "isRelationOf(lisa, sister, annie).",
+                "description": "[Annie] and her sister, [Lisa], frequently bicker."
+            },
+            {
+                "statement": "isRelationOf(rosa, wife, stephen).",
+                "description": "[Rosa] made breakfast for her daughter [Melissa] before calling her husband [Stephen] to pick her up."
+            },
+            {
+                "statement": "isRelationOf(melissa, daughter, rosa).",
+                "description": "[Rosa] made breakfast for her daughter [Melissa] before calling her husband [Stephen] to pick her up."
+            }
+        ]
+    },
+    {
+        "id": 74,
+        "body_text": "[Frank] took his daughter [Beverly] to dance practice. [Frank] drove his daughter [Julia] to soccer practice. [Frank]'s daughter [Rachel] was playing on the swings in the park. [Julia], his other daughter, was napping in the stroller.",
+        "world_model": [
+            "family_relation_rules"
+        ],
+        "goal": "relation(rachel, sister, beverly)",
+        "label": true,
+        "program": [
+            {
+                "statement": "isRelationOf(frank, father, julia).",
+                "description": "[Frank] drove his daughter [Julia] to soccer practice."
+            },
+            {
+                "statement": "isRelationOf(rachel, daughter, frank).",
+                "description": "[Frank]'s daughter [Rachel] was playing on the swings in the park."
+            },
+            {
+                "statement": "isRelationOf(frank, father, beverly).",
+                "description": "[Frank] took his daughter [Beverly] to dance practice."
+            },
+            {
+                "statement": "isRelationOf(julia, daughter, frank).",
+                "description": "[Frank] drove his daughter [Julia] to soccer practice."
+            }
+        ]
+    },
+    {
+        "id": 75,
+        "body_text": "[Toni] was ready to leave for the airport when she got a call from her sister [Sharon] that [Sharon]'s father [Benjamin] had fallen ill. [Benjamin]'s wife [April] had found him collapsed at the desk. [Toni] and her aunt, [Patricia], went to the bookstore. [Toni] bought some fantasy books, while [Patricia] picked up some mysteries.",
+        "world_model": [
+            "family_relation_rules"
+        ],
+        "goal": "relation(patricia, sister, april)",
+        "label": true,
+        "program": [
+            {
+                "statement": "isRelationOf(patricia, aunt, toni).",
+                "description": "[Toni] and her aunt, [Patricia], went to the bookstore."
+            },
+            {
+                "statement": "isRelationOf(benjamin, husband, april).",
+                "description": "[Benjamin]'s wife [April] had found him collapsed at the desk."
+            },
+            {
+                "statement": "isRelationOf(sharon, daughter, benjamin).",
+                "description": "[Toni] was ready to leave for the airport when she got a call from her sister [Sharon] that [Sharon]'s father [Benjamin] had fallen ill."
+            },
+            {
+                "statement": "isRelationOf(toni, sister, sharon).",
+                "description": "[Toni] was ready to leave for the airport when she got a call from her sister [Sharon] that [Sharon]'s father [Benjamin] had fallen ill."
+            }
+        ]
+    },
+    {
+        "id": 76,
+        "body_text": "[Cornelius] took his grandaughter [Anne] to the carnival. [Anne] later told [Jenny], her mother, that they had a great time [Cornelius] took his daughter [Patricia] to the park that afternoon to play. [Patricia] had picked her daughter [Connie] out the cutest new dress to wear on her birthday.",
+        "world_model": [
+            "family_relation_rules"
+        ],
+        "goal": "relation(connie, niece, jenny)",
+        "label": true,
+        "program": [
+            {
+                "statement": "isRelationOf(connie, daughter, patricia).",
+                "description": "[Patricia] had picked her daughter [Connie] out the cutest new dress to wear on her birthday."
+            },
+            {
+                "statement": "isRelationOf(patricia, daughter, cornelius).",
+                "description": "[Anne] later told [Jenny], her mother, that they had a great time [Cornelius] took his daughter [Patricia] to the park that afternoon to play."
+            },
+            {
+                "statement": "isRelationOf(anne, daughter, jenny).",
+                "description": "[Anne] later told [Jenny], her mother, that they had a great time [Cornelius] took his daughter [Patricia] to the park that afternoon to play."
+            },
+            {
+                "statement": "isRelationOf(cornelius, grandfather, anne).",
+                "description": "[Cornelius] took his grandaughter [Anne] to the carnival."
+            }
+        ]
+    },
+    {
+        "id": 77,
+        "body_text": "[Gloria] went to the store with her sister [Stephanie] [Gloria] bought her mother, [Ruth], a puppy for her birthday. [Ruth] and her son, [Jeff], went to the park to fly a kite. They had fun doing it all day. [Jeff] was disappointed that his father, [Jason], would n't be at the play to see him perform. [Jason] and his sister [Cristina] went out for ice cream.",
+        "world_model": [
+            "family_relation_rules"
+        ],
+        "goal": "relation(cristina, aunt, stephanie)",
+        "label": true,
+        "program": [
+            {
+                "statement": "isRelationOf(gloria, sister, stephanie).",
+                "description": "[Gloria] went to the store with her sister [Stephanie]"
+            },
+            {
+                "statement": "isRelationOf(ruth, mother, gloria).",
+                "description": "[Gloria] bought her mother, [Ruth], a puppy for her birthday."
+            },
+            {
+                "statement": "isRelationOf(jeff, son, ruth).",
+                "description": "[Ruth] and her son, [Jeff], went to the park to fly a kite."
+            },
+            {
+                "statement": "isRelationOf(jason, father, jeff).",
+                "description": "[Jeff] was disappointed that his father, [Jason], would n't be at the play to see him perform."
+            },
+            {
+                "statement": "isRelationOf(cristina, sister, jason).",
+                "description": "[Jason] and his sister [Cristina] went out for ice cream."
+            }
+        ]
+    },
+    {
+        "id": 78,
+        "body_text": "[Stanley] asked his wife [Molly] to help him pick a gift for his grandson [Thomas]. [Thomas]'s brother, [Jeremy], recently made it into town.",
+        "world_model": [
+            "family_relation_rules"
+        ],
+        "goal": "relation(jeremy, grandson, molly)",
+        "label": true,
+        "program": [
+            {
+                "statement": "isRelationOf(jeremy, brother, thomas).",
+                "description": "[Thomas]'s brother, [Jeremy], recently made it into town."
+            },
+            {
+                "statement": "isRelationOf(stanley, husband, molly).",
+                "description": "[Stanley] asked his wife [Molly] to help him pick a gift for his grandson [Thomas]."
+            },
+            {
+                "statement": "isRelationOf(thomas, grandson, stanley).",
+                "description": "[Stanley] asked his wife [Molly] to help him pick a gift for his grandson [Thomas]."
+            }
+        ]
+    },
+    {
+        "id": 79,
+        "body_text": "[Nicole] went to the mall, because she wanted to look for a present for her daughter, [Patricia]. [Patricia] always goes to the park with her son [Timothy] on Saturdays. [Christine] asked her sister [Connie] if she wanted to go to the movies with her. [Connie] said no, so [Christine] went with her brother [Timothy] instead.",
+        "world_model": [
+            "family_relation_rules"
+        ],
+        "goal": "relation(connie, niece, nicole)",
+        "_answer": "relation(connie, granddaughter, nicole)",
+        "label": false,
+        "program": [
+            {
+                "statement": "isRelationOf(patricia, daughter, nicole).",
+                "description": "[Nicole] went to the mall, because she wanted to look for a present for her daughter, [Patricia]."
+            },
+            {
+                "statement": "isRelationOf(timothy, son, patricia).",
+                "description": "[Patricia] always goes to the park with her son [Timothy] on Saturdays."
+            },
+            {
+                "statement": "isRelationOf(christine, sister, timothy).",
+                "description": "[Connie] said no, so [Christine] went with her brother [Timothy] instead."
+            },
+            {
+                "statement": "isRelationOf(connie, sister, christine).",
+                "description": "[Christine] asked her sister [Connie] if she wanted to go to the movies with her."
+            }
+        ]
+    },
+    {
+        "id": 80,
+        "body_text": "[Beverly] went to her brother [Charles]'s birthday party [Charles] and his sister [Julia] have been best friends ever since childhood. [Julia] vowed to never trust her father, [Frank] with her debit card again. [Frank] was disappointed that his father, [Cornelius], would n't be at the play to see him perform.",
+        "world_model": [
+            "family_relation_rules"
+        ],
+        "goal": "relation(cornelius, father, beverly)",
+        "_answer": "relation(cornelius, grandfather, beverly)",
+        "label": false,
+        "program": [
+            {
+                "statement": "isRelationOf(cornelius, father, frank).",
+                "description": "[Frank] was disappointed that his father, [Cornelius], would n't be at the play to see him perform."
+            },
+            {
+                "statement": "isRelationOf(frank, father, julia).",
+                "description": "[Julia] vowed to never trust her father, [Frank] with her debit card again."
+            },
+            {
+                "statement": "isRelationOf(charles, brother, beverly).",
+                "description": "[Beverly] went to her brother [Charles]'s birthday party [Charles] and his sister [Julia] have been best friends ever since childhood."
+            },
+            {
+                "statement": "isRelationOf(julia, sister, charles).",
+                "description": "[Beverly] went to her brother [Charles]'s birthday party [Charles] and his sister [Julia] have been best friends ever since childhood."
+            }
+        ]
+    },
+    {
+        "id": 81,
+        "body_text": "[Christian] got his son, [Seth], a car for his birthday. [Christian] and his brother [Jonathan] went to a basketball game. [Jonathan]'s sister [Ruth] decided to tag along with them. [Ruth] invited her daughter [Stephanie] to lunch. [Stephanie]'s brother [Jeremy] could n't leave work to join them.",
+        "world_model": [
+            "family_relation_rules"
+        ],
+        "goal": "relation(jeremy, grandmother, seth)",
+        "_answer": "relation(jeremy, grandson, seth)",
+        "label": false,
+        "program": [
+            {
+                "statement": "isRelationOf(ruth, sister, jonathan).",
+                "description": "[Jonathan]'s sister [Ruth] decided to tag along with them."
+            },
+            {
+                "statement": "isRelationOf(stephanie, daughter, ruth).",
+                "description": "[Ruth] invited her daughter [Stephanie] to lunch."
+            },
+            {
+                "statement": "isRelationOf(jeremy, brother, stephanie).",
+                "description": "[Stephanie]'s brother [Jeremy] could n't leave work to join them."
+            },
+            {
+                "statement": "isRelationOf(christian, son, seth).",
+                "description": "[Christian] got his son, [Seth], a car for his birthday."
+            },
+            {
+                "statement": "isRelationOf(jonathan, brother, christian).",
+                "description": "[Christian] and his brother [Jonathan] went to a basketball game."
+            }
+        ]
+    },
+    {
+        "id": 82,
+        "body_text": "[Beverly] went shoe shopping with her sister [Rachel]. [Dorothy] and her daughter [Beverly] went to see a movie yesterday and then got ice cream afterwards. [Julia] went to dinner with her daughter [Dorothy]. They then went to the park afterwards. [Charles] and his sister, [Julia] love it when their grandmother visits because she spoils them. She is coming this week to watch them while their parents are out of town.",
+        "world_model": [
+            "family_relation_rules"
+        ],
+        "goal": "relation(charles, brother, rachel)",
+        "label": true,
+        "program": [
+            {
+                "statement": "isRelationOf(julia, daughter, dorothy).",
+                "description": "[Julia] went to dinner with her daughter [Dorothy]."
+            },
+            {
+                "statement": "isRelationOf(charles, brother, julia).",
+                "description": "[Charles] and his sister, [Julia] love it when their grandmother visits because she spoils them."
+            },
+            {
+                "statement": "isRelationOf(beverly, sister, rachel).",
+                "description": "[Beverly] went shoe shopping with her sister [Rachel]."
+            },
+            {
+                "statement": "isRelationOf(dorothy, mother, beverly).",
+                "description": "[Dorothy] and her daughter [Beverly] went to see a movie yesterday and then got ice cream afterwards."
+            }
+        ]
+    },
+    {
+        "id": 83,
+        "body_text": "[Pennie] took her father [Christian] to his doctor's appointment and afterward her brother [Sean] came over and visited for awhile. [Jonathan] took his nephew [Sean] to the football game. [Jonathan] was excited to reveal the elaborate getaway he had planned for his wife [Cristina]. [Cristina] and her son [William] went out to lunch together yesterday.",
+        "world_model": [
+            "family_relation_rules"
+        ],
+        "goal": "relation(william, nephew, christian)",
+        "label": true,
+        "program": [
+            {
+                "statement": "isRelationOf(jonathan, uncle, sean).",
+                "description": "[Jonathan] took his nephew [Sean] to the football game."
+            },
+            {
+                "statement": "isRelationOf(pennie, daughter, christian).",
+                "description": "[Pennie] took her father [Christian] to his doctor's appointment and afterward her brother [Sean] came over and visited for awhile."
+            },
+            {
+                "statement": "isRelationOf(sean, brother, pennie).",
+                "description": "[Pennie] took her father [Christian] to his doctor's appointment and afterward her brother [Sean] came over and visited for awhile."
+            },
+            {
+                "statement": "isRelationOf(cristina, wife, jonathan).",
+                "description": "[Jonathan] was excited to reveal the elaborate getaway he had planned for his wife [Cristina]."
+            },
+            {
+                "statement": "isRelationOf(william, son, cristina).",
+                "description": "[Cristina] and her son [William] went out to lunch together yesterday."
+            }
+        ]
+    },
+    {
+        "id": 84,
+        "body_text": "[Mary] went shopping at the mall with her father [Richard]. [Richard] took his daughter, [Kimberley], to a baseball game. [Jenny] called her sister [April] and asked if [April] could babysit her daughter [Kimberley].",
+        "world_model": [
+            "family_relation_rules"
+        ],
+        "goal": "relation(april, aunt, mary)",
+        "label": true,
+        "program": [
+            {
+                "statement": "isRelationOf(richard, father, mary).",
+                "description": "[Mary] went shopping at the mall with her father [Richard]."
+            },
+            {
+                "statement": "isRelationOf(kimberley, daughter, richard).",
+                "description": "[Richard] took his daughter, [Kimberley], to a baseball game."
+            },
+            {
+                "statement": "isRelationOf(jenny, mother, kimberley).",
+                "description": "[Jenny] called her sister [April] and asked if [April] could babysit her daughter [Kimberley]."
+            },
+            {
+                "statement": "isRelationOf(april, sister, jenny).",
+                "description": "[Jenny] called her sister [April] and asked if [April] could babysit her daughter [Kimberley]."
+            }
+        ]
+    },
+    {
+        "id": 85,
+        "body_text": "[Lucille] and her sister [Toni] were arguing over a toy. While they were fighting, [Lucille]'s sister [Melba] grabbed the toy, and ran off to play with it by herself. [Toni] bought her mother, [April], a puppy for her birthday. [Frank] took his sister [April] out to lunch after learning that she got accepted into her first choice for university.",
+        "world_model": [
+            "family_relation_rules"
+        ],
+        "goal": "relation(frank, mother, melba)",
+        "_answer": "relation(frank, uncle, melba)",
+        "label": false,
+        "program": [
+            {
+                "statement": "isRelationOf(frank, brother, april).",
+                "description": "[Frank] took his sister [April] out to lunch after learning that she got accepted into her first choice for university."
+            },
+            {
+                "statement": "isRelationOf(lucille, sister, melba).",
+                "description": "While they were fighting, [Lucille]'s sister [Melba] grabbed the toy, and ran off to play with it by herself."
+            },
+            {
+                "statement": "isRelationOf(toni, sister, lucille).",
+                "description": "[Lucille] and her sister [Toni] were arguing over a toy."
+            },
+            {
+                "statement": "isRelationOf(april, mother, toni).",
+                "description": "[Toni] bought her mother, [April], a puppy for her birthday."
+            }
+        ]
+    },
+    {
+        "id": 86,
+        "body_text": "[Manuel] likes to visit his sister. Her name is [Jami]. [Charlie] was thrilled his brother, [Manuel], was able to make it to the party. [Charlie] is [Jami]'s older brother. He has never liked any of her boyfriends. [Jami] bought a plant for her dad, [Kenneth]. [Jami] took her father [Kenneth] to his doctor's appointment and afterward her brother [Gino] came over and visited for awhile. [Gino] invited his sister [Jami] to dinner this Friday because it is her birthday. [Jami] and her brother [Charlie] went to see a movie. [Charlie]'s mother, [Michele], waited impatiently for him at the diner.",
+        "world_model": [
+            "family_relation_rules"
+        ],
+        "goal": "relation(michele, brother, jami)",
+        "_answer": "relation(michele, mother, jami)",
+        "label": false,
+        "program": [
+            {
+                "statement": "isRelationOf(michele, mother, charlie).",
+                "description": "[Charlie]'s mother, [Michele], waited impatiently for him at the diner."
+            },
+            {
+                "statement": "isRelationOf(jami, daughter, kenneth).",
+                "description": "[Jami] bought a plant for her dad, [Kenneth]."
+            },
+            {
+                "statement": "isRelationOf(gino, brother, jami).",
+                "description": "[Jami] took her father [Kenneth] to his doctor's appointment and afterward her brother [Gino] came over and visited for awhile."
+            },
+            {
+                "statement": "isRelationOf(jami, sister, gino).",
+                "description": "[Gino] invited his sister [Jami] to dinner this Friday because it is her birthday."
+            },
+            {
+                "statement": "isRelationOf(charlie, brother, jami).",
+                "description": "[Jami] and her brother [Charlie] went to see a movie."
+            },
+            {
+                "statement": "isRelationOf(kenneth, father, jami).",
+                "description": "[Jami] took her father [Kenneth] to his doctor's appointment and afterward her brother [Gino] came over and visited for awhile."
+            },
+            {
+                "statement": "isRelationOf(charlie, brother, manuel).",
+                "description": "[Charlie] was thrilled his brother, [Manuel], was able to make it to the party."
+            },
+            {
+                "statement": "isRelationOf(jami, sister, charlie).",
+                "description": "[Charlie] is [Jami]'s older brother."
+            }
+        ]
+    },
+    {
+        "id": 87,
+        "body_text": "[Beverly] went to the store with her sister [Julia] [Rachel] and her brother [Charles] were out playing when their mother [Dorothy] called them in for dinner. When they got inside [Rachel]'s sister [Beverly] was already at the table.",
+        "world_model": [
+            "family_relation_rules"
+        ],
+        "goal": "relation(dorothy, mother, julia)",
+        "label": true,
+        "program": [
+            {
+                "statement": "isRelationOf(charles, brother, rachel).",
+                "description": "[Rachel] and her brother [Charles] were out playing when their mother [Dorothy] called them in for dinner."
+            },
+            {
+                "statement": "isRelationOf(dorothy, mother, charles).",
+                "description": "[Rachel] and her brother [Charles] were out playing when their mother [Dorothy] called them in for dinner."
+            },
+            {
+                "statement": "isRelationOf(beverly, sister, julia).",
+                "description": "[Beverly] went to the store with her sister [Julia]"
+            },
+            {
+                "statement": "isRelationOf(rachel, sister, beverly).",
+                "description": "When they got inside [Rachel]'s sister [Beverly] was already at the table."
+            }
+        ]
+    },
+    {
+        "id": 88,
+        "body_text": "[Jenny] spent a great day shopping with her daughter, [Kelley]. [Kelley] and her uncle [Frank] went to the pet shop. [Kelley] saw a puppy that she loved, so [Frank] bought it for her. [Frank] and [Dorothy] got married in 2017 [Dorothy] went to her son [Charles]'s House",
+        "world_model": [
+            "family_relation_rules"
+        ],
+        "goal": "relation(charles, grandmother, jenny)",
+        "_answer": "relation(charles, nephew, jenny)",
+        "label": false,
+        "program": [
+            {
+                "statement": "isRelationOf(kelley, daughter, jenny).",
+                "description": "[Jenny] spent a great day shopping with her daughter, [Kelley]."
+            },
+            {
+                "statement": "isRelationOf(frank, uncle, kelley).",
+                "description": "[Kelley] and her uncle [Frank] went to the pet shop."
+            },
+            {
+                "statement": "isRelationOf(dorothy, wife, frank).",
+                "description": "[Frank] and [Dorothy] got married in 2017 [Dorothy] went to her son [Charles]'s House"
+            },
+            {
+                "statement": "isRelationOf(charles, son, dorothy).",
+                "description": "[Frank] and [Dorothy] got married in 2017 [Dorothy] went to her son [Charles]'s House"
+            }
+        ]
+    },
+    {
+        "id": 89,
+        "body_text": "[Stanley] told his wife [Molly] that he received a very lovely letter from his grandson [Matthew]. [Matthew] and his brother, [Ellis] run a turtle farm.",
+        "world_model": [
+            "family_relation_rules"
+        ],
+        "goal": "relation(ellis, father, molly)",
+        "_answer": "relation(ellis, grandson, molly)",
+        "label": false,
+        "program": [
+            {
+                "statement": "isRelationOf(ellis, brother, matthew).",
+                "description": "[Matthew] and his brother, [Ellis] run a turtle farm."
+            },
+            {
+                "statement": "isRelationOf(stanley, husband, molly).",
+                "description": "[Stanley] told his wife [Molly] that he received a very lovely letter from his grandson [Matthew]."
+            },
+            {
+                "statement": "isRelationOf(matthew, grandson, stanley).",
+                "description": "[Stanley] told his wife [Molly] that he received a very lovely letter from his grandson [Matthew]."
+            }
+        ]
+    },
+    {
+        "id": 90,
+        "body_text": "[Alma] took her husband, [Michael], to have dinner with his daughter, [Annette].",
+        "world_model": [
+            "family_relation_rules"
+        ],
+        "goal": "relation(annette, daughter, alma)",
+        "label": true,
+        "program": [
+            {
+                "statement": "isRelationOf(michael, husband, alma).",
+                "description": "[Alma] took her husband, [Michael], to have dinner with his daughter, [Annette]."
+            },
+            {
+                "statement": "isRelationOf(annette, daughter, michael).",
+                "description": "[Alma] took her husband, [Michael], to have dinner with his daughter, [Annette]."
+            }
+        ]
+    },
+    {
+        "id": 91,
+        "body_text": "[Ethel] had picked her daughter [Leila] out the cutest new dress to wear on her birthday. [Leila] was excited because today she was going to the zoo with her uncle [Kenneth]. [Janice] asked her sister [Judy] if she wanted to go to the movies with her. [Judy] said no, so [Janice] went with her brother [Kenneth] instead. [Larry]'s brothers, [Joseph] and [William], went to a hockey game. [William]'s sister, [Judy], went to a football game instead. [Dana] was wondering where her daughter [Michele] was, so she texted her. [Michele] replied that she was with her brother [Joseph] at the mall.",
+        "world_model": [
+            "family_relation_rules"
+        ],
+        "goal": "relation(dana, uncle, ethel)",
+        "_answer": "relation(dana, mother, ethel)",
+        "label": false,
+        "program": [
+            {
+                "statement": "isRelationOf(william, brother, judy).",
+                "description": "[William]'s sister, [Judy], went to a football game instead."
+            },
+            {
+                "statement": "isRelationOf(larry, brother, william).",
+                "description": "[Larry]'s brothers, [Joseph] and [William], went to a hockey game."
+            },
+            {
+                "statement": "isRelationOf(joseph, brother, larry).",
+                "description": "[Larry]'s brothers, [Joseph] and [William], went to a hockey game."
+            },
+            {
+                "statement": "isRelationOf(leila, daughter, ethel).",
+                "description": "[Ethel] had picked her daughter [Leila] out the cutest new dress to wear on her birthday."
+            },
+            {
+                "statement": "isRelationOf(kenneth, uncle, leila).",
+                "description": "[Leila] was excited because today she was going to the zoo with her uncle [Kenneth]."
+            },
+            {
+                "statement": "isRelationOf(janice, sister, kenneth).",
+                "description": "[Judy] said no, so [Janice] went with her brother [Kenneth] instead."
+            },
+            {
+                "statement": "isRelationOf(judy, sister, janice).",
+                "description": "[Janice] asked her sister [Judy] if she wanted to go to the movies with her."
+            },
+            {
+                "statement": "isRelationOf(michele, sister, joseph).",
+                "description": "[Michele] replied that she was with her brother [Joseph] at the mall."
+            },
+            {
+                "statement": "isRelationOf(dana, mother, michele).",
+                "description": "[Dana] was wondering where her daughter [Michele] was, so she texted her."
+            }
+        ]
+    },
+    {
+        "id": 92,
+        "body_text": "[Gabrielle] has a grandson who is [Micheal]. [Micheal] and his brother [Kevin] went to the park to play basketball.",
+        "world_model": [
+            "family_relation_rules"
+        ],
+        "goal": "relation(kevin, mother, gabrielle)",
+        "_answer": "relation(kevin, grandson, gabrielle)",
+        "label": false,
+        "program": [
+            {
+                "statement": "isRelationOf(micheal, grandson, gabrielle).",
+                "description": "[Gabrielle] has a grandson who is [Micheal]."
+            },
+            {
+                "statement": "isRelationOf(kevin, brother, micheal).",
+                "description": "[Micheal] and his brother [Kevin] went to the park to play basketball."
+            }
+        ]
+    },
+    {
+        "id": 93,
+        "body_text": "[Sean] played basketball with his brother [Darren]. [Christian] picked up his son [Darren] from baseball practice and his daughter [Pennie] from ballet practice. [Pennie] bought her mother, [Evelyn], a puppy for her birthday. [Evelyn] asked her daughter, [Nichole], if she would like to go to a movie with her on Saturday night.",
+        "world_model": [
+            "family_relation_rules"
+        ],
+        "goal": "relation(nichole, sister_in_law, sean)",
+        "_answer": "relation(nichole, sister, sean)",
+        "label": false,
+        "program": [
+            {
+                "statement": "isRelationOf(darren, brother, sean).",
+                "description": "[Sean] played basketball with his brother [Darren]."
+            },
+            {
+                "statement": "isRelationOf(nichole, daughter, evelyn).",
+                "description": "[Evelyn] asked her daughter, [Nichole], if she would like to go to a movie with her on Saturday night."
+            },
+            {
+                "statement": "isRelationOf(evelyn, mother, pennie).",
+                "description": "[Pennie] bought her mother, [Evelyn], a puppy for her birthday."
+            },
+            {
+                "statement": "isRelationOf(christian, father, darren).",
+                "description": "[Christian] picked up his son [Darren] from baseball practice and his daughter [Pennie] from ballet practice."
+            },
+            {
+                "statement": "isRelationOf(pennie, daughter, christian).",
+                "description": "[Christian] picked up his son [Darren] from baseball practice and his daughter [Pennie] from ballet practice."
+            }
+        ]
+    },
+    {
+        "id": 94,
+        "body_text": "[Nicole] spent a great day shopping with her daughter, [Jenny]. [Jenny] took her father [Cornelius] and brother [Frank] to the mall with [Frank]'s brother, [William].",
+        "world_model": [
+            "family_relation_rules"
+        ],
+        "goal": "relation(william, son, nicole)",
+        "label": true,
+        "program": [
+            {
+                "statement": "isRelationOf(william, brother, frank).",
+                "description": "[Jenny] took her father [Cornelius] and brother [Frank] to the mall with [Frank]'s brother, [William]."
+            },
+            {
+                "statement": "isRelationOf(jenny, daughter, nicole).",
+                "description": "[Nicole] spent a great day shopping with her daughter, [Jenny]."
+            },
+            {
+                "statement": "isRelationOf(cornelius, father, jenny).",
+                "description": "[Jenny] took her father [Cornelius] and brother [Frank] to the mall with [Frank]'s brother, [William]."
+            },
+            {
+                "statement": "isRelationOf(frank, son, cornelius).",
+                "description": "[Jenny] took her father [Cornelius] and brother [Frank] to the mall with [Frank]'s brother, [William]."
+            }
+        ]
+    },
+    {
+        "id": 95,
+        "body_text": "[Frank] took his son [Charles] and daughter [Beverly] to the zoo on Saturday and they had a great time. [Dorothy] stayed with her mother [Nicole] before the birth of her son [Charles]",
+        "world_model": [
+            "family_relation_rules"
+        ],
+        "goal": "relation(nicole, grandmother, beverly)",
+        "label": true,
+        "program": [
+            {
+                "statement": "isRelationOf(frank, father, beverly).",
+                "description": "[Frank] took his son [Charles] and daughter [Beverly] to the zoo on Saturday and they had a great time."
+            },
+            {
+                "statement": "isRelationOf(charles, son, frank).",
+                "description": "[Frank] took his son [Charles] and daughter [Beverly] to the zoo on Saturday and they had a great time."
+            },
+            {
+                "statement": "isRelationOf(dorothy, mother, charles).",
+                "description": "[Dorothy] stayed with her mother [Nicole] before the birth of her son [Charles]"
+            },
+            {
+                "statement": "isRelationOf(nicole, mother, dorothy).",
+                "description": "[Dorothy] stayed with her mother [Nicole] before the birth of her son [Charles]"
+            }
+        ]
+    },
+    {
+        "id": 96,
+        "body_text": "[Jamie] fixed her husband [Daniel] dinner and then they watched a movie they rented. [Daniel] took his son [Richard] to the park to feed the squirrels. [Jamie] was wondering where her daughter [Nola] was, so she texted her. [Nola] replied that she was with her brother [Richard] at the mall. [Jamie] was excited to visit her son, [Joel], at college. [Joel] was so happy for his brother, [Oscar], getting a promotion. [Gregory] was so pleased to spend time with his nephew, [Oscar]. [Thomas] took his son [Gregory] out to play gold later that night.",
+        "world_model": [
+            "family_relation_rules"
+        ],
+        "goal": "relation(thomas, nephew, jamie)",
+        "label": true,
+        "program": [
+            {
+                "statement": "isRelationOf(thomas, son, gregory).",
+                "description": "[Thomas] took his son [Gregory] out to play gold later that night."
+            },
+            {
+                "statement": "isRelationOf(gregory, uncle, oscar).",
+                "description": "[Gregory] was so pleased to spend time with his nephew, [Oscar]."
+            },
+            {
+                "statement": "isRelationOf(oscar, brother, joel).",
+                "description": "[Joel] was so happy for his brother, [Oscar], getting a promotion."
+            },
+            {
+                "statement": "isRelationOf(jamie, mother, nola).",
+                "description": "[Jamie] was wondering where her daughter [Nola] was, so she texted her."
+            },
+            {
+                "statement": "isRelationOf(joel, son, jamie).",
+                "description": "[Jamie] was excited to visit her son, [Joel], at college."
+            },
+            {
+                "statement": "isRelationOf(daniel, husband, jamie).",
+                "description": "[Jamie] fixed her husband [Daniel] dinner and then they watched a movie they rented."
+            },
+            {
+                "statement": "isRelationOf(richard, son, daniel).",
+                "description": "[Daniel] took his son [Richard] to the park to feed the squirrels."
+            },
+            {
+                "statement": "isRelationOf(nola, sister, richard).",
+                "description": "[Nola] replied that she was with her brother [Richard] at the mall."
+            }
+        ]
+    },
+    {
+        "id": 97,
+        "body_text": "[Melba] and her sister [Lucille] were arguing over a toy. While they were fighting, [Melba]'s sister [Toni] grabbed the toy, and ran off to play with it by herself. [April] and her daughter [Lucille] went to see a movie yesterday and then got ice cream afterwards. [Jenny] went to the store with her sister [April]",
+        "world_model": [
+            "family_relation_rules"
+        ],
+        "goal": "relation(jenny, aunt, toni)",
+        "label": true,
+        "program": [
+            {
+                "statement": "isRelationOf(jenny, sister, april).",
+                "description": "[Jenny] went to the store with her sister [April]"
+            },
+            {
+                "statement": "isRelationOf(melba, sister, toni).",
+                "description": "While they were fighting, [Melba]'s sister [Toni] grabbed the toy, and ran off to play with it by herself."
+            },
+            {
+                "statement": "isRelationOf(lucille, sister, melba).",
+                "description": "[Melba] and her sister [Lucille] were arguing over a toy."
+            },
+            {
+                "statement": "isRelationOf(april, mother, lucille).",
+                "description": "[April] and her daughter [Lucille] went to see a movie yesterday and then got ice cream afterwards."
+            }
+        ]
+    },
+    {
+        "id": 98,
+        "body_text": "[Jeff] and [Jeremy] were both still very upset with their mother, [Ruth]. [Jason] was so excited to surprise his son, [Jeff], with the tickets to the playoffs. [Laura] made cookies with her grandson [Jeremy]. [Jeremy]'s father [Jason] is not allowed to eat sugar.",
+        "world_model": [
+            "family_relation_rules"
+        ],
+        "goal": "relation(laura, sister, ruth)",
+        "_answer": "relation(laura, mother, ruth)",
+        "label": false,
+        "program": [
+            {
+                "statement": "isRelationOf(jason, father, jeff).",
+                "description": "[Jason] was so excited to surprise his son, [Jeff], with the tickets to the playoffs."
+            },
+            {
+                "statement": "isRelationOf(jeremy, son, jason).",
+                "description": "[Jeremy]'s father [Jason] is not allowed to eat sugar."
+            },
+            {
+                "statement": "isRelationOf(laura, grandmother, jeremy).",
+                "description": "[Laura] made cookies with her grandson [Jeremy]."
+            },
+            {
+                "statement": "isRelationOf(jeremy, son, ruth).",
+                "description": "[Jeff] and [Jeremy] were both still very upset with their mother, [Ruth]."
+            },
+            {
+                "statement": "isRelationOf(jeff, brother, jeremy).",
+                "description": "[Jeff] and [Jeremy] were both still very upset with their mother, [Ruth]."
+            }
+        ]
+    },
+    {
+        "id": 99,
+        "body_text": "[Nichole] was excited because she was meeting her father, [Christian], for lunch. [Darren] and his son [Christian] went to look at cars. [Darren] ended up buying the Mustang. [Pennie] took her brother [Sean] and other brother [Darren] with her to eat pasta at a pasta buffet. [Sean]'s mother, [Evelyn], was disappointed that he failed his math class",
+        "world_model": [
+            "family_relation_rules"
+        ],
+        "goal": "relation(evelyn, wife, nichole)",
+        "_answer": "relation(evelyn, mother, nichole)",
+        "label": false,
+        "program": [
+            {
+                "statement": "isRelationOf(pennie, sister, darren).",
+                "description": "[Pennie] took her brother [Sean] and other brother [Darren] with her to eat pasta at a pasta buffet."
+            },
+            {
+                "statement": "isRelationOf(sean, brother, pennie).",
+                "description": "[Pennie] took her brother [Sean] and other brother [Darren] with her to eat pasta at a pasta buffet."
+            },
+            {
+                "statement": "isRelationOf(evelyn, mother, sean).",
+                "description": "[Sean]'s mother, [Evelyn], was disappointed that he failed his math class"
+            },
+            {
+                "statement": "isRelationOf(christian, father, nichole).",
+                "description": "[Nichole] was excited because she was meeting her father, [Christian], for lunch."
+            },
+            {
+                "statement": "isRelationOf(darren, son, christian).",
+                "description": "[Darren] and his son [Christian] went to look at cars."
+            }
+        ]
+    }
+]
