@@ -2,7 +2,7 @@
 
 This is the repository for the following paper:
 
-> Jinu Lee, Wonseok Hwang. (2024) SymBa: Symbolic Backward Chaining for Multi-step Natural Language Reasoning. arXiv preprint.
+> Jinu Lee, Wonseok Hwang. (2024) SymBa: Symbolic Backward Chaining for Multi-step Natural Language Reasoning. [arXiv preprint](https://arxiv.org/abs/2402.12806).
 
 ## Installation
 
