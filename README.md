@@ -2,13 +2,13 @@
 
 This is the repository for the following paper:
 
-> Jinu Lee, Wonseok Hwang. (2024) SymBa: Symbolic Backward Chaining for Multi-step Natural Language Reasoning. [arXiv preprint](https://arxiv.org/abs/2402.12806).
+(Anonymized)
 
 ## Installation
 
 First, clone this repository and enter the directory.
 ```sh
-git clone https://github.com/lbox-kr/symba.git
+git clone https://github.com/(anonymized)/symba.git
 cd symba
 ```
 
