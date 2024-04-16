@@ -27,6 +27,29 @@ def convert_body_text(body_text, dataset, world_model=None):
             if not is_rule:
                 facts.append(sent)
         return facts, rules
+    if dataset == "pararules":
+        # Split sents
+        sents = body_text.split(". ")
+        for i in range(len(sents)-1):
+            sents[i] = sents[i] + "." # restore dots
+        return sents, sents
+    if dataset == "prontoqa":
+        # Split sents
+        sents = body_text.split(". ")
+        for i in range(len(sents)-1):
+            sents[i] = sents[i] + "." # restore dots
+        
+        rules = []; facts = []
+        for sent in sents:
+            is_rule = False
+            for rule_keyword in ["are", "every", "each"]:
+                if rule_keyword in sent.lower():
+                    is_rule = True
+                    rules.append(sent)
+                    break
+            if not is_rule:
+                facts.append(sent)
+        return facts, rules
     elif dataset == "ecthr" or dataset == "clutrr" or dataset == "stepgame":
         return body_text.strip().split("\n"), world_model.strip().split("\n")
     else:
@@ -59,6 +82,14 @@ def convert_body_text_for_symba(body_text, dataset):
             if not is_rule:
                 facts.append(sent)
         return " ".join(facts), " ".join(rules)
+    elif dataset == "hotpotqa":
+        # Split sents
+        sents = body_text.split("Question: ")
+        for i in range(len(sents)):
+            sents[i] = sents[i].strip()
+        
+        rules = sents[:-1]; facts = [sents[-1]]
+        return " ".join(facts), " ".join(rules)
     else:
         return body_text, body_text
 
@@ -76,7 +107,7 @@ def convert_goal(goal, dataset):
         _type_: _description_
     """
     # Convert goal into natural language
-    if dataset == "proofwriter_dep5" or dataset == "birdselectricity":
+    if dataset == "proofwriter_dep5" or dataset == "birdselectricity" or dataset == "pararules" or dataset == "prontoqa":
         match = re.match(r"(not |)([a-z_]+)\(([a-z_]+),\s?([a-z_]+)\)", goal)
         sign = match.group(1)
         verb = match.group(2)

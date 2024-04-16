@@ -1,0 +1,802 @@
+[
+    {
+        "id": 0,
+        "body_text": "Zumpuses are rompuses. Every impus is not loud. Zumpuses are jompuses. Every rompus is a tumpus. Wumpuses are lorpuses. Zumpuses are opaque. Numpuses are impuses. Jompuses are windy. Each lempus is a vumpus. Vumpuses are not liquid. Every lempus is a zumpus. Numpuses are not temperate. Each wumpus is feisty. Every lempus is kind. Each rompus is not sour. Each rompus is a grimpus. Numpuses are lempuses. Every grimpus is not floral. Rex is a numpus. Rex is a wumpus.",
+        "world_model": [],
+        "goal": "is(rex, sour)",
+        "label": false,
+        "program": []
+    },
+    {
+        "id": 1,
+        "body_text": "Each grimpus is liquid. Each wumpus is an impus. Every zumpus is a grimpus. Wumpuses are numpuses. Yumpuses are tumpuses. Lorpuses are brimpuses. Each yumpus is opaque. Every tumpus is not angry. Rompuses are fruity. Every zumpus is a yumpus. Each sterpus is sour. Each numpus is orange. Every lorpus is discordant. Each sterpus is a rompus. Yumpuses are sterpuses. Wumpuses are shy. Zumpuses are hot. Sterpuses are wumpuses. Alex is a zumpus. Alex is a lorpus.",
+        "world_model": [],
+        "goal": "not is(alex, shy)",
+        "label": false,
+        "program": []
+    },
+    {
+        "id": 2,
+        "body_text": "Every impus is a wumpus. Yumpuses are impuses. Yumpuses are not fast. Every jompus is metallic. Each rompus is dull. Sterpuses are not shy. Each impus is not sunny. Vumpuses are yumpuses. Grimpuses are numpuses. Lorpuses are temperate. Each shumpus is large. Grimpuses are not amenable. Jompuses are shumpuses. Numpuses are not opaque. Every yumpus is a sterpus. Each lorpus is a lempus. Brimpuses are not brown. Every vumpus is a brimpus. Grimpuses are jompuses. Impuses are rompuses. Each vumpus is earthy. Each jompus is a vumpus. Fae is a lorpus. Fae is a jompus.",
+        "world_model": [],
+        "goal": "not is(fae, sunny)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 3,
+        "body_text": "Every numpus is a grimpus. Every rompus is cold. Dumpuses are not luminous. Gorpuses are not large. Yumpuses are not orange. Yumpuses are tumpuses. Every vumpus is not transparent. Each sterpus is feisty. Lorpuses are impuses. Every shumpus is rainy. Each tumpus is a shumpus. Each lorpus is a vumpus. Gorpuses are numpuses. Each numpus is moderate. Tumpuses are lorpuses. Numpuses are yumpuses. Sterpuses are jompuses. Each yumpus is a rompus. Grimpuses are not discordant. Tumpuses are bright. Every lorpus is not floral. Gorpuses are dumpuses. Polly is a sterpus. Polly is a numpus.",
+        "world_model": [],
+        "goal": "not is(polly, floral)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 4,
+        "body_text": "Wumpuses are sweet. Shumpuses are numpuses. Jompuses are shumpuses. Dumpuses are bright. Every sterpus is a vumpus. Every brimpus is fast. Impuses are wooden. Jompuses are small. Yumpuses are rainy. Each numpus is not loud. Each lempus is amenable. Every shumpus is fruity. Each brimpus is a dumpus. Each jompus is a lorpus. Sterpuses are not hot. Every impus is a yumpus. Wumpuses are impuses. Brimpuses are zumpuses. Every shumpus is a wumpus. Every impus is a brimpus. Wumpuses are lempuses. Lorpuses are opaque. Wren is a jompus. Wren is a sterpus.",
+        "world_model": [],
+        "goal": "not is(wren, wooden)",
+        "label": false,
+        "program": []
+    },
+    {
+        "id": 5,
+        "body_text": "Numpuses are rompuses. Each impus is a dumpus. Every tumpus is not amenable. Tumpuses are lorpuses. Every brimpus is not melodic. Dumpuses are fruity. Every lorpus is not transparent. Each lorpus is an impus. Every lempus is a jompus. Each gorpus is not sunny. Impuses are sweet. Lempuses are not bright. Every yumpus is not small. Jompuses are gorpuses. Vumpuses are not orange. Tumpuses are brimpuses. Every impus is a grimpus. Lorpuses are yumpuses. Every jompus is luminous. Lempuses are vumpuses. Numpuses are cold. Each jompus is a tumpus. Rex is a jompus. Rex is a numpus.",
+        "world_model": [],
+        "goal": "is(rex, sweet)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 6,
+        "body_text": "Every tumpus is not temperate. Grimpuses are spicy. Jompuses are wumpuses. Grimpuses are brimpuses. Every yumpus is a numpus. Tumpuses are vumpuses. Every tumpus is a jompus. Each lempus is not overcast. Every jompus is angry. Wumpuses are earthy. Every sterpus is melodic. Every sterpus is a lempus. Every jompus is a grimpus. Sterpuses are tumpuses. Grimpuses are lorpuses. Brimpuses are red. Each yumpus is not opaque. Every vumpus is wooden. Sam is a yumpus. Sam is a sterpus.",
+        "world_model": [],
+        "goal": "not is(sam, spicy)",
+        "label": false,
+        "program": []
+    },
+    {
+        "id": 7,
+        "body_text": "Each wumpus is a brimpus. Each jompus is an impus. Impuses are wumpuses. Every jompus is a zumpus. Dumpuses are lempuses. Vumpuses are not overcast. Impuses are luminous. Every zumpus is opaque. Each vumpus is a lorpus. Every rompus is not blue. Each jompus is hot. Wumpuses are dumpuses. Impuses are tumpuses. Every tumpus is melodic. Dumpuses are rompuses. Every wumpus is not dull. Every dumpus is not spicy. Each brimpus is not happy. Wren is a vumpus. Wren is a jompus.",
+        "world_model": [],
+        "goal": "not is(wren, spicy)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 8,
+        "body_text": "Every yumpus is small. Each gorpus is a jompus. Every dumpus is a vumpus. Gorpuses are dumpuses. Sterpuses are zumpuses. Rompuses are liquid. Every dumpus is a grimpus. Gorpuses are fruity. Each vumpus is overcast. Every numpus is a sterpus. Every sterpus is a gorpus. Numpuses are yumpuses. Every jompus is not red. Rompuses are tumpuses. Every numpus is bitter. Zumpuses are fast. Every dumpus is transparent. Sterpuses are amenable. Wren is a numpus. Wren is a rompus.",
+        "world_model": [],
+        "goal": "is(wren, transparent)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 9,
+        "body_text": "Shumpuses are lorpuses. Each grimpus is amenable. Each zumpus is not nervous. Vumpuses are windy. Gorpuses are not red. Gorpuses are yumpuses. Gorpuses are wumpuses. Every lorpus is a sterpus. Every lorpus is a tumpus. Each shumpus is luminous. Tumpuses are not small. Sterpuses are dull. Every wumpus is not opaque. Sterpuses are gorpuses. Every vumpus is a jompus. Shumpuses are zumpuses. Each sterpus is a grimpus. Every lorpus is not earthy. Alex is a vumpus. Alex is a shumpus.",
+        "world_model": [],
+        "goal": "is(alex, red)",
+        "label": false,
+        "program": []
+    },
+    {
+        "id": 10,
+        "body_text": "Grimpuses are shumpuses. Every yumpus is a vumpus. Every impus is a rompus. Each zumpus is snowy. Jompuses are grimpuses. Gorpuses are not shy. Every jompus is a brimpus. Each vumpus is a wumpus. Every grimpus is a lempus. Shumpuses are gorpuses. Shumpuses are dull. Jompuses are floral. Each lempus is hot. Grimpuses are fast. Shumpuses are yumpuses. Every yumpus is orange. Every vumpus is not sweet. Lorpuses are not small. Every yumpus is a zumpus. Vumpuses are lorpuses. Every impus is not melodic. Brimpuses are not liquid. Rex is an impus. Rex is a grimpus.",
+        "world_model": [],
+        "goal": "is(rex, sweet)",
+        "label": false,
+        "program": []
+    },
+    {
+        "id": 11,
+        "body_text": "Every numpus is a yumpus. Zumpuses are sterpuses. Each zumpus is not windy. Lempuses are brimpuses. Each brimpus is amenable. Impuses are gorpuses. Impuses are zumpuses. Vumpuses are not dull. Grimpuses are lorpuses. Impuses are luminous. Every numpus is not small. Every gorpus is shy. Every grimpus is not bitter. Each sterpus is slow. Every lempus is a numpus. Each lempus is melodic. Every zumpus is a lempus. Every numpus is a vumpus. Sam is an impus. Sam is a grimpus.",
+        "world_model": [],
+        "goal": "is(sam, small)",
+        "label": false,
+        "program": []
+    },
+    {
+        "id": 12,
+        "body_text": "Every zumpus is sunny. Grimpuses are sterpuses. Each zumpus is an impus. Each wumpus is a yumpus. Lempuses are gorpuses. Each lempus is large. Lorpuses are not slow. Every brimpus is nervous. Each zumpus is a lempus. Wumpuses are bright. Every lempus is a grimpus. Wumpuses are zumpuses. Sterpuses are floral. Brimpuses are vumpuses. Shumpuses are luminous. Lorpuses are shumpuses. Gorpuses are bitter. Grimpuses are dumpuses. Impuses are not melodic. Lorpuses are wumpuses. Each grimpus is not amenable. Yumpuses are red. Wren is a brimpus. Wren is a lorpus.",
+        "world_model": [],
+        "goal": "is(wren, large)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 13,
+        "body_text": "Yumpuses are not nervous. Every wumpus is opaque. Each brimpus is a zumpus. Each shumpus is red. Every lempus is rainy. Tumpuses are temperate. Each lorpus is wooden. Every impus is sweet. Yumpuses are gorpuses. Lempuses are shumpuses. Each jompus is floral. Lempuses are tumpuses. Sterpuses are mean. Jompuses are lorpuses. Every tumpus is an impus. Each jompus is a wumpus. Every brimpus is not melodic. Each wumpus is a dumpus. Every brimpus is a sterpus. Tumpuses are jompuses. Every dumpus is not small. Every wumpus is a brimpus. Max is a yumpus. Max is a tumpus.",
+        "world_model": [],
+        "goal": "is(max, melodic)",
+        "label": false,
+        "program": []
+    },
+    {
+        "id": 14,
+        "body_text": "Wumpuses are not sunny. Numpuses are wumpuses. Each yumpus is a zumpus. Each tumpus is a shumpus. Tumpuses are feisty. Every yumpus is transparent. Numpuses are fruity. Each numpus is a yumpus. Each grimpus is a gorpus. Tumpuses are vumpuses. Grimpuses are not red. Zumpuses are slow. Every rompus is dull. Each yumpus is a tumpus. Every dumpus is a numpus. Dumpuses are rompuses. Every shumpus is muffled. Each dumpus is not bitter. Max is a grimpus. Max is a dumpus.",
+        "world_model": [],
+        "goal": "not is(max, feisty)",
+        "label": false,
+        "program": []
+    },
+    {
+        "id": 15,
+        "body_text": "Every zumpus is a dumpus. Dumpuses are jompuses. Every gorpus is a brimpus. Every tumpus is metallic. Brimpuses are happy. Each rompus is a grimpus. Each jompus is a vumpus. Gorpuses are zumpuses. Rompuses are not melodic. Numpuses are not bitter. Numpuses are yumpuses. Impuses are not temperate. Each zumpus is fruity. Each zumpus is a tumpus. Gorpuses are not fast. Jompuses are numpuses. Each lempus is transparent. Dumpuses are not orange. Jompuses are small. Every dumpus is a lempus. Vumpuses are not rainy. Every numpus is an impus. Sam is a rompus. Sam is a zumpus.",
+        "world_model": [],
+        "goal": "not is(sam, bitter)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 16,
+        "body_text": "Each vumpus is a numpus. Brimpuses are sterpuses. Each brimpus is not brown. Wumpuses are dull. Every grimpus is not opaque. Every rompus is discordant. Each brimpus is a vumpus. Impuses are tumpuses. Every grimpus is a wumpus. Yumpuses are not earthy. Dumpuses are rompuses. Each yumpus is a lorpus. Dumpuses are slow. Each impus is snowy. Each vumpus is large. Every vumpus is a grimpus. Dumpuses are yumpuses. Every lorpus is sour. Each grimpus is a dumpus. Yumpuses are zumpuses. Every sterpus is feisty. Numpuses are amenable. Sally is an impus. Sally is a vumpus.",
+        "world_model": [],
+        "goal": "is(sally, earthy)",
+        "label": false,
+        "program": []
+    },
+    {
+        "id": 17,
+        "body_text": "Dumpuses are jompuses. Each grimpus is a sterpus. Each shumpus is sunny. Each grimpus is a lempus. Jompuses are discordant. Impuses are shumpuses. Each grimpus is amenable. Impuses are dumpuses. Each impus is not liquid. Dumpuses are rompuses. Each rompus is a grimpus. Every sterpus is blue. Each brimpus is not dull. Every wumpus is large. Dumpuses are transparent. Rompuses are hot. Brimpuses are yumpuses. Rompuses are wumpuses. Stella is an impus. Stella is a brimpus.",
+        "world_model": [],
+        "goal": "not is(stella, amenable)",
+        "label": false,
+        "program": []
+    },
+    {
+        "id": 18,
+        "body_text": "Every vumpus is a grimpus. Wumpuses are vumpuses. Jompuses are wumpuses. Grimpuses are spicy. Numpuses are windy. Each brimpus is not mean. Each wumpus is a numpus. Every jompus is a sterpus. Vumpuses are loud. Vumpuses are brimpuses. Each brimpus is a gorpus. Each zumpus is not temperate. Every wumpus is bright. Gorpuses are not earthy. Every sterpus is not wooden. Each zumpus is a dumpus. Jompuses are not transparent. Brimpuses are yumpuses. Polly is a zumpus. Polly is a jompus.",
+        "world_model": [],
+        "goal": "is(polly, mean)",
+        "label": false,
+        "program": []
+    },
+    {
+        "id": 19,
+        "body_text": "Each gorpus is a dumpus. Gorpuses are sterpuses. Grimpuses are small. Every lempus is sour. Sterpuses are hot. Rompuses are not metallic. Each tumpus is a gorpus. Sterpuses are lorpuses. Dumpuses are rainy. Each jompus is a wumpus. Each jompus is melodic. Every sterpus is a vumpus. Every gorpus is not bright. Each grimpus is a rompus. Every tumpus is not happy. Every grimpus is a tumpus. Each lorpus is not kind. Tumpuses are lempuses. Sally is a grimpus. Sally is a jompus.",
+        "world_model": [],
+        "goal": "not is(sally, hot)",
+        "label": false,
+        "program": []
+    },
+    {
+        "id": 20,
+        "body_text": "Wumpuses are not wooden. Each vumpus is not dull. Numpuses are not small. Each rompus is not red. Jompuses are gorpuses. Every dumpus is a grimpus. Grimpuses are snowy. Vumpuses are impuses. Brimpuses are not happy. Vumpuses are tumpuses. Each dumpus is a brimpus. Every dumpus is angry. Each jompus is opaque. Rompuses are dumpuses. Every brimpus is a vumpus. Brimpuses are numpuses. Rompuses are wumpuses. Every impus is muffled. Polly is a jompus. Polly is a rompus.",
+        "world_model": [],
+        "goal": "not is(polly, dull)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 21,
+        "body_text": "Every rompus is opaque. Tumpuses are not happy. Jompuses are gorpuses. Every sterpus is not moderate. Jompuses are tumpuses. Every lempus is not temperate. Wumpuses are not wooden. Each impus is not sunny. Wumpuses are zumpuses. Gorpuses are yumpuses. Dumpuses are rompuses. Every gorpus is dull. Dumpuses are earthy. Every lempus is a brimpus. Every rompus is a jompus. Each wumpus is a dumpus. Zumpuses are amenable. Each rompus is an impus. Dumpuses are sterpuses. Every gorpus is a numpus. Every jompus is muffled. Every yumpus is not small. Polly is a wumpus. Polly is a lempus.",
+        "world_model": [],
+        "goal": "not is(polly, muffled)",
+        "label": false,
+        "program": []
+    },
+    {
+        "id": 22,
+        "body_text": "Yumpuses are liquid. Each lorpus is a zumpus. Every impus is a lempus. Every lorpus is a wumpus. Each impus is not temperate. Sterpuses are dumpuses. Each wumpus is a brimpus. Each zumpus is orange. Every impus is a lorpus. Each tumpus is an impus. Every vumpus is overcast. Each tumpus is small. Each lempus is not opaque. Each wumpus is not floral. Lorpuses are not dull. Each wumpus is a vumpus. Every tumpus is a yumpus. Sterpuses are discordant. Sally is a tumpus. Sally is a sterpus.",
+        "world_model": [],
+        "goal": "is(sally, floral)",
+        "label": false,
+        "program": []
+    },
+    {
+        "id": 23,
+        "body_text": "Each jompus is a numpus. Zumpuses are brimpuses. Numpuses are tumpuses. Every jompus is not blue. Brimpuses are transparent. Grimpuses are sterpuses. Impuses are angry. Lempuses are dull. Each impus is a zumpus. Zumpuses are jompuses. Every numpus is a vumpus. Lorpuses are wumpuses. Every grimpus is not discordant. Every lorpus is floral. Each rompus is not small. Jompuses are lempuses. Each impus is a rompus. Every zumpus is not cold. Numpuses are overcast. Grimpuses are impuses. Vumpuses are not sweet. Every sterpus is fast. Alex is a lorpus. Alex is a grimpus.",
+        "world_model": [],
+        "goal": "is(alex, blue)",
+        "label": false,
+        "program": []
+    },
+    {
+        "id": 24,
+        "body_text": "Numpuses are feisty. Lorpuses are rompuses. Dumpuses are lorpuses. Each gorpus is a zumpus. Wumpuses are not overcast. Each numpus is a jompus. Brimpuses are wooden. Impuses are small. Dumpuses are not opaque. Lorpuses are angry. Jompuses are cold. Jompuses are tumpuses. Jompuses are impuses. Every rompus is fruity. Numpuses are sterpuses. Gorpuses are moderate. Sterpuses are red. Rompuses are wumpuses. Rompuses are numpuses. Each lorpus is a brimpus. Every yumpus is not bright. Every dumpus is a yumpus. Polly is a lorpus. Polly is a gorpus.",
+        "world_model": [],
+        "goal": "is(polly, cold)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 25,
+        "body_text": "Each rompus is a brimpus. Brimpuses are zumpuses. Impuses are transparent. Lempuses are not feisty. Lorpuses are not orange. Every zumpus is not cold. Each grimpus is discordant. Each yumpus is dull. Each brimpus is fruity. Every vumpus is wooden. Lempuses are yumpuses. Lorpuses are rompuses. Every dumpus is not kind. Each rompus is a vumpus. Every lempus is a lorpus. Dumpuses are lempuses. Every wumpus is not slow. Each wumpus is a shumpus. Dumpuses are grimpuses. Each lorpus is an impus. Each rompus is not rainy. Brimpuses are numpuses. Alex is a wumpus. Alex is a dumpus.",
+        "world_model": [],
+        "goal": "not is(alex, rainy)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 26,
+        "body_text": "Each brimpus is a gorpus. Yumpuses are aggressive. Every tumpus is bitter. Each lorpus is an impus. Every lorpus is slow. Every jompus is a yumpus. Each rompus is fruity. Jompuses are tumpuses. Lempuses are melodic. Yumpuses are zumpuses. Impuses are feisty. Every lorpus is a sterpus. Each brimpus is orange. Each jompus is cold. Yumpuses are rompuses. Every zumpus is not transparent. Rompuses are lempuses. Rompuses are lorpuses. Sally is a brimpus. Sally is a jompus.",
+        "world_model": [],
+        "goal": "is(sally, slow)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 27,
+        "body_text": "Every lempus is a wumpus. Each sterpus is a rompus. Gorpuses are jompuses. Numpuses are not spicy. Every gorpus is not red. Every shumpus is kind. Vumpuses are windy. Each gorpus is a shumpus. Jompuses are not dull. Every sterpus is not happy. Every sterpus is a brimpus. Each vumpus is a tumpus. Lempuses are not transparent. Jompuses are sterpuses. Tumpuses are cold. Each vumpus is a gorpus. Each rompus is muffled. Each jompus is a numpus. Stella is a vumpus. Stella is a lempus.",
+        "world_model": [],
+        "goal": "is(stella, happy)",
+        "label": false,
+        "program": []
+    },
+    {
+        "id": 28,
+        "body_text": "Every jompus is not feisty. Dumpuses are bright. Rompuses are red. Each gorpus is spicy. Each dumpus is a jompus. Tumpuses are slow. Each shumpus is sunny. Gorpuses are dumpuses. Each yumpus is muffled. Each yumpus is a lempus. Jompuses are tumpuses. Gorpuses are numpuses. Shumpuses are gorpuses. Yumpuses are grimpuses. Lempuses are kind. Rompuses are brimpuses. Jompuses are yumpuses. Numpuses are fruity. Every wumpus is cold. Each shumpus is a vumpus. Vumpuses are not opaque. Dumpuses are wumpuses. Sam is a shumpus. Sam is a rompus.",
+        "world_model": [],
+        "goal": "is(sam, feisty)",
+        "label": false,
+        "program": []
+    },
+    {
+        "id": 29,
+        "body_text": "Each jompus is an impus. Every grimpus is not spicy. Jompuses are small. Every shumpus is a grimpus. Each grimpus is a vumpus. Grimpuses are yumpuses. Rompuses are opaque. Every dumpus is bright. Each wumpus is nervous. Each vumpus is floral. Every vumpus is a jompus. Each jompus is a dumpus. Every shumpus is angry. Each yumpus is not red. Each vumpus is a rompus. Tumpuses are loud. Every wumpus is a sterpus. Shumpuses are tumpuses. Wren is a wumpus. Wren is a shumpus.",
+        "world_model": [],
+        "goal": "not is(wren, small)",
+        "label": false,
+        "program": []
+    },
+    {
+        "id": 30,
+        "body_text": "Each vumpus is brown. Every lempus is a shumpus. Wumpuses are kind. Each lempus is a numpus. Every gorpus is a zumpus. Shumpuses are not fruity. Each lempus is not happy. Each dumpus is not transparent. Jompuses are lempuses. Gorpuses are temperate. Every tumpus is a jompus. Jompuses are large. Every numpus is a wumpus. Numpuses are sterpuses. Tumpuses are vumpuses. Jompuses are dumpuses. Each numpus is snowy. Tumpuses are dull. Polly is a gorpus. Polly is a tumpus.",
+        "world_model": [],
+        "goal": "is(polly, snowy)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 31,
+        "body_text": "Gorpuses are rompuses. Each gorpus is nervous. Jompuses are not sweet. Each zumpus is a sterpus. Shumpuses are wumpuses. Yumpuses are opaque. Zumpuses are fruity. Every rompus is moderate. Every gorpus is a yumpus. Each lempus is snowy. Every jompus is a dumpus. Every shumpus is not orange. Each wumpus is not dull. Each zumpus is a shumpus. Every shumpus is a numpus. Sterpuses are large. Every rompus is a zumpus. Rompuses are lempuses. Rex is a gorpus. Rex is a jompus.",
+        "world_model": [],
+        "goal": "is(rex, orange)",
+        "label": false,
+        "program": []
+    },
+    {
+        "id": 32,
+        "body_text": "Grimpuses are dull. Brimpuses are opaque. Jompuses are shumpuses. Vumpuses are snowy. Each lorpus is happy. Each gorpus is mean. Sterpuses are not spicy. Numpuses are gorpuses. Lorpuses are impuses. Each yumpus is not large. Gorpuses are lorpuses. Lorpuses are yumpuses. Every dumpus is not slow. Every gorpus is a brimpus. Jompuses are orange. Every numpus is metallic. Every grimpus is a numpus. Zumpuses are vumpuses. Zumpuses are cold. Zumpuses are grimpuses. Every grimpus is a sterpus. Every numpus is a dumpus. Sam is a jompus. Sam is a zumpus.",
+        "world_model": [],
+        "goal": "is(sam, mean)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 33,
+        "body_text": "Every jompus is a lempus. Grimpuses are lorpuses. Gorpuses are cold. Lempuses are wooden. Grimpuses are overcast. Dumpuses are happy. Each wumpus is an impus. Wumpuses are not transparent. Wumpuses are dumpuses. Every grimpus is a tumpus. Each yumpus is not earthy. Zumpuses are jompuses. Dumpuses are yumpuses. Zumpuses are rompuses. Impuses are sweet. Lorpuses are not slow. Every gorpus is a vumpus. Each jompus is a grimpus. Every rompus is muffled. Every jompus is red. Dumpuses are zumpuses. Each zumpus is mean. Wren is a gorpus. Wren is a dumpus.",
+        "world_model": [],
+        "goal": "not is(wren, overcast)",
+        "label": false,
+        "program": []
+    },
+    {
+        "id": 34,
+        "body_text": "Each grimpus is a dumpus. Every yumpus is a shumpus. Each brimpus is not rainy. Yumpuses are bright. Lorpuses are mean. Every yumpus is a brimpus. Each tumpus is an impus. Every tumpus is cold. Sterpuses are opaque. Numpuses are gorpuses. Shumpuses are lorpuses. Impuses are orange. Each impus is a yumpus. Every impus is a sterpus. Zumpuses are fast. Shumpuses are numpuses. Each shumpus is spicy. Numpuses are vumpuses. Tumpuses are zumpuses. Each vumpus is not large. Grimpuses are not floral. Numpuses are shy. Fae is a tumpus. Fae is a grimpus.",
+        "world_model": [],
+        "goal": "not is(fae, spicy)",
+        "label": false,
+        "program": []
+    },
+    {
+        "id": 35,
+        "body_text": "Every zumpus is mean. Gorpuses are transparent. Rompuses are brimpuses. Each dumpus is a shumpus. Lorpuses are yumpuses. Impuses are rompuses. Rompuses are grimpuses. Zumpuses are impuses. Dumpuses are not fast. Impuses are tumpuses. Each impus is floral. Rompuses are happy. Every grimpus is small. Each tumpus is sweet. Brimpuses are lorpuses. Every brimpus is a gorpus. Every yumpus is metallic. Every lorpus is not dull. Brimpuses are not orange. Zumpuses are wumpuses. Every lorpus is a vumpus. Every wumpus is not muffled. Stella is a dumpus. Stella is a zumpus.",
+        "world_model": [],
+        "goal": "not is(stella, orange)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 36,
+        "body_text": "Each zumpus is melodic. Numpuses are moderate. Every dumpus is a tumpus. Tumpuses are rompuses. Dumpuses are numpuses. Each zumpus is a jompus. Rompuses are brown. Each sterpus is a lorpus. Sterpuses are dumpuses. Every brimpus is sunny. Each brimpus is a shumpus. Every brimpus is a sterpus. Dumpuses are spicy. Tumpuses are not liquid. Tumpuses are lempuses. Shumpuses are not opaque. Each sterpus is small. Every lorpus is amenable. Rex is a brimpus. Rex is a zumpus.",
+        "world_model": [],
+        "goal": "is(rex, liquid)",
+        "label": false,
+        "program": []
+    },
+    {
+        "id": 37,
+        "body_text": "Each shumpus is an impus. Zumpuses are jompuses. Each jompus is a tumpus. Lempuses are not sweet. Shumpuses are wumpuses. Every impus is a zumpus. Zumpuses are dumpuses. Each wumpus is not loud. Each lorpus is kind. Each shumpus is not dull. Every tumpus is not nervous. Each tumpus is a grimpus. Each zumpus is hot. Every jompus is a lorpus. Tumpuses are lempuses. Brimpuses are numpuses. Impuses are rompuses. Each jompus is not small. Impuses are fruity. Dumpuses are brown. Rompuses are transparent. Brimpuses are windy. Sally is a brimpus. Sally is a shumpus.",
+        "world_model": [],
+        "goal": "not is(sally, small)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 38,
+        "body_text": "Tumpuses are lorpuses. Each sterpus is opaque. Gorpuses are vumpuses. Gorpuses are sterpuses. Tumpuses are numpuses. Vumpuses are yumpuses. Vumpuses are rompuses. Each numpus is a gorpus. Vumpuses are not sour. Every lorpus is not temperate. Tumpuses are mean. Every numpus is not happy. Yumpuses are not luminous. Each gorpus is red. Brimpuses are not fast. Numpuses are brimpuses. Dumpuses are muffled. Dumpuses are jompuses. Max is a dumpus. Max is a tumpus.",
+        "world_model": [],
+        "goal": "is(max, sour)",
+        "label": false,
+        "program": []
+    },
+    {
+        "id": 39,
+        "body_text": "Each tumpus is not spicy. Every brimpus is a vumpus. Every brimpus is snowy. Each dumpus is a zumpus. Every dumpus is a gorpus. Rompuses are sterpuses. Each brimpus is a numpus. Impuses are not muffled. Zumpuses are large. Rompuses are transparent. Jompuses are shumpuses. Each numpus is cold. Each grimpus is not blue. Every vumpus is wooden. Every rompus is a dumpus. Every dumpus is nervous. Jompuses are fruity. Grimpuses are impuses. Vumpuses are tumpuses. Each grimpus is a rompus. Vumpuses are grimpuses. Every sterpus is aggressive. Stella is a jompus. Stella is a brimpus.",
+        "world_model": [],
+        "goal": "not is(stella, transparent)",
+        "label": false,
+        "program": []
+    },
+    {
+        "id": 40,
+        "body_text": "Every tumpus is transparent. Brimpuses are grimpuses. Every lempus is angry. Dumpuses are tumpuses. Dumpuses are blue. Dumpuses are zumpuses. Grimpuses are vumpuses. Every numpus is small. Grimpuses are wumpuses. Each impus is a yumpus. Grimpuses are not fast. Every impus is loud. Every tumpus is a lempus. Every brimpus is not earthy. Each vumpus is liquid. Every zumpus is dull. Tumpuses are brimpuses. Every brimpus is a numpus. Stella is an impus. Stella is a dumpus.",
+        "world_model": [],
+        "goal": "not is(stella, fast)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 41,
+        "body_text": "Sterpuses are shumpuses. Impuses are zumpuses. Brimpuses are numpuses. Every dumpus is muffled. Every numpus is cold. Each zumpus is sour. Each impus is not snowy. Shumpuses are not angry. Every vumpus is opaque. Every yumpus is small. Impuses are gorpuses. Every numpus is a tumpus. Numpuses are vumpuses. Each brimpus is a dumpus. Sterpuses are not earthy. Tumpuses are happy. Every brimpus is slow. Each sterpus is an impus. Tumpuses are lorpuses. Lorpuses are not dull. Yumpuses are wumpuses. Every tumpus is a sterpus. Alex is a numpus. Alex is a yumpus.",
+        "world_model": [],
+        "goal": "not is(alex, snowy)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 42,
+        "body_text": "Every sterpus is transparent. Jompuses are grimpuses. Every lorpus is aggressive. Zumpuses are tumpuses. Zumpuses are dumpuses. Lempuses are zumpuses. Zumpuses are not spicy. Every vumpus is slow. Wumpuses are not muffled. Each jompus is a shumpus. Dumpuses are sterpuses. Every lorpus is a rompus. Every sterpus is a wumpus. Each sterpus is a jompus. Every jompus is liquid. Every dumpus is an impus. Lempuses are vumpuses. Tumpuses are not snowy. Impuses are bright. Each dumpus is small. Grimpuses are temperate. Each lempus is earthy. Fae is a lempus. Fae is a lorpus.",
+        "world_model": [],
+        "goal": "not is(fae, transparent)",
+        "label": false,
+        "program": []
+    },
+    {
+        "id": 43,
+        "body_text": "Lorpuses are lempuses. Each wumpus is opaque. Dumpuses are wumpuses. Every grimpus is a numpus. Grimpuses are jompuses. Each rompus is muffled. Gorpuses are yumpuses. Tumpuses are grimpuses. Yumpuses are tumpuses. Grimpuses are orange. Dumpuses are gorpuses. Every tumpus is not aggressive. Each lorpus is bitter. Sterpuses are dull. Tumpuses are shumpuses. Each gorpus is a sterpus. Dumpuses are rainy. Shumpuses are cold. Every jompus is fast. Gorpuses are metallic. Yumpuses are floral. Every yumpus is a rompus. Sam is a lorpus. Sam is a dumpus.",
+        "world_model": [],
+        "goal": "not is(sam, aggressive)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 44,
+        "body_text": "Every brimpus is sunny. Dumpuses are liquid. Each sterpus is not hot. Zumpuses are bright. Each rompus is not feisty. Each lorpus is not large. Gorpuses are sterpuses. Shumpuses are sweet. Grimpuses are amenable. Shumpuses are grimpuses. Every impus is red. Every sterpus is a zumpus. Each grimpus is a brimpus. Every shumpus is a dumpus. Sterpuses are tumpuses. Each wumpus is a yumpus. Each wumpus is not floral. Grimpuses are gorpuses. Every impus is a rompus. Gorpuses are lorpuses. Impuses are shumpuses. Each gorpus is slow. Polly is a wumpus. Polly is a shumpus.",
+        "world_model": [],
+        "goal": "not is(polly, hot)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 45,
+        "body_text": "Lempuses are not cold. Gorpuses are tumpuses. Each lempus is a wumpus. Lorpuses are shumpuses. Yumpuses are rompuses. Sterpuses are happy. Each tumpus is not loud. Sterpuses are yumpuses. Every lorpus is slow. Yumpuses are numpuses. Lorpuses are sterpuses. Shumpuses are not aggressive. Rompuses are not spicy. Yumpuses are not large. Each gorpus is windy. Sterpuses are jompuses. Every gorpus is a lorpus. Every jompus is orange. Stella is a lempus. Stella is a gorpus.",
+        "world_model": [],
+        "goal": "is(stella, large)",
+        "label": false,
+        "program": []
+    },
+    {
+        "id": 46,
+        "body_text": "Lempuses are temperate. Brimpuses are red. Brimpuses are tumpuses. Every wumpus is earthy. Each lorpus is slow. Every impus is a rompus. Each lempus is a shumpus. Each tumpus is not nervous. Lorpuses are zumpuses. Every lempus is a wumpus. Each brimpus is a lempus. Zumpuses are sterpuses. Every sterpus is not kind. Zumpuses are brimpuses. Each impus is melodic. Every lorpus is a numpus. Each numpus is rainy. Zumpuses are not sour. Rex is a lorpus. Rex is an impus.",
+        "world_model": [],
+        "goal": "is(rex, temperate)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 47,
+        "body_text": "Dumpuses are not mean. Each lempus is a vumpus. Each vumpus is a shumpus. Yumpuses are rompuses. Every lempus is not moderate. Numpuses are not brown. Gorpuses are large. Zumpuses are gorpuses. Numpuses are wumpuses. Shumpuses are sweet. Lempuses are dumpuses. Each yumpus is transparent. Zumpuses are fruity. Each rompus is luminous. Zumpuses are yumpuses. Yumpuses are lempuses. Every vumpus is temperate. Each vumpus is an impus. Max is a numpus. Max is a zumpus.",
+        "world_model": [],
+        "goal": "not is(max, temperate)",
+        "label": false,
+        "program": []
+    },
+    {
+        "id": 48,
+        "body_text": "Zumpuses are jompuses. Jompuses are shy. Vumpuses are lempuses. Rompuses are vumpuses. Dumpuses are rompuses. Every grimpus is a yumpus. Every gorpus is small. Grimpuses are fast. Dumpuses are earthy. Rompuses are wumpuses. Each dumpus is a gorpus. Every vumpus is a lorpus. Every lorpus is a sterpus. Each wumpus is orange. Zumpuses are impuses. Sterpuses are overcast. Lorpuses are zumpuses. Lorpuses are not loud. Each vumpus is amenable. Every lempus is bright. Each rompus is not wooden. Every zumpus is opaque. Sam is a dumpus. Sam is a grimpus.",
+        "world_model": [],
+        "goal": "not is(sam, loud)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 49,
+        "body_text": "Numpuses are sterpuses. Each zumpus is orange. Each dumpus is a lempus. Rompuses are opaque. Every grimpus is slow. Brimpuses are impuses. Numpuses are not muffled. Rompuses are shumpuses. Each yumpus is a rompus. Dumpuses are floral. Every dumpus is a zumpus. Every impus is sour. Tumpuses are not sunny. Wumpuses are angry. Wumpuses are brimpuses. Every wumpus is a grimpus. Yumpuses are large. Brimpuses are yumpuses. Every brimpus is feisty. Rompuses are dumpuses. Shumpuses are hot. Each yumpus is a tumpus. Sally is a brimpus. Sally is a numpus.",
+        "world_model": [],
+        "goal": "not is(sally, floral)",
+        "label": false,
+        "program": []
+    },
+    {
+        "id": 50,
+        "body_text": "Yumpuses are rompuses. Shumpuses are numpuses. Every zumpus is not hot. Lorpuses are lempuses. Every brimpus is large. Every dumpus is not bright. Every zumpus is a dumpus. Every yumpus is not sweet. Sterpuses are blue. Zumpuses are jompuses. Every shumpus is liquid. Every sterpus is a yumpus. Wumpuses are feisty. Every sterpus is a gorpus. Each yumpus is a shumpus. Every numpus is a zumpus. Numpuses are wumpuses. Each numpus is opaque. Rompuses are overcast. Every shumpus is a brimpus. Every lorpus is slow. Gorpuses are fruity. Sally is a yumpus. Sally is a lorpus.",
+        "world_model": [],
+        "goal": "is(sally, hot)",
+        "label": false,
+        "program": []
+    },
+    {
+        "id": 51,
+        "body_text": "Dumpuses are jompuses. Every brimpus is not brown. Sterpuses are large. Every wumpus is a sterpus. Every dumpus is a wumpus. Numpuses are not floral. Every yumpus is aggressive. Every brimpus is a gorpus. Jompuses are not liquid. Yumpuses are rompuses. Numpuses are impuses. Each impus is not melodic. Wumpuses are overcast. Numpuses are grimpuses. Yumpuses are numpuses. Dumpuses are not opaque. Rompuses are hot. Each wumpus is a yumpus. Sam is a brimpus. Sam is a dumpus.",
+        "world_model": [],
+        "goal": "not is(sam, floral)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 52,
+        "body_text": "Sterpuses are impuses. Shumpuses are not transparent. Shumpuses are rompuses. Each dumpus is a lempus. Each shumpus is a lorpus. Gorpuses are sunny. Dumpuses are amenable. Lorpuses are bright. Zumpuses are vumpuses. Sterpuses are zumpuses. Rompuses are sterpuses. Every rompus is a gorpus. Rompuses are not brown. Zumpuses are jompuses. Zumpuses are spicy. Impuses are large. Jompuses are fruity. Each sterpus is metallic. Polly is a shumpus. Polly is a dumpus.",
+        "world_model": [],
+        "goal": "is(polly, spicy)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 53,
+        "body_text": "Tumpuses are not sour. Each zumpus is a yumpus. Zumpuses are numpuses. Each impus is a sterpus. Each yumpus is opaque. Impuses are rompuses. Jompuses are vumpuses. Impuses are not cold. Each rompus is a zumpus. Rompuses are wumpuses. Tumpuses are impuses. Every jompus is not liquid. Each rompus is blue. Tumpuses are grimpuses. Sterpuses are dull. Wumpuses are fruity. Each zumpus is not windy. Grimpuses are not angry. Alex is a jompus. Alex is a tumpus.",
+        "world_model": [],
+        "goal": "not is(alex, windy)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 54,
+        "body_text": "Grimpuses are sterpuses. Every rompus is a wumpus. Dumpuses are rompuses. Sterpuses are dumpuses. Grimpuses are shumpuses. Each gorpus is spicy. Every zumpus is a numpus. Sterpuses are jompuses. Every jompus is dull. Rompuses are luminous. Sterpuses are temperate. Every dumpus is a brimpus. Grimpuses are sunny. Each yumpus is fruity. Each zumpus is not transparent. Each vumpus is melodic. Every gorpus is a grimpus. Every shumpus is not mean. Every dumpus is not happy. Rompuses are yumpuses. Every brimpus is not orange. Each gorpus is a vumpus. Stella is a gorpus. Stella is a zumpus.",
+        "world_model": [],
+        "goal": "is(stella, happy)",
+        "label": false,
+        "program": []
+    },
+    {
+        "id": 55,
+        "body_text": "Every gorpus is temperate. Each rompus is an impus. Every brimpus is snowy. Yumpuses are fruity. Every dumpus is not liquid. Each sterpus is orange. Every lempus is fast. Jompuses are tumpuses. Zumpuses are jompuses. Zumpuses are opaque. Tumpuses are not small. Each jompus is nervous. Each zumpus is a lempus. Brimpuses are vumpuses. Each impus is dull. Sterpuses are yumpuses. Every rompus is kind. Each gorpus is a dumpus. Rompuses are sterpuses. Sterpuses are gorpuses. Every gorpus is a shumpus. Jompuses are rompuses. Rex is a zumpus. Rex is a brimpus.",
+        "world_model": [],
+        "goal": "not is(rex, orange)",
+        "label": false,
+        "program": []
+    },
+    {
+        "id": 56,
+        "body_text": "Every lempus is fruity. Every vumpus is a numpus. Numpuses are gorpuses. Every jompus is not bright. Lempuses are shumpuses. Each zumpus is not snowy. Each lorpus is sour. Numpuses are not aggressive. Every lempus is a jompus. Shumpuses are zumpuses. Each vumpus is a lorpus. Each vumpus is opaque. Numpuses are tumpuses. Each shumpus is a vumpus. Every impus is a sterpus. Every impus is large. Each shumpus is luminous. Every gorpus is not hot. Sally is an impus. Sally is a lempus.",
+        "world_model": [],
+        "goal": "not is(sally, aggressive)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 57,
+        "body_text": "Shumpuses are brimpuses. Zumpuses are numpuses. Tumpuses are shumpuses. Wumpuses are hot. Tumpuses are blue. Each dumpus is a wumpus. Rompuses are rainy. Gorpuses are transparent. Every lorpus is not feisty. Dumpuses are gorpuses. Every wumpus is a tumpus. Every tumpus is a rompus. Zumpuses are not large. Dumpuses are dull. Wumpuses are lorpuses. Each shumpus is slow. Shumpuses are lempuses. Each lempus is not wooden. Polly is a dumpus. Polly is a zumpus.",
+        "world_model": [],
+        "goal": "not is(polly, slow)",
+        "label": false,
+        "program": []
+    },
+    {
+        "id": 58,
+        "body_text": "Lempuses are melodic. Brimpuses are gorpuses. Wumpuses are sunny. Every vumpus is not blue. Every zumpus is slow. Vumpuses are lorpuses. Each gorpus is a lempus. Impuses are zumpuses. Impuses are hot. Gorpuses are floral. Every vumpus is a sterpus. Each gorpus is a vumpus. Every impus is a brimpus. Each grimpus is a numpus. Each brimpus is not feisty. Lorpuses are not bright. Every brimpus is a wumpus. Grimpuses are liquid. Stella is an impus. Stella is a grimpus.",
+        "world_model": [],
+        "goal": "is(stella, blue)",
+        "label": false,
+        "program": []
+    },
+    {
+        "id": 59,
+        "body_text": "Shumpuses are vumpuses. Brimpuses are numpuses. Each brimpus is a tumpus. Brimpuses are dull. Every jompus is fruity. Every wumpus is kind. Each lorpus is a brimpus. Tumpuses are feisty. Every lorpus is a wumpus. Tumpuses are shumpuses. Jompuses are grimpuses. Every tumpus is a sterpus. Every shumpus is a rompus. Rompuses are not muffled. Numpuses are brown. Sterpuses are sweet. Shumpuses are not metallic. Each lorpus is opaque. Alex is a jompus. Alex is a lorpus.",
+        "world_model": [],
+        "goal": "is(alex, metallic)",
+        "label": false,
+        "program": []
+    },
+    {
+        "id": 60,
+        "body_text": "Grimpuses are temperate. Each zumpus is a shumpus. Jompuses are not melodic. Lempuses are large. Vumpuses are zumpuses. Zumpuses are jompuses. Every yumpus is dull. Impuses are grimpuses. Every impus is mean. Each zumpus is opaque. Rompuses are not slow. Each tumpus is an impus. Wumpuses are not luminous. Every vumpus is brown. Sterpuses are spicy. Each tumpus is a rompus. Every impus is a vumpus. Vumpuses are sterpuses. Every tumpus is fruity. Every lempus is a tumpus. Wumpuses are dumpuses. Each lempus is a yumpus. Sam is a tumpus. Sam is a wumpus.",
+        "world_model": [],
+        "goal": "not is(sam, opaque)",
+        "label": false,
+        "program": []
+    },
+    {
+        "id": 61,
+        "body_text": "Every numpus is not earthy. Tumpuses are grimpuses. Every shumpus is a wumpus. Each wumpus is not luminous. Lempuses are bright. Every dumpus is a lorpus. Shumpuses are tumpuses. Sterpuses are sweet. Each sterpus is a vumpus. Each sterpus is a lempus. Tumpuses are hot. Each tumpus is a numpus. Lempuses are shumpuses. Every vumpus is not muffled. Every dumpus is not brown. Each yumpus is not rainy. Each shumpus is large. Every lempus is a yumpus. Fae is a dumpus. Fae is a sterpus.",
+        "world_model": [],
+        "goal": "not is(fae, hot)",
+        "label": false,
+        "program": []
+    },
+    {
+        "id": 62,
+        "body_text": "Dumpuses are not bright. Gorpuses are yumpuses. Each rompus is a dumpus. Lorpuses are numpuses. Each gorpus is a rompus. Every rompus is large. Zumpuses are not sweet. Each impus is a lorpus. Gorpuses are fast. Every vumpus is not windy. Every numpus is not opaque. Every lorpus is a gorpus. Rompuses are brimpuses. Each zumpus is a grimpus. Impuses are vumpuses. Each yumpus is not blue. Each lorpus is wooden. Impuses are happy. Sam is a zumpus. Sam is an impus.",
+        "world_model": [],
+        "goal": "not is(sam, large)",
+        "label": false,
+        "program": []
+    },
+    {
+        "id": 63,
+        "body_text": "Numpuses are gorpuses. Each jompus is a lorpus. Each rompus is sweet. Every yumpus is not happy. Dumpuses are angry. Each brimpus is not luminous. Lorpuses are vumpuses. Shumpuses are floral. Numpuses are brimpuses. Every vumpus is not temperate. Every dumpus is a shumpus. Every lorpus is a tumpus. Every tumpus is a numpus. Each grimpus is a wumpus. Each lorpus is transparent. Tumpuses are melodic. Jompuses are moderate. Every dumpus is a jompus. Every grimpus is brown. Each numpus is not dull. Every jompus is a rompus. Tumpuses are yumpuses. Max is a dumpus. Max is a grimpus.",
+        "world_model": [],
+        "goal": "not is(max, melodic)",
+        "label": false,
+        "program": []
+    },
+    {
+        "id": 64,
+        "body_text": "Each yumpus is a jompus. Vumpuses are bright. Every wumpus is a tumpus. Rompuses are not feisty. Each wumpus is a yumpus. Tumpuses are slow. Every shumpus is not earthy. Zumpuses are large. Each lorpus is not liquid. Zumpuses are shumpuses. Every wumpus is sour. Each impus is blue. Lorpuses are vumpuses. Each brimpus is muffled. Every numpus is not overcast. Each yumpus is an impus. Zumpuses are wumpuses. Yumpuses are not temperate. Every lorpus is a rompus. Rompuses are numpuses. Brimpuses are gorpuses. Each rompus is a zumpus. Sally is a brimpus. Sally is a lorpus.",
+        "world_model": [],
+        "goal": "not is(sally, sour)",
+        "label": false,
+        "program": []
+    },
+    {
+        "id": 65,
+        "body_text": "Shumpuses are muffled. Wumpuses are sterpuses. Vumpuses are dumpuses. Each yumpus is a jompus. Every yumpus is not bitter. Vumpuses are sunny. Jompuses are large. Wumpuses are not blue. Each tumpus is not cold. Vumpuses are yumpuses. Impuses are wooden. Every shumpus is an impus. Dumpuses are transparent. Jompuses are tumpuses. Each lempus is shy. Every shumpus is a lorpus. Jompuses are shumpuses. Every yumpus is a lempus. Alex is a vumpus. Alex is a wumpus.",
+        "world_model": [],
+        "goal": "is(alex, muffled)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 66,
+        "body_text": "Yumpuses are not small. Shumpuses are vumpuses. Dumpuses are not luminous. Each lempus is muffled. Each gorpus is opaque. Every sterpus is a yumpus. Each dumpus is a grimpus. Sterpuses are shy. Grimpuses are tumpuses. Every tumpus is not aggressive. Grimpuses are rompuses. Each zumpus is earthy. Shumpuses are not blue. Grimpuses are not dull. Every lempus is a dumpus. Every wumpus is a sterpus. Every brimpus is windy. Sterpuses are lempuses. Wumpuses are slow. Every lempus is a brimpus. Each wumpus is a gorpus. Dumpuses are zumpuses. Polly is a shumpus. Polly is a wumpus.",
+        "world_model": [],
+        "goal": "is(polly, luminous)",
+        "label": false,
+        "program": []
+    },
+    {
+        "id": 67,
+        "body_text": "Sterpuses are tumpuses. Jompuses are not aggressive. Every impus is temperate. Every brimpus is a wumpus. Each lorpus is a lempus. Each grimpus is small. Vumpuses are red. Every jompus is a numpus. Dumpuses are discordant. Sterpuses are dull. Each tumpus is bitter. Every brimpus is a lorpus. Each grimpus is a rompus. Each rompus is not fast. Every lorpus is a vumpus. Grimpuses are brimpuses. Each lorpus is overcast. Each sterpus is an impus. Every tumpus is a dumpus. Each brimpus is not wooden. Every wumpus is not opaque. Tumpuses are grimpuses. Wren is a tumpus. Wren is a jompus.",
+        "world_model": [],
+        "goal": "is(wren, overcast)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 68,
+        "body_text": "Zumpuses are grimpuses. Numpuses are gorpuses. Each grimpus is an impus. Numpuses are jompuses. Each grimpus is not snowy. Numpuses are not melodic. Every sterpus is not cold. Each lempus is bitter. Every gorpus is bright. Every jompus is transparent. Each jompus is a sterpus. Each brimpus is large. Every zumpus is fast. Jompuses are zumpuses. Every lorpus is wooden. Brimpuses are dumpuses. Grimpuses are lorpuses. Zumpuses are lempuses. Wren is a numpus. Wren is a brimpus.",
+        "world_model": [],
+        "goal": "is(wren, snowy)",
+        "label": false,
+        "program": []
+    },
+    {
+        "id": 69,
+        "body_text": "Every vumpus is not floral. Each lempus is a dumpus. Every vumpus is a lorpus. Every lempus is a jompus. Numpuses are wumpuses. Each impus is overcast. Impuses are sterpuses. Each sterpus is discordant. Lempuses are not cold. Every numpus is slow. Each yumpus is a shumpus. Vumpuses are impuses. Dumpuses are spicy. Each yumpus is large. Each yumpus is a lempus. Every shumpus is blue. Each impus is a yumpus. Lorpuses are shy. Polly is a vumpus. Polly is a numpus.",
+        "world_model": [],
+        "goal": "not is(polly, cold)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 70,
+        "body_text": "Rompuses are snowy. Brimpuses are not transparent. Every zumpus is a wumpus. Shumpuses are rompuses. Each tumpus is moderate. Each shumpus is cold. Every tumpus is a sterpus. Zumpuses are tumpuses. Every zumpus is red. Impuses are not feisty. Each lempus is a jompus. Each grimpus is dull. Every tumpus is an impus. Dumpuses are brimpuses. Every sterpus is mean. Dumpuses are zumpuses. Lempuses are luminous. Every impus is a grimpus. Dumpuses are floral. Impuses are lorpuses. Wumpuses are small. Every shumpus is a dumpus. Fae is a shumpus. Fae is a lempus.",
+        "world_model": [],
+        "goal": "is(fae, moderate)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 71,
+        "body_text": "Every gorpus is orange. Every lorpus is a brimpus. Rompuses are melodic. Each dumpus is a gorpus. Tumpuses are transparent. Numpuses are tumpuses. Each vumpus is a shumpus. Lempuses are bright. Grimpuses are hot. Every vumpus is luminous. Dumpuses are grimpuses. Each lorpus is windy. Numpuses are mean. Each gorpus is a lempus. Dumpuses are large. Numpuses are dumpuses. Gorpuses are lorpuses. Each lorpus is a rompus. Rex is a numpus. Rex is a vumpus.",
+        "world_model": [],
+        "goal": "is(rex, windy)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 72,
+        "body_text": "Each dumpus is fast. Each jompus is not large. Every lempus is transparent. Lorpuses are not nervous. Each shumpus is brown. Impuses are not snowy. Yumpuses are grimpuses. Every sterpus is bitter. Every yumpus is earthy. Brimpuses are lempuses. Shumpuses are dumpuses. Every shumpus is a brimpus. Brimpuses are not mean. Lorpuses are sterpuses. Impuses are shumpuses. Every lorpus is an impus. Each brimpus is a zumpus. Every impus is a jompus. Sam is a yumpus. Sam is a lorpus.",
+        "world_model": [],
+        "goal": "is(sam, mean)",
+        "label": false,
+        "program": []
+    },
+    {
+        "id": 73,
+        "body_text": "Sterpuses are dumpuses. Every sterpus is a shumpus. Vumpuses are not bright. Every yumpus is fast. Each grimpus is a brimpus. Vumpuses are wumpuses. Shumpuses are yumpuses. Tumpuses are hot. Shumpuses are vumpuses. Every tumpus is a sterpus. Each sterpus is red. Tumpuses are gorpuses. Vumpuses are zumpuses. Each shumpus is melodic. Dumpuses are not luminous. Gorpuses are transparent. Each grimpus is fruity. Wumpuses are large. Alex is a tumpus. Alex is a grimpus.",
+        "world_model": [],
+        "goal": "is(alex, bright)",
+        "label": false,
+        "program": []
+    },
+    {
+        "id": 74,
+        "body_text": "Each numpus is small. Each tumpus is a gorpus. Numpuses are rompuses. Each lempus is not shy. Rompuses are not rainy. Each tumpus is muffled. Each zumpus is not red. Each jompus is a lorpus. Numpuses are impuses. Lempuses are dumpuses. Jompuses are bitter. Tumpuses are lempuses. Every lempus is a jompus. Dumpuses are temperate. Every zumpus is a yumpus. Lorpuses are not mean. Each jompus is a numpus. Gorpuses are metallic. Rex is a zumpus. Rex is a tumpus.",
+        "world_model": [],
+        "goal": "is(rex, small)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 75,
+        "body_text": "Each dumpus is a lorpus. Every grimpus is a lempus. Each lempus is a tumpus. Tumpuses are not large. Every numpus is a gorpus. Numpuses are not happy. Each grimpus is not bright. Numpuses are sterpuses. Dumpuses are not hot. Gorpuses are zumpuses. Every grimpus is a shumpus. Every vumpus is blue. Each yumpus is floral. Every shumpus is mean. Gorpuses are fast. Wumpuses are numpuses. Lempuses are not opaque. Each wumpus is a vumpus. Lempuses are wumpuses. Sterpuses are snowy. Wumpuses are not muffled. Every gorpus is a yumpus. Stella is a lempus. Stella is a dumpus.",
+        "world_model": [],
+        "goal": "is(stella, fast)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 76,
+        "body_text": "Every lorpus is a rompus. Every brimpus is luminous. Shumpuses are not transparent. Every vumpus is a yumpus. Sterpuses are large. Every yumpus is a shumpus. Each gorpus is temperate. Each grimpus is dull. Lorpuses are sterpuses. Yumpuses are lempuses. Yumpuses are moderate. Every rompus is a dumpus. Each rompus is earthy. Lorpuses are amenable. Each shumpus is a lorpus. Every vumpus is feisty. Each rompus is a numpus. Each grimpus is a zumpus. Shumpuses are gorpuses. Every numpus is not blue. Lempuses are snowy. Each vumpus is a brimpus. Alex is a grimpus. Alex is a vumpus.",
+        "world_model": [],
+        "goal": "not is(alex, amenable)",
+        "label": false,
+        "program": []
+    },
+    {
+        "id": 77,
+        "body_text": "Every numpus is floral. Each wumpus is hot. Each zumpus is not snowy. Each grimpus is opaque. Yumpuses are small. Tumpuses are bitter. Each rompus is a grimpus. Dumpuses are feisty. Every tumpus is a lorpus. Each numpus is a rompus. Numpuses are zumpuses. Each impus is not mean. Every impus is a yumpus. Yumpuses are dumpuses. Impuses are wumpuses. Each rompus is an impus. Every rompus is bright. Yumpuses are shumpuses. Wren is a numpus. Wren is a tumpus.",
+        "world_model": [],
+        "goal": "not is(wren, small)",
+        "label": false,
+        "program": []
+    },
+    {
+        "id": 78,
+        "body_text": "Every shumpus is a brimpus. Every grimpus is a zumpus. Grimpuses are transparent. Dumpuses are shumpuses. Shumpuses are jompuses. Lorpuses are sweet. Each lempus is sunny. Each sterpus is not cold. Each dumpus is small. Shumpuses are not shy. Gorpuses are not loud. Each lorpus is a dumpus. Jompuses are not earthy. Each brimpus is not aggressive. Lorpuses are gorpuses. Each dumpus is a lempus. Jompuses are impuses. Every jompus is a sterpus. Stella is a grimpus. Stella is a lorpus.",
+        "world_model": [],
+        "goal": "is(stella, earthy)",
+        "label": false,
+        "program": []
+    },
+    {
+        "id": 79,
+        "body_text": "Shumpuses are lempuses. Every tumpus is a numpus. Yumpuses are happy. Every numpus is a sterpus. Every impus is a zumpus. Lempuses are gorpuses. Each jompus is not transparent. Impuses are sunny. Each gorpus is a rompus. Numpuses are dull. Every shumpus is a lorpus. Every lorpus is discordant. Every tumpus is large. Each lempus is a yumpus. Shumpuses are sour. Each sterpus is not fast. Numpuses are shumpuses. Gorpuses are grimpuses. Grimpuses are angry. Lempuses are hot. Tumpuses are jompuses. Each gorpus is red. Polly is an impus. Polly is a tumpus.",
+        "world_model": [],
+        "goal": "not is(polly, hot)",
+        "label": false,
+        "program": []
+    },
+    {
+        "id": 80,
+        "body_text": "Each dumpus is a jompus. Every lorpus is a tumpus. Each dumpus is a zumpus. Each zumpus is kind. Impuses are slow. Each shumpus is feisty. Jompuses are not opaque. Tumpuses are shumpuses. Every sterpus is a wumpus. Each rompus is an impus. Every rompus is not bright. Every tumpus is a dumpus. Rompuses are numpuses. Jompuses are grimpuses. Each lorpus is liquid. Every jompus is a rompus. Every vumpus is large. Grimpuses are temperate. Each sterpus is discordant. Every lorpus is a vumpus. Each dumpus is earthy. Tumpuses are orange. Wren is a lorpus. Wren is a sterpus.",
+        "world_model": [],
+        "goal": "is(wren, opaque)",
+        "label": false,
+        "program": []
+    },
+    {
+        "id": 81,
+        "body_text": "Jompuses are orange. Every numpus is a yumpus. Shumpuses are numpuses. Numpuses are lorpuses. Each yumpus is earthy. Sterpuses are not bitter. Gorpuses are not slow. Every lorpus is not snowy. Every vumpus is kind. Each yumpus is a lempus. Shumpuses are gorpuses. Vumpuses are grimpuses. Every numpus is not shy. Lempuses are discordant. Every yumpus is a sterpus. Shumpuses are cold. Every sterpus is a jompus. Sterpuses are wumpuses. Sally is a shumpus. Sally is a vumpus.",
+        "world_model": [],
+        "goal": "is(sally, bitter)",
+        "label": false,
+        "program": []
+    },
+    {
+        "id": 82,
+        "body_text": "Every yumpus is rainy. Every zumpus is not temperate. Every grimpus is opaque. Impuses are bright. Vumpuses are wumpuses. Every numpus is a tumpus. Each brimpus is discordant. Every numpus is fast. Dumpuses are small. Numpuses are grimpuses. Each rompus is feisty. Every grimpus is an impus. Vumpuses are brimpuses. Every dumpus is a rompus. Every brimpus is a zumpus. Each yumpus is a lempus. Brimpuses are dumpuses. Vumpuses are not amenable. Every tumpus is not sweet. Grimpuses are jompuses. Wumpuses are red. Every dumpus is a numpus. Sally is a yumpus. Sally is a brimpus.",
+        "world_model": [],
+        "goal": "not is(sally, opaque)",
+        "label": false,
+        "program": []
+    },
+    {
+        "id": 83,
+        "body_text": "Wumpuses are lempuses. Dumpuses are wumpuses. Each wumpus is a lorpus. Grimpuses are not slow. Each lempus is not hot. Each vumpus is a grimpus. Every lempus is an impus. Each vumpus is orange. Each dumpus is muffled. Dumpuses are sterpuses. Every wumpus is bright. Each vumpus is a numpus. Lempuses are vumpuses. Impuses are happy. Each sterpus is snowy. Each jompus is a yumpus. Each lorpus is not kind. Jompuses are large. Polly is a jompus. Polly is a dumpus.",
+        "world_model": [],
+        "goal": "is(polly, orange)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 84,
+        "body_text": "Each vumpus is a grimpus. Yumpuses are sterpuses. Yumpuses are shumpuses. Numpuses are not opaque. Vumpuses are dull. Each numpus is a brimpus. Each jompus is not feisty. Every gorpus is a vumpus. Yumpuses are sunny. Grimpuses are slow. Every gorpus is not metallic. Each shumpus is large. Each numpus is a yumpus. Lorpuses are zumpuses. Brimpuses are floral. Each gorpus is a jompus. Each vumpus is a numpus. Every lorpus is amenable. Stella is a lorpus. Stella is a gorpus.",
+        "world_model": [],
+        "goal": "not is(stella, sunny)",
+        "label": false,
+        "program": []
+    },
+    {
+        "id": 85,
+        "body_text": "Impuses are shumpuses. Each vumpus is a zumpus. Every sterpus is mean. Numpuses are sterpuses. Impuses are wooden. Each zumpus is moderate. Numpuses are bright. Every shumpus is overcast. Vumpuses are opaque. Dumpuses are lorpuses. Every numpus is a vumpus. Wumpuses are spicy. Impuses are numpuses. Vumpuses are dumpuses. Every dumpus is large. Rompuses are happy. Dumpuses are wumpuses. Rompuses are jompuses. Polly is a rompus. Polly is an impus.",
+        "world_model": [],
+        "goal": "is(polly, large)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 86,
+        "body_text": "Grimpuses are floral. Lorpuses are overcast. Every brimpus is a numpus. Shumpuses are temperate. Each wumpus is shy. Every grimpus is a wumpus. Sterpuses are bright. Shumpuses are tumpuses. Zumpuses are grimpuses. Every tumpus is not sweet. Zumpuses are fast. Every shumpus is a gorpus. Every gorpus is a jompus. Each dumpus is not orange. Lorpuses are sterpuses. Each zumpus is a dumpus. Each brimpus is loud. Every gorpus is a zumpus. Lorpuses are yumpuses. Each grimpus is a lorpus. Every jompus is opaque. Every gorpus is not aggressive. Alex is a shumpus. Alex is a brimpus.",
+        "world_model": [],
+        "goal": "not is(alex, floral)",
+        "label": false,
+        "program": []
+    },
+    {
+        "id": 87,
+        "body_text": "Sterpuses are not hot. Each lempus is a grimpus. Every shumpus is feisty. Grimpuses are impuses. Each lempus is bitter. Rompuses are zumpuses. Every tumpus is sunny. Jompuses are bright. Lempuses are lorpuses. Grimpuses are not transparent. Each tumpus is a jompus. Grimpuses are yumpuses. Yumpuses are liquid. Jompuses are shumpuses. Each rompus is small. Lorpuses are not slow. Each jompus is a lempus. Each tumpus is a sterpus. Rex is a tumpus. Rex is a rompus.",
+        "world_model": [],
+        "goal": "is(rex, transparent)",
+        "label": false,
+        "program": []
+    },
+    {
+        "id": 88,
+        "body_text": "Each shumpus is not feisty. Every dumpus is spicy. Every jompus is red. Every jompus is a gorpus. Each sterpus is a grimpus. Every grimpus is a zumpus. Vumpuses are not large. Each brimpus is not sunny. Each brimpus is a yumpus. Every dumpus is an impus. Each grimpus is aggressive. Jompuses are shumpuses. Shumpuses are brimpuses. Grimpuses are jompuses. Shumpuses are lorpuses. Lorpuses are cold. Every sterpus is luminous. Each numpus is not dull. Brimpuses are vumpuses. Each gorpus is not slow. Each zumpus is not opaque. Sterpuses are numpuses. Rex is a sterpus. Rex is a dumpus.",
+        "world_model": [],
+        "goal": "is(rex, feisty)",
+        "label": false,
+        "program": []
+    },
+    {
+        "id": 89,
+        "body_text": "Sterpuses are bitter. Each dumpus is a brimpus. Impuses are orange. Yumpuses are discordant. Every sterpus is a yumpus. Dumpuses are temperate. Every jompus is not luminous. Each zumpus is fast. Dumpuses are grimpuses. Each zumpus is a tumpus. Each brimpus is windy. Brimpuses are zumpuses. Vumpuses are fruity. Brimpuses are vumpuses. Grimpuses are not dull. Every sterpus is a dumpus. Impuses are rompuses. Zumpuses are jompuses. Wren is an impus. Wren is a sterpus.",
+        "world_model": [],
+        "goal": "not is(wren, fast)",
+        "label": false,
+        "program": []
+    },
+    {
+        "id": 90,
+        "body_text": "Each rompus is a numpus. Yumpuses are gorpuses. Each gorpus is a dumpus. Every yumpus is not red. Each shumpus is bright. Shumpuses are tumpuses. Each zumpus is not metallic. Each wumpus is shy. Gorpuses are spicy. Every zumpus is a vumpus. Each numpus is discordant. Rompuses are lorpuses. Gorpuses are brimpuses. Every lorpus is slow. Brimpuses are opaque. Numpuses are yumpuses. Each yumpus is an impus. Numpuses are wumpuses. Each tumpus is large. Every impus is fruity. Every shumpus is a rompus. Every rompus is angry. Wren is a zumpus. Wren is a rompus.",
+        "world_model": [],
+        "goal": "not is(wren, spicy)",
+        "label": false,
+        "program": []
+    },
+    {
+        "id": 91,
+        "body_text": "Every yumpus is a vumpus. Each vumpus is a wumpus. Every vumpus is not kind. Every grimpus is a rompus. Each grimpus is a gorpus. Vumpuses are jompuses. Every grimpus is not dull. Every gorpus is not sour. Each wumpus is transparent. Each rompus is a sterpus. Rompuses are not moderate. Zumpuses are impuses. Every rompus is a yumpus. Zumpuses are not floral. Shumpuses are not small. Each yumpus is not muffled. Each sterpus is nervous. Every yumpus is a shumpus. Fae is a zumpus. Fae is a grimpus.",
+        "world_model": [],
+        "goal": "is(fae, kind)",
+        "label": false,
+        "program": []
+    },
+    {
+        "id": 92,
+        "body_text": "Yumpuses are shy. Each sterpus is transparent. Impuses are not rainy. Sterpuses are rompuses. Jompuses are sterpuses. Dumpuses are vumpuses. Each brimpus is not cold. Jompuses are not amenable. Rompuses are fruity. Each grimpus is not muffled. Every sterpus is an impus. Impuses are dumpuses. Dumpuses are yumpuses. Impuses are brimpuses. Every dumpus is not bright. Every grimpus is a wumpus. Lempuses are luminous. Jompuses are lempuses. Rex is a grimpus. Rex is a jompus.",
+        "world_model": [],
+        "goal": "not is(rex, bright)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 93,
+        "body_text": "Yumpuses are windy. Every lorpus is bright. Each jompus is a yumpus. Grimpuses are not happy. Every yumpus is a tumpus. Tumpuses are zumpuses. Every gorpus is a vumpus. Grimpuses are lempuses. Each gorpus is a jompus. Each jompus is a lorpus. Every jompus is spicy. Brimpuses are earthy. Every gorpus is opaque. Every tumpus is not mean. Vumpuses are temperate. Every zumpus is fast. Every yumpus is a brimpus. Every tumpus is a sterpus. Wren is a gorpus. Wren is a grimpus.",
+        "world_model": [],
+        "goal": "is(wren, mean)",
+        "label": false,
+        "program": []
+    },
+    {
+        "id": 94,
+        "body_text": "Every numpus is large. Zumpuses are lorpuses. Lorpuses are not wooden. Each gorpus is a jompus. Each numpus is a dumpus. Each dumpus is a sterpus. Each dumpus is bright. Each sterpus is not hot. Jompuses are not sunny. Yumpuses are not opaque. Dumpuses are gorpuses. Every gorpus is brown. Impuses are amenable. Zumpuses are tumpuses. Every impus is a rompus. Each zumpus is sweet. Numpuses are yumpuses. Every gorpus is a zumpus. Fae is an impus. Fae is a numpus.",
+        "world_model": [],
+        "goal": "not is(fae, sweet)",
+        "label": false,
+        "program": []
+    },
+    {
+        "id": 95,
+        "body_text": "Grimpuses are brimpuses. Every rompus is a jompus. Each shumpus is an impus. Vumpuses are nervous. Yumpuses are wumpuses. Each jompus is large. Each shumpus is a tumpus. Shumpuses are overcast. Each vumpus is a zumpus. Each wumpus is dull. Grimpuses are opaque. Zumpuses are kind. Impuses are lempuses. Each lempus is not orange. Each yumpus is not sour. Every rompus is not metallic. Impuses are vumpuses. Impuses are hot. Every tumpus is not earthy. Rompuses are yumpuses. Vumpuses are rompuses. Yumpuses are lorpuses. Sally is a grimpus. Sally is an impus.",
+        "world_model": [],
+        "goal": "is(sally, sour)",
+        "label": false,
+        "program": []
+    },
+    {
+        "id": 96,
+        "body_text": "Numpuses are sterpuses. Each wumpus is discordant. Rompuses are fruity. Every yumpus is temperate. Sterpuses are orange. Brimpuses are vumpuses. Dumpuses are shumpuses. Every impus is transparent. Each shumpus is a gorpus. Dumpuses are rompuses. Every shumpus is not dull. Every impus is a numpus. Wumpuses are dumpuses. Each brimpus is not small. Impuses are yumpuses. Grimpuses are not fast. Every shumpus is a tumpus. Every wumpus is a grimpus. Every gorpus is happy. Numpuses are wumpuses. Every numpus is wooden. Each dumpus is rainy. Fae is a brimpus. Fae is an impus.",
+        "world_model": [],
+        "goal": "not is(fae, rainy)",
+        "label": false,
+        "program": []
+    },
+    {
+        "id": 97,
+        "body_text": "Each rompus is luminous. Every vumpus is a shumpus. Each wumpus is spicy. Every vumpus is a tumpus. Jompuses are bright. Every lorpus is not sunny. Rompuses are jompuses. Brimpuses are grimpuses. Tumpuses are not opaque. Each gorpus is fruity. Every gorpus is a brimpus. Each wumpus is a lempus. Every vumpus is not muffled. Every rompus is a gorpus. Brimpuses are vumpuses. Each brimpus is not temperate. Each grimpus is not orange. Every gorpus is a lorpus. Max is a rompus. Max is a wumpus.",
+        "world_model": [],
+        "goal": "not is(max, muffled)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 98,
+        "body_text": "Every vumpus is a zumpus. Wumpuses are muffled. Sterpuses are vumpuses. Rompuses are wumpuses. Zumpuses are dull. Each jompus is not fruity. Every vumpus is not fast. Rompuses are brown. Every dumpus is a tumpus. Sterpuses are jompuses. Every dumpus is metallic. Every tumpus is small. Each brimpus is amenable. Vumpuses are rompuses. Each sterpus is bitter. Every rompus is a dumpus. Dumpuses are numpuses. Brimpuses are shumpuses. Wren is a sterpus. Wren is a brimpus.",
+        "world_model": [],
+        "goal": "not is(wren, metallic)",
+        "label": false,
+        "program": []
+    },
+    {
+        "id": 99,
+        "body_text": "Every gorpus is a yumpus. Each gorpus is not muffled. Dumpuses are tumpuses. Rompuses are bitter. Brimpuses are lempuses. Every brimpus is a gorpus. Each impus is a grimpus. Impuses are not dull. Each dumpus is not opaque. Each impus is a wumpus. Grimpuses are jompuses. Each brimpus is large. Every dumpus is a brimpus. Each lempus is not shy. Tumpuses are moderate. Every gorpus is a rompus. Grimpuses are wooden. Sterpuses are vumpuses. Every sterpus is hot. Every grimpus is a dumpus. Each wumpus is not windy. Each jompus is brown. Max is a sterpus. Max is a grimpus.",
+        "world_model": [],
+        "goal": "not is(max, muffled)",
+        "label": true,
+        "program": []
+    }
+]

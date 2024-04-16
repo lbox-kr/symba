@@ -10,5 +10,7 @@ hiereason:
     gsm8k: "data/gsm8k"
     clutrr: "data/clutrr"
     ecthr: "data/ecthr"
+    pararules: "data/pararules"
+    prontoqa: "data/prontoqa"
 
   retry_count: 3

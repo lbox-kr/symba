@@ -64,7 +64,9 @@ def generate_answer(doc: Dict[str, Any], context: HiereasonContext):
         except ValueError: # Model generates non-numeric string
             return False, None
     print(result)
-    assert "yes" in result or "no" in result
-    result = "yes" in result
+    if "yes" in result or "no" in result:
+        result = "yes" in result
 
-    return result, None
+        return result, None
+    else:
+        return None, None
