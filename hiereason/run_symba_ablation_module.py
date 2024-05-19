@@ -21,6 +21,7 @@ def main(args):
     config = load_config(args.dataset)
     for ablation_mode in ['-Search', '-Unify']:
         set_logger(f"symba{ablation_mode}", dataset=args.dataset)
+        logging.getLogger('httpx').setLevel(logging.WARNING)
         startdate = datetime.now().strftime('%Y%m%d-%H:%M:%S')
 
         dataset = args.dataset

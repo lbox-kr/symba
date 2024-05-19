@@ -8,7 +8,7 @@ sys.path.append(os.getcwd())
 
 from hiereason.utils import HiereasonContext
 from hiereason.utils.config import load_config, set_logger
-from hiereason.utils.chat_model import openai_chat_model
+from hiereason.utils.chat_model import chat_model
 
 from langchain.callbacks import get_openai_callback
 from langchain.chains import LLMChain
@@ -37,7 +37,7 @@ def main(args):
     logging.info(f"DATASET: {dataset}")
 
     dataset = HiereasonContext("symba", config, dataset)
-    llm=openai_chat_model(dataset.config)
+    llm=chat_model(dataset.config)
     logging.info("==============================\n")
     logging.info("PROMPT:")
     for func, prompt in dataset.prompt_data.items():

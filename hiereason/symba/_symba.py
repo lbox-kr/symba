@@ -2,10 +2,6 @@ import json
 import logging
 from typing import List, Dict, Any
 
-from langchain import LLMChain
-from langchain.chat_models import ChatOpenAI
-from langchain.prompts import ChatPromptTemplate
-
 from .validate_statements import validate_statement_list
 
 # Top-down solver
@@ -14,18 +10,8 @@ from pysolver.utils import anonymize_vars, UnprovedGoalState, parse_line
 from pysolver.solve import solve, ProofContext
 from pysolver.unify import equivalent
 from ..utils import HiereasonContext
-from ..utils.chat_model import openai_chat_model
+from ..utils.chat_model import chat_model, run_prompt
 from ..utils.nl_baseline_formatting import convert_body_text_for_symba
-
-def run_prompt(prompt, data, llm):
-    chain = LLMChain(
-        llm=llm,
-        prompt=ChatPromptTemplate.from_messages([
-            ("system", "You are an AI assistant that completes the user query following the examples."), ("human", prompt)
-        ])
-    )
-    result = str(chain.run(data))
-    return result
 
 def abduction_factory(proof_context: ProofContext, body_text: str, reasoning_context: HiereasonContext, ablation_mode=None):
     visited = []
@@ -38,7 +24,7 @@ def abduction_factory(proof_context: ProofContext, body_text: str, reasoning_con
         """
         if unproved_reason == UnprovedGoalState.BACKTRACK:
             return False # Do not consider backtracking that might override rules
-        llm=openai_chat_model(reasoning_context.config)
+        llm=chat_model(reasoning_context.config)
         prompts = reasoning_context.prompt_data
 
         facts, rules = convert_body_text_for_symba(body_text, reasoning_context.dataset)

@@ -7,21 +7,12 @@ from langchain import LLMChain
 from langchain.prompts import ChatPromptTemplate
 
 from ..utils import HiereasonContext
-from ..utils.chat_model import openai_chat_model
+from ..utils.chat_model import chat_model, run_prompt
 from ..utils.nl_baseline_formatting import convert_goal
 from ..utils.eval_utils import postprocess_cot
 
 from pysolver.justification_tree import JustificationTreeNode
 
-def run_prompt(prompt, data, llm):
-    chain = LLMChain(
-        llm=llm,
-        prompt=ChatPromptTemplate.from_messages([
-            ("system", "You are an AI assistant that completes the user query following the examples."), ("human", prompt)
-        ])
-    )
-    result = str(chain.run(data))
-    return result
 
 def generate_answer(doc: Dict[str, Any], context: HiereasonContext):
     """_summary_
@@ -29,7 +20,7 @@ def generate_answer(doc: Dict[str, Any], context: HiereasonContext):
     Args:
         doc (Dict[str, Any]): Dict with key `body_text` and `conclusion`. `conclusion` is a list of dict with keys `law_id` and `verdict`.
     """
-    llm=openai_chat_model(context.config)
+    llm=chat_model(context.config)
     prompts = context.prompt_data
 
     # Reformulate body
