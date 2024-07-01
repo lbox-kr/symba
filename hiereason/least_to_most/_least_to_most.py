@@ -61,15 +61,7 @@ def generate_abductive_proof(doc: Dict[str, Any], context: HiereasonContext):
         return False, None
     
     # Custom setting where newline terminates the generation
-    solution_llm = ChatOpenAI(
-        model=context.config.langchain.openai.chat_model,
-        openai_api_key=context.config.langchain.openai.api_key,
-        temperature=context.config.langchain.openai.temperature,
-        model_kwargs={
-            "stop": ["\n"]
-        }
-    )
-
+    solution_llm=chat_model(context.config, stop_on_newline=True)
     # Solution
     current_answer = ""
     for question in questions:
@@ -81,12 +73,15 @@ def generate_abductive_proof(doc: Dict[str, Any], context: HiereasonContext):
         # print("---------------")
         # print(current_answer)
     logging.info("\n" + current_answer)
-    current_answer += "The answer is:"
+    if context.dataset == "gsm8k" or context.dataset == "mawps":
+        current_answer += "(Answer with only a single number.) The answer is:"
+    else:
+        current_answer += "(Answer with `yes` or `no`.) The answer is:"
     data["current_answer"] = current_answer
-    final_answer = run_prompt(prompts["solution"], data, solution_llm).strip().lower()
+    final_answer = run_prompt(prompts["solution"], data, solution_llm).replace("The answer is: ", "").strip().lower()
     logging.info("Final answer: " + final_answer)
     
-    if context.dataset == "gsm8k":
+    if context.dataset == "gsm8k" or context.dataset == "mawps":
         if final_answer.endswith("."):
             final_answer = final_answer[:-1]
         try:

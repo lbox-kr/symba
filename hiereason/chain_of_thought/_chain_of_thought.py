@@ -52,7 +52,8 @@ def generate_answer(doc: Dict[str, Any], context: HiereasonContext):
     result = run_prompt(prompts["few_shot"], data, llm).lower()
     logging.info("\n" + result)
     result = postprocess_cot(result, context.dataset)
-    if context.dataset == "gsm8k":
+    print(goalstr, result)
+    if context.dataset == "gsm8k" or context.dataset == "mawps":
         try:
             return float(goalstr) == float(result), None
         except ValueError: # Model generates non-numeric string

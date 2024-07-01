@@ -1,6 +1,7 @@
 import json
 import logging
 from typing import List, Dict, Any
+import re
 
 from .validate_statements import validate_statement_list
 
@@ -48,44 +49,47 @@ def abduction_factory(proof_context: ProofContext, body_text: str, reasoning_con
         # 1. Fact
         if ablation_mode == "-Search":
             raw_selected_facts = run_prompt(prompts['fact_translation-Search'], data, llm).split("\n")
+            # raw_selected_facts = re.split(r"([^\.]+\.)\s", run_prompt(prompts['fact_translation-Search'], data, llm))
             selected_facts = []
             for f in raw_selected_facts:
                 if f.strip() == "":
                     break
-                results.append({"statement": f, "description": "", "is_fact": True})
+                results.append({"statement": f.replace("Statement: ", ""), "description": "", "is_fact": True})
         else:
             # 1-1. Selection
             raw_selected_facts = run_prompt(prompts['fact_search'], data, llm).split("\n")
+            # raw_selected_facts = re.split(r"([^\.]+\.)\s", run_prompt(prompts['fact_search'], data, llm))
             selected_facts = []
             for f in raw_selected_facts:
                 if f.strip() == "":
-                    break
-                selected_facts.append({"description": f})
+                    continue
+                selected_facts.append({"description": f.replace("`", "")})
             # 1-2. Translation
             for selected_fact in selected_facts:
-                if "No applicable fact" in selected_fact["description"]:
+                if "No applicable fact" in selected_fact["description"] or "not directly given" in selected_fact['description']:
                     continue
                 new_data = data.copy()
                 new_data['fact'] = selected_fact["description"]
-                fact_translations = run_prompt(prompts['fact_translation'], new_data, llm).split("\n")
-                fact_translations = [{"statement": x, "description": new_data['fact'], "is_fact": True} for x in fact_translations if x.strip()]
+                fact_translations = re.split(r"([^\.]+\.)\s", run_prompt(prompts['fact_translation'], new_data, llm))
+                fact_translations = [{"statement": x.replace("Statement: ", ""), "description": new_data['fact'], "is_fact": True} for x in fact_translations if x.strip()]
                 results.extend(fact_translations)
         
         # 2. Rule
         if ablation_mode == "-Search":
-            raw_selected_rules = run_prompt(prompts['rule_translation-Search'], data, llm)
+            raw_selected_rules = re.split(r"([^\.]+\.)\s", run_prompt(prompts['rule_translation-Search'], data, llm))
             selected_rules = []
             for f in raw_selected_rules:
                 if f.strip() == "":
                     break
-                results.append({"statement": f, "description": "", "is_fact": False})
+                results.append({"statement": f.replace("Statement: ", ""), "description": "", "is_fact": False})
         else:
             # 2-1. Selection
             raw_selected_rules = run_prompt(prompts['rule_search'], data, llm).split("\n")
+            # raw_selected_rules = re.split(r"([^\.]+\.)\s", run_prompt(prompts['rule_translation-Search'], data, llm))
             selected_rules = []
             for f in raw_selected_rules:
                 if f.strip() == "":
-                    break
+                    continue
                 selected_rules.append({"description": f})
             # 2-2. Translation
             for selected_rule in selected_rules:
@@ -94,7 +98,8 @@ def abduction_factory(proof_context: ProofContext, body_text: str, reasoning_con
                 new_data = data.copy()
                 new_data['rule'] = selected_rule["description"]
                 rule_translations = run_prompt(prompts['rule_translation'], new_data, llm).split("\n")
-                rule_translations = [{"statement": x, "description": new_data['rule'], "is_fact": False} for x in rule_translations if x.strip()]
+                # rule_translations = re.split(r"([^\.]+\.)\s", run_prompt(prompts['rule_translation'], new_data, llm))
+                rule_translations = [{"statement": x.replace("Statement: ", ""), "description": new_data['rule'], "is_fact": False} for x in rule_translations if x.strip()]
                 results.extend(rule_translations)
         logging.info(str(results))
         

@@ -16,12 +16,13 @@ _logging_level = {
     "error": logging.ERROR,
 }
 
-def load_config(dataset):
+def load_config(dataset, model):
     global hiereason_config, _raw_hiereason_config
 
     path = os.environ.get("HIEREASON_CONFIG", "./hiereason_config.yaml")
     with open(path, "r", encoding="UTF-8") as config_file:
         _raw_hiereason_config = yaml.safe_load(config_file.read())
+    _raw_hiereason_config['hiereason']['langchain']['select'] = model
 
     # Convert to SimpleNamespace to access with a.b.c style notations instead of dict
     def load_object(_raw_hiereason_config):
@@ -29,7 +30,7 @@ def load_config(dataset):
     hiereason_config = json.loads(json.dumps(_raw_hiereason_config), object_hook=load_object)
     return hiereason_config
 
-def set_logger(task: str, dataset: str = None, directory="logs/", level="info"):
+def set_logger(task: str, dataset: str = None, model: str = None, directory="logs/", level="info"):
     time = datetime.now().strftime("%Y%m%d-%H:%M:%S")
     filename = task + "_" + time + ("" if dataset is None else "_" + dataset) + ".log"
 
@@ -44,7 +45,7 @@ def set_logger(task: str, dataset: str = None, directory="logs/", level="info"):
     datefmt="%Y-%m-%d %H:%M:%S")
     handlers = [
         logging.FileHandler(
-            os.path.join(directory, filename),
+            os.path.join(directory, model, filename),
             encoding='utf8',
         ),
         logging.StreamHandler()

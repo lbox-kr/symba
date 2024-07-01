@@ -2,4 +2,7 @@
 clingo==5.6.2
 
 # We use Langchain as the 
-langchain==0.0.284
+langchain
+langchain-community==0.2.0
+langchain-anthropic
+openai==1.30.1

@@ -1,0 +1,2702 @@
+[
+    {
+        "id": 0,
+        "body_text": "A painter needed to paint 12 rooms in a building. Each room takes 7 hours to paint. If he already painted 5 rooms, how much longer will he take to paint the rest?",
+        "world_model": [],
+        "goal": "answer(X)",
+        "goal_solved": "answer(49)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 1,
+        "body_text": "Jacqueline had 241 Book. Christine clasped some Book. Now Jacqueline has 89  Book. How many did Christine claspeds?",
+        "world_model": [],
+        "goal": "answer(X)",
+        "goal_solved": "answer(152)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 2,
+        "body_text": "Dan found 56 seashells on the beach, he gave Jessica some of his seashells. He has 22 seashell left. How many seashells did he give to Jessica ?",
+        "world_model": [],
+        "goal": "answer(X)",
+        "goal_solved": "answer(34)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 3,
+        "body_text": "Teresa wants to share some cherry among 12 friends.If each friend get 37 cherry, then how many cherry john would have?",
+        "world_model": [],
+        "goal": "answer(X)",
+        "goal_solved": "answer(444)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 4,
+        "body_text": "The cafeteria had 62 apples. For lunch they handed out 8 to students and decided to use the rest to make pies. If each pie takes 9 apples, how many pies could they make?",
+        "world_model": [],
+        "goal": "answer(X)",
+        "goal_solved": "answer(6)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 5,
+        "body_text": "Valerie had 213 watermelon. Richard lay hold of some watermelon. Now Valerie has 78  watermelon. How many did Richard lay hold ofs?",
+        "world_model": [],
+        "goal": "answer(X)",
+        "goal_solved": "answer(135)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 6,
+        "body_text": "Steven wants to split a collection of cards into groups of 6. Steven has 30 cards. How many groups will be created?",
+        "world_model": [],
+        "goal": "answer(X)",
+        "goal_solved": "answer(5)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 7,
+        "body_text": "William had some apple. Larry took 23 from him. Now William has 44 apple. How many apple William had at first?",
+        "world_model": [],
+        "goal": "answer(X)",
+        "goal_solved": "answer(67)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 8,
+        "body_text": "Kesha has 162 Marbles. Charlotte gave him 77 more. How many Marbles does Kesha have combined?",
+        "world_model": [],
+        "goal": "answer(X)",
+        "goal_solved": "answer(239)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 9,
+        "body_text": "Lisa had 172 Pen. Alfred took 5 from him. Now How many Pen Lisa have reduced?",
+        "world_model": [],
+        "goal": "answer(X)",
+        "goal_solved": "answer(167)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 10,
+        "body_text": "Ora had 4 Book . He mince each Book into 17 slices . How many Book slices did Ora make?",
+        "world_model": [],
+        "goal": "answer(X)",
+        "goal_solved": "answer(68)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 11,
+        "body_text": "Haley was playing a video game and had 14 lives. In a hard part of the game she lost 4 lives. If she got 36 more lives in the next level, how many lives would she have?",
+        "world_model": [],
+        "goal": "answer(X)",
+        "goal_solved": "answer(46)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 12,
+        "body_text": "Daniel obtain 13 bags of Box . how many Box in each bag? If total 52 Box Daniel  obtain.",
+        "world_model": [],
+        "goal": "answer(X)",
+        "goal_solved": "answer(4)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 13,
+        "body_text": "Tera had some mango. Becky gave him 7 more. Now Tera has 31 mango. How many mango did Tera have initially?",
+        "world_model": [],
+        "goal": "answer(X)",
+        "goal_solved": "answer(24)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 14,
+        "body_text": "Ella had some Pen. Byron took 50 from him. Now Ella has 95 Pen. How many Pen Ella had incipiently?",
+        "world_model": [],
+        "goal": "answer(X)",
+        "goal_solved": "answer(145)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 15,
+        "body_text": "Edith wants to share some Mango among 13 friends.If each friend get 17 Mango, then how many Mango john would have?",
+        "world_model": [],
+        "goal": "answer(X)",
+        "goal_solved": "answer(221)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 16,
+        "body_text": "Barbara had 24 watermelon . He slice each watermelon into 15 slices . How many watermelon slices did Barbara make?",
+        "world_model": [],
+        "goal": "answer(X)",
+        "goal_solved": "answer(360)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 17,
+        "body_text": "Daisy had some cherry. Edward gave him 2 more. Now Daisy has 12 cherry. How many cherry did Daisy have originally?",
+        "world_model": [],
+        "goal": "answer(X)",
+        "goal_solved": "answer(10)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 18,
+        "body_text": "Scott had 11 Biscuit . He slice each Biscuit into 14 slices . How many Biscuit slices did Scott make?",
+        "world_model": [],
+        "goal": "answer(X)",
+        "goal_solved": "answer(154)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 19,
+        "body_text": "Rosa had 188 mango. Danny took 83 from him. Now How many mango Rosa have left over?",
+        "world_model": [],
+        "goal": "answer(X)",
+        "goal_solved": "answer(105)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 20,
+        "body_text": "Alice had some Mango. Virginia gave him 9 more. Now Alice has 39 Mango. How many Mango did Alice have at first?",
+        "world_model": [],
+        "goal": "answer(X)",
+        "goal_solved": "answer(30)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 21,
+        "body_text": "Julie has 178 Marbles. Jeffrey gave him 29 more. How many Marbles does Julie have in all?",
+        "world_model": [],
+        "goal": "answer(X)",
+        "goal_solved": "answer(207)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 22,
+        "body_text": "Vernon had 177 Mango. Eric gripped some Mango. Now Vernon has 33  Mango. How many did Eric grippeds?",
+        "world_model": [],
+        "goal": "answer(X)",
+        "goal_solved": "answer(144)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 23,
+        "body_text": "Sarah wants to share some papaya among 4 friends.If each friend get 39 papaya, then how many papaya john would have?",
+        "world_model": [],
+        "goal": "answer(X)",
+        "goal_solved": "answer(156)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 24,
+        "body_text": "Rita had some blueberry. Patricia took 17 from him. Now Rita has 42 blueberry. How many blueberry Rita had at first?",
+        "world_model": [],
+        "goal": "answer(X)",
+        "goal_solved": "answer(59)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 25,
+        "body_text": "Earl has 109 Marbles. Joseph gave him 71 more. How many Marbles does Earl have total?",
+        "world_model": [],
+        "goal": "answer(X)",
+        "goal_solved": "answer(180)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 26,
+        "body_text": "Beth wants to share some banana among 25 friends.If each friend get 28 banana, then how many banana john would have?",
+        "world_model": [],
+        "goal": "answer(X)",
+        "goal_solved": "answer(700)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 27,
+        "body_text": "Carla has 126 Marbles. Aaron gave him 11 more. How many Marbles does Carla have total?",
+        "world_model": [],
+        "goal": "answer(X)",
+        "goal_solved": "answer(137)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 28,
+        "body_text": "Jason had 49 quarters in his bank. His dad gave him 25 more quarters. How many quarters does he have now ?",
+        "world_model": [],
+        "goal": "answer(X)",
+        "goal_solved": "answer(74)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 29,
+        "body_text": "William has 78 Marbles. George gave him 157 more. How many Marbles does William have all together?",
+        "world_model": [],
+        "goal": "answer(X)",
+        "goal_solved": "answer(235)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 30,
+        "body_text": "Kasey had 23 Car. Nancy accorded him some more. Now Kasey has 200 Car. How many did Nancy accord him?",
+        "world_model": [],
+        "goal": "answer(X)",
+        "goal_solved": "answer(177)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 31,
+        "body_text": "Nancy wants to share some lychee among 30 friends.If each friend get 29 lychee, then how many lychee john would have?",
+        "world_model": [],
+        "goal": "answer(X)",
+        "goal_solved": "answer(870)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 32,
+        "body_text": "Nathan has 15 Marbles. Roland gave him 64 more. How many Marbles does Nathan have total?",
+        "world_model": [],
+        "goal": "answer(X)",
+        "goal_solved": "answer(79)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 33,
+        "body_text": "Martin had some Box. Robert gave him 2 more. Now Martin has 48 Box. How many Box did Martin have incipiently?",
+        "world_model": [],
+        "goal": "answer(X)",
+        "goal_solved": "answer(46)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 34,
+        "body_text": "Hallie wants to share some orange among 22 friends.If each friend get 10 orange, then how many orange john would have?",
+        "world_model": [],
+        "goal": "answer(X)",
+        "goal_solved": "answer(220)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 35,
+        "body_text": "Richard had 187 peach. Amelia took 103 from him. Now How many peach Richard have removed?",
+        "world_model": [],
+        "goal": "answer(X)",
+        "goal_solved": "answer(84)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 36,
+        "body_text": "Shanelle had 194 Bread. Donald gripped some Bread. Now Shanelle has 24  Bread. How many did Donald grippeds?",
+        "world_model": [],
+        "goal": "answer(X)",
+        "goal_solved": "answer(170)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 37,
+        "body_text": "Kerry had some Book. Elizabeth took 82 from him. Now Kerry has 96 Book. How many Book Kerry had in the beginning?",
+        "world_model": [],
+        "goal": "answer(X)",
+        "goal_solved": "answer(178)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 38,
+        "body_text": "Brian has 170 Marbles. Rose gave him 162 more. How many Marbles does Brian have all?",
+        "world_model": [],
+        "goal": "answer(X)",
+        "goal_solved": "answer(332)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 39,
+        "body_text": "Amber has 138 Marbles. William gave him 122 more. How many Marbles does Amber have together?",
+        "world_model": [],
+        "goal": "answer(X)",
+        "goal_solved": "answer(260)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 40,
+        "body_text": "Carlos had 53 mango. Ryan took 52 from him. Now How many mango Carlos have removed?",
+        "world_model": [],
+        "goal": "answer(X)",
+        "goal_solved": "answer(1)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 41,
+        "body_text": "Lula had 35 toy. Ernest granted him some more. Now Lula has 70 toy. How many did Ernest grant him?",
+        "world_model": [],
+        "goal": "answer(X)",
+        "goal_solved": "answer(35)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 42,
+        "body_text": "Antony had 30 Flower. Bonnie gifted him some more. Now Antony has 152 Flower. How many did Bonnie gift him?",
+        "world_model": [],
+        "goal": "answer(X)",
+        "goal_solved": "answer(122)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 43,
+        "body_text": "Judy wants to share some toy among 7 friends.If each friend get 27 toy, then how many toy john would have?",
+        "world_model": [],
+        "goal": "answer(X)",
+        "goal_solved": "answer(189)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 44,
+        "body_text": "Donald had 40 pineapple. Paula presented him some more. Now Donald has 121 pineapple. How many did Paula present him?",
+        "world_model": [],
+        "goal": "answer(X)",
+        "goal_solved": "answer(81)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 45,
+        "body_text": "Alice had 128 coconut. Ralph clasped some coconut. Now Alice has 20  coconut. How many did Ralph claspeds?",
+        "world_model": [],
+        "goal": "answer(X)",
+        "goal_solved": "answer(108)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 46,
+        "body_text": "Jacquelynn has 158 Marbles. Edward gave him 90 more. How many Marbles does Jacquelynn have altogether?",
+        "world_model": [],
+        "goal": "answer(X)",
+        "goal_solved": "answer(248)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 47,
+        "body_text": "Candice wants to share some Beg among 24 friends.If each friend get 8 Beg, then how many Beg john would have?",
+        "world_model": [],
+        "goal": "answer(X)",
+        "goal_solved": "answer(192)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 48,
+        "body_text": "Georgina has 57 Marbles. Shirley gave him 134 more. How many Marbles does Georgina have altogether?",
+        "world_model": [],
+        "goal": "answer(X)",
+        "goal_solved": "answer(191)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 49,
+        "body_text": "Peter had 296 blueberry. Carmen clutched some blueberry. Now Peter has 40  blueberry. How many did Carmen clutcheds?",
+        "world_model": [],
+        "goal": "answer(X)",
+        "goal_solved": "answer(256)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 50,
+        "body_text": "Martha had 124 fig. Lois took 57 from him. Now How many fig Martha have left?",
+        "world_model": [],
+        "goal": "answer(X)",
+        "goal_solved": "answer(67)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 51,
+        "body_text": "Anne wants to share some Book among 24 friends.If each friend get 9 Book, then how many Book john would have?",
+        "world_model": [],
+        "goal": "answer(X)",
+        "goal_solved": "answer(216)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 52,
+        "body_text": "Samuel had 22 toy. Harry furnished him some more. Now Samuel has 143 toy. How many did Harry furnish him?",
+        "world_model": [],
+        "goal": "answer(X)",
+        "goal_solved": "answer(121)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 53,
+        "body_text": "Carl had 11 orange . He cut up each orange into 13 slices . How many orange slices did Carl make?",
+        "world_model": [],
+        "goal": "answer(X)",
+        "goal_solved": "answer(143)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 54,
+        "body_text": "Peggy wants to share some Biscuit among 22 friends.If each friend get 16 Biscuit, then how many Biscuit john would have?",
+        "world_model": [],
+        "goal": "answer(X)",
+        "goal_solved": "answer(352)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 55,
+        "body_text": "Mildred had 215 orange. Mary take hold of some orange. Now Mildred has 75  orange. How many did Mary take hold ofs?",
+        "world_model": [],
+        "goal": "answer(X)",
+        "goal_solved": "answer(140)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 56,
+        "body_text": "Raymond had some Banana. Sandra took 17 from him. Now Raymond has 74 Banana. How many Banana Raymond had at first?",
+        "world_model": [],
+        "goal": "answer(X)",
+        "goal_solved": "answer(91)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 57,
+        "body_text": "Richard had 292 Flower. Erica clasped some Flower. Now Richard has 40  Flower. How many did Erica claspeds?",
+        "world_model": [],
+        "goal": "answer(X)",
+        "goal_solved": "answer(252)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 58,
+        "body_text": "Yolanda had some Doll. Sheena took 87 from him. Now Yolanda has 99 Doll. How many Doll Yolanda had primitively?",
+        "world_model": [],
+        "goal": "answer(X)",
+        "goal_solved": "answer(186)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 59,
+        "body_text": "James snap up 7 bags of strawberry . how many strawberry in each bag? If total 35 strawberry James  snap up.",
+        "world_model": [],
+        "goal": "answer(X)",
+        "goal_solved": "answer(5)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 60,
+        "body_text": "Roland wants to share some watermelon among 22 friends.If each friend get 20 watermelon, then how many watermelon john would have?",
+        "world_model": [],
+        "goal": "answer(X)",
+        "goal_solved": "answer(440)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 61,
+        "body_text": "Deborah had some papaya. Courtney took 49 from him. Now Deborah has 68 papaya. How many papaya Deborah had to begin with?",
+        "world_model": [],
+        "goal": "answer(X)",
+        "goal_solved": "answer(117)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 62,
+        "body_text": "Richard had 209 kiwi. Joe grasped some kiwi. Now Richard has 14  kiwi. How many did Joe graspeds?",
+        "world_model": [],
+        "goal": "answer(X)",
+        "goal_solved": "answer(195)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 63,
+        "body_text": "Jesse had 3 blackberry . He cut up each blackberry into 10 slices . How many blackberry slices did Jesse make?",
+        "world_model": [],
+        "goal": "answer(X)",
+        "goal_solved": "answer(30)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 64,
+        "body_text": "Shirley has 196 Marbles. Betty gave him 131 more. How many Marbles does Shirley have combined?",
+        "world_model": [],
+        "goal": "answer(X)",
+        "goal_solved": "answer(327)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 65,
+        "body_text": "Sylvia had some mango. Eugene took 43 from him. Now Sylvia has 53 mango. How many mango Sylvia had earlier?",
+        "world_model": [],
+        "goal": "answer(X)",
+        "goal_solved": "answer(96)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 66,
+        "body_text": "Catherine wants to divide 530 cherrys among 10 friends. How many would each friend come by?",
+        "world_model": [],
+        "goal": "answer(X)",
+        "goal_solved": "answer(53)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 67,
+        "body_text": "Ed had 25 Bread . He cut each Bread into 7 slices . How many Bread slices did Ed make?",
+        "world_model": [],
+        "goal": "answer(X)",
+        "goal_solved": "answer(175)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 68,
+        "body_text": "Duane had some toy. Cecilia gave him 7 more. Now Duane has 34 toy. How many toy did Duane have originally?",
+        "world_model": [],
+        "goal": "answer(X)",
+        "goal_solved": "answer(27)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 69,
+        "body_text": "Harold wants to share some Mango among 3 friends.If each friend get 37 Mango, then how many Mango john would have?",
+        "world_model": [],
+        "goal": "answer(X)",
+        "goal_solved": "answer(111)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 70,
+        "body_text": "Crystal had some blackcurrant. Gail took 44 from him. Now Crystal has 57 blackcurrant. How many blackcurrant Crystal had originally?",
+        "world_model": [],
+        "goal": "answer(X)",
+        "goal_solved": "answer(101)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 71,
+        "body_text": "Keith wants to share some Biscuit among 11 friends.If each friend get 28 Biscuit, then how many Biscuit john would have?",
+        "world_model": [],
+        "goal": "answer(X)",
+        "goal_solved": "answer(308)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 72,
+        "body_text": "Chris had some toy. Catherine took 14 from him. Now Chris has 51 toy. How many toy Chris had to begin with?",
+        "world_model": [],
+        "goal": "answer(X)",
+        "goal_solved": "answer(65)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 73,
+        "body_text": "William has 164 Marbles. Alma gave him 134 more. How many Marbles does William have how much?",
+        "world_model": [],
+        "goal": "answer(X)",
+        "goal_solved": "answer(298)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 74,
+        "body_text": "Tracy had some Book. Steve took 30 from him. Now Tracy has 65 Book. How many Book Tracy had at first?",
+        "world_model": [],
+        "goal": "answer(X)",
+        "goal_solved": "answer(95)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 75,
+        "body_text": "Vivien wants to share some Pen among 35 friends.If each friend get 25 Pen, then how many Pen john would have?",
+        "world_model": [],
+        "goal": "answer(X)",
+        "goal_solved": "answer(875)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 76,
+        "body_text": "Frances had 7 blueberry . He cut up each blueberry into 9 slices . How many blueberry slices did Frances make?",
+        "world_model": [],
+        "goal": "answer(X)",
+        "goal_solved": "answer(63)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 77,
+        "body_text": "Sandra had 15 blackberry . He mince each blackberry into 12 slices . How many blackberry slices did Sandra make?",
+        "world_model": [],
+        "goal": "answer(X)",
+        "goal_solved": "answer(180)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 78,
+        "body_text": "Melvin pick up 14 bags of toy . how many toy in each bag? If total 42 toy Melvin  pick up.",
+        "world_model": [],
+        "goal": "answer(X)",
+        "goal_solved": "answer(3)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 79,
+        "body_text": "Jeffrey had 149 kiwi. Tom clutched some kiwi. Now Jeffrey has 9  kiwi. How many did Tom clutcheds?",
+        "world_model": [],
+        "goal": "answer(X)",
+        "goal_solved": "answer(140)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 80,
+        "body_text": "Darrell has 79 Marbles. Michael gave him 138 more. How many Marbles does Darrell have together?",
+        "world_model": [],
+        "goal": "answer(X)",
+        "goal_solved": "answer(217)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 81,
+        "body_text": "Jackie has 12 Marbles. Alia gave him 14 more. How many Marbles does Jackie have combined?",
+        "world_model": [],
+        "goal": "answer(X)",
+        "goal_solved": "answer(26)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 82,
+        "body_text": "Rick had 215 watermelon. Felicita clasped some watermelon. Now Rick has 41  watermelon. How many did Felicita claspeds?",
+        "world_model": [],
+        "goal": "answer(X)",
+        "goal_solved": "answer(174)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 83,
+        "body_text": "Adam bought 2 boxes of chocolate candy and 5 boxes of caramel candy. If each box has 4 pieces inside it, how much candy did he have total?",
+        "world_model": [],
+        "goal": "answer(X)",
+        "goal_solved": "answer(28)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 84,
+        "body_text": "Jose had 176 Doll. Andrew get hold of some Doll. Now Jose has 60  Doll. How many did Andrew get hold ofs?",
+        "world_model": [],
+        "goal": "answer(X)",
+        "goal_solved": "answer(116)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 85,
+        "body_text": "Robin had 34 lime. Patricia giveed him some more. Now Robin has 99 lime. How many did Patricia give him?",
+        "world_model": [],
+        "goal": "answer(X)",
+        "goal_solved": "answer(65)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 86,
+        "body_text": "Michelle had 18 blackcurrant . He cut each blackcurrant into 7 slices . How many blackcurrant slices did Michelle make?",
+        "world_model": [],
+        "goal": "answer(X)",
+        "goal_solved": "answer(126)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 87,
+        "body_text": "Norma has 107 Marbles. Celia gave him 1 more. How many Marbles does Norma have total?",
+        "world_model": [],
+        "goal": "answer(X)",
+        "goal_solved": "answer(108)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 88,
+        "body_text": "Doris acquire 5 bags of mango . how many mango in each bag? If total 20 mango Doris  acquire.",
+        "world_model": [],
+        "goal": "answer(X)",
+        "goal_solved": "answer(4)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 89,
+        "body_text": "Nicholas had 159 fig. Dorothy lay hold of some fig. Now Nicholas has 35  fig. How many did Dorothy lay hold ofs?",
+        "world_model": [],
+        "goal": "answer(X)",
+        "goal_solved": "answer(124)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 90,
+        "body_text": "Chris had 39 apricot. Robert confered him some more. Now Chris has 185 apricot. How many did Robert confer him?",
+        "world_model": [],
+        "goal": "answer(X)",
+        "goal_solved": "answer(146)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 91,
+        "body_text": "Mary had 84 Biscuit. Dwayne took 26 from him. Now How many Biscuit Mary have left over?",
+        "world_model": [],
+        "goal": "answer(X)",
+        "goal_solved": "answer(58)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 92,
+        "body_text": "Mikey had 356 leaves. Some of her leaves blew away. Now she has 112 leaves left. How many of her leaves blew away?",
+        "world_model": [],
+        "goal": "answer(X)",
+        "goal_solved": "answer(244)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 93,
+        "body_text": "Leona had 39 Doll . He cut up each Doll into 6 slices . How many Doll slices did Leona make?",
+        "world_model": [],
+        "goal": "answer(X)",
+        "goal_solved": "answer(234)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 94,
+        "body_text": "Mary had some lemon. Elizabeth gave him 1 more. Now Mary has 16 lemon. How many lemon did Mary have initially?",
+        "world_model": [],
+        "goal": "answer(X)",
+        "goal_solved": "answer(15)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 95,
+        "body_text": "Edwin had 65 Car. Shane took 9 from him. Now How many Car Edwin have removed?",
+        "world_model": [],
+        "goal": "answer(X)",
+        "goal_solved": "answer(56)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 96,
+        "body_text": "Curtis had 116 peach. Dolores took 116 from him. Now How many peach Curtis have minus?",
+        "world_model": [],
+        "goal": "answer(X)",
+        "goal_solved": "answer(0)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 97,
+        "body_text": "Kelvin had 38 lemon. Vera awarded him some more. Now Kelvin has 164 lemon. How many did Vera award him?",
+        "world_model": [],
+        "goal": "answer(X)",
+        "goal_solved": "answer(126)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 98,
+        "body_text": "Kathryn had some lychee. Pauline took 10 from him. Now Kathryn has 28 lychee. How many lychee Kathryn had initially?",
+        "world_model": [],
+        "goal": "answer(X)",
+        "goal_solved": "answer(38)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 99,
+        "body_text": "Val has 173 Marbles. Pearlie gave him 89 more. How many Marbles does Val have increased by?",
+        "world_model": [],
+        "goal": "answer(X)",
+        "goal_solved": "answer(262)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 100,
+        "body_text": "Natalie had 3 blackberry. Bill contributeed him some more. Now Natalie has 144 blackberry. How many did Bill contribute him?",
+        "world_model": [],
+        "goal": "answer(X)",
+        "goal_solved": "answer(141)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 101,
+        "body_text": "Viola had some raspberry. He mince each raspberry into 4 slices. If total 84 raspberry slices Viola make, then how many raspberry Viola had?",
+        "world_model": [],
+        "goal": "answer(X)",
+        "goal_solved": "answer(21)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 102,
+        "body_text": "Angel had some Biscuit. Lois took 60 from him. Now Angel has 80 Biscuit. How many Biscuit Angel had in the beginning?",
+        "world_model": [],
+        "goal": "answer(X)",
+        "goal_solved": "answer(140)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 103,
+        "body_text": "Roger had 20 Biscuit. Joseph granted him some more. Now Roger has 105 Biscuit. How many did Joseph grant him?",
+        "world_model": [],
+        "goal": "answer(X)",
+        "goal_solved": "answer(85)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 104,
+        "body_text": "Rebecca acquire 8 bags of Press . how many Press in each bag? If total 80 Press Rebecca  acquire.",
+        "world_model": [],
+        "goal": "answer(X)",
+        "goal_solved": "answer(10)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 105,
+        "body_text": "Evan has 14 Marbles. Maria gave him 28 more. How many Marbles does Evan have how much?",
+        "world_model": [],
+        "goal": "answer(X)",
+        "goal_solved": "answer(42)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 106,
+        "body_text": "Juan had 38 blueberry. Lois awarded him some more. Now Juan has 70 blueberry. How many did Lois award him?",
+        "world_model": [],
+        "goal": "answer(X)",
+        "goal_solved": "answer(32)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 107,
+        "body_text": "Cammie had some peach. Nicole took 70 from him. Now Cammie has 92 peach. How many peach Cammie had in the first?",
+        "world_model": [],
+        "goal": "answer(X)",
+        "goal_solved": "answer(162)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 108,
+        "body_text": "David wants to share some Chocolate among 10 friends.If each friend get 3 Chocolate, then how many Chocolate john would have?",
+        "world_model": [],
+        "goal": "answer(X)",
+        "goal_solved": "answer(30)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 109,
+        "body_text": "Oma had some Beg. Jamie gave him 5 more. Now Oma has 20 Beg. How many Beg did Oma have to begin with?",
+        "world_model": [],
+        "goal": "answer(X)",
+        "goal_solved": "answer(15)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 110,
+        "body_text": "Mildred has 53 Marbles. Carlos gave him 9 more. How many Marbles does Mildred have all?",
+        "world_model": [],
+        "goal": "answer(X)",
+        "goal_solved": "answer(62)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 111,
+        "body_text": "Cathy had 120 Pen. Barbara took 70 from him. Now How many Pen Cathy have removed?",
+        "world_model": [],
+        "goal": "answer(X)",
+        "goal_solved": "answer(50)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 112,
+        "body_text": "Robert had some cherry. Ruth gave him 4 more. Now Robert has 25 cherry. How many cherry did Robert have in the first?",
+        "world_model": [],
+        "goal": "answer(X)",
+        "goal_solved": "answer(21)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 113,
+        "body_text": "Beulah had 20 avocado . He divide each avocado into 9 slices . How many avocado slices did Beulah make?",
+        "world_model": [],
+        "goal": "answer(X)",
+        "goal_solved": "answer(180)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 114,
+        "body_text": "If Anne wandered for 3 hours at 2 miles per hour. How far did Anne go?",
+        "world_model": [],
+        "goal": "answer(X)",
+        "goal_solved": "answer(6)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 115,
+        "body_text": "John had 183 apricot. Marshall take hold of some apricot. Now John has 83  apricot. How many did Marshall take hold ofs?",
+        "world_model": [],
+        "goal": "answer(X)",
+        "goal_solved": "answer(100)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 116,
+        "body_text": "Katherine had some Bread. Christopher gave him 6 more. Now Katherine has 20 Bread. How many Bread did Katherine have incipiently?",
+        "world_model": [],
+        "goal": "answer(X)",
+        "goal_solved": "answer(14)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 117,
+        "body_text": "Kenneth has 145 Marbles. Mamie gave him 51 more. How many Marbles does Kenneth have total?",
+        "world_model": [],
+        "goal": "answer(X)",
+        "goal_solved": "answer(196)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 118,
+        "body_text": "Sarah had 147 apple. Linwood took 80 from him. Now How many apple Sarah have take away?",
+        "world_model": [],
+        "goal": "answer(X)",
+        "goal_solved": "answer(67)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 119,
+        "body_text": "Thomas has 77 Marbles. Olive gave him 151 more. How many Marbles does Thomas have all together?",
+        "world_model": [],
+        "goal": "answer(X)",
+        "goal_solved": "answer(228)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 120,
+        "body_text": "Albert had 24 lychee. Leonard offered him some more. Now Albert has 129 lychee. How many did Leonard offer him?",
+        "world_model": [],
+        "goal": "answer(X)",
+        "goal_solved": "answer(105)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 121,
+        "body_text": "There were 73 bales of hay in the barn. Jason stacked more bales in the barn today. There are now 96 bales of hay in the barn. How many bales did he store in the barn ?",
+        "world_model": [],
+        "goal": "answer(X)",
+        "goal_solved": "answer(23)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 122,
+        "body_text": "Each banana costs $5.00. How much do 4 bananas cost?",
+        "world_model": [],
+        "goal": "answer(X)",
+        "goal_solved": "answer(20)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 123,
+        "body_text": "Alberto had 3 orange . He dice each orange into 6 slices . How many orange slices did Alberto make?",
+        "world_model": [],
+        "goal": "answer(X)",
+        "goal_solved": "answer(18)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 124,
+        "body_text": "Alba had 180 Biscuit. Brandie get hold of some Biscuit. Now Alba has 54  Biscuit. How many did Brandie get hold ofs?",
+        "world_model": [],
+        "goal": "answer(X)",
+        "goal_solved": "answer(126)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 125,
+        "body_text": "Matthew had some Pen. John gave him 2 more. Now Matthew has 21 Pen. How many Pen did Matthew have initially?",
+        "world_model": [],
+        "goal": "answer(X)",
+        "goal_solved": "answer(19)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 126,
+        "body_text": "Elinor wants to share some kiwi among 15 friends.If each friend get 8 kiwi, then how many kiwi john would have?",
+        "world_model": [],
+        "goal": "answer(X)",
+        "goal_solved": "answer(120)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 127,
+        "body_text": "Margie has 30 Marbles. Darnell gave him 109 more. How many Marbles does Margie have in all?",
+        "world_model": [],
+        "goal": "answer(X)",
+        "goal_solved": "answer(139)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 128,
+        "body_text": "Irene had 103 blackberry. Darlene took 13 from him. Now How many blackberry Irene have subtracted?",
+        "world_model": [],
+        "goal": "answer(X)",
+        "goal_solved": "answer(90)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 129,
+        "body_text": "Christina has 155 Marbles. Aaron gave him 89 more. How many Marbles does Christina have how much?",
+        "world_model": [],
+        "goal": "answer(X)",
+        "goal_solved": "answer(244)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 130,
+        "body_text": "Linda had 82 Car. Doris took 54 from him. Now How many Car Linda have difference?",
+        "world_model": [],
+        "goal": "answer(X)",
+        "goal_solved": "answer(28)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 131,
+        "body_text": "Isidro had some orange. Janetta gave him 1 more. Now Isidro has 25 orange. How many orange did Isidro have originally?",
+        "world_model": [],
+        "goal": "answer(X)",
+        "goal_solved": "answer(24)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 132,
+        "body_text": "John had 185 papaya. Arthur took 157 from him. Now How many papaya John have decreased by?",
+        "world_model": [],
+        "goal": "answer(X)",
+        "goal_solved": "answer(28)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 133,
+        "body_text": "Francis had 200 banana. Blanca lay hold of some banana. Now Francis has 77  banana. How many did Blanca lay hold ofs?",
+        "world_model": [],
+        "goal": "answer(X)",
+        "goal_solved": "answer(123)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 134,
+        "body_text": "David had some Book. Sarah took 26 from him. Now David has 65 Book. How many Book David had primitively?",
+        "world_model": [],
+        "goal": "answer(X)",
+        "goal_solved": "answer(91)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 135,
+        "body_text": "Harriett had 112 toy. Aaron lay hold of some toy. Now Harriett has 82  toy. How many did Aaron lay hold ofs?",
+        "world_model": [],
+        "goal": "answer(X)",
+        "goal_solved": "answer(30)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 136,
+        "body_text": "Cheryl had 175 quince. Nancy took 10 from him. Now How many quince Cheryl have minus?",
+        "world_model": [],
+        "goal": "answer(X)",
+        "goal_solved": "answer(165)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 137,
+        "body_text": "Donald had some Watch. Jonathan gave him 7 more. Now Donald has 18 Watch. How many Watch did Donald have initially?",
+        "world_model": [],
+        "goal": "answer(X)",
+        "goal_solved": "answer(11)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 138,
+        "body_text": "Richard has 5 Marbles. Carol gave him 199 more. How many Marbles does Richard have how much?",
+        "world_model": [],
+        "goal": "answer(X)",
+        "goal_solved": "answer(204)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 139,
+        "body_text": "Oliver has 48 Marbles. Annie gave him 12 more. How many Marbles does Oliver have combined?",
+        "world_model": [],
+        "goal": "answer(X)",
+        "goal_solved": "answer(60)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 140,
+        "body_text": "Douglas wants to share some lemon among 16 friends.If each friend get 36 lemon, then how many lemon john would have?",
+        "world_model": [],
+        "goal": "answer(X)",
+        "goal_solved": "answer(576)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 141,
+        "body_text": "Joshua had 15 pear. Eric presented him some more. Now Joshua has 57 pear. How many did Eric present him?",
+        "world_model": [],
+        "goal": "answer(X)",
+        "goal_solved": "answer(42)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 142,
+        "body_text": "Anthony had some strawberry. Shirley took 65 from him. Now Anthony has 99 strawberry. How many strawberry Anthony had incipiently?",
+        "world_model": [],
+        "goal": "answer(X)",
+        "goal_solved": "answer(164)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 143,
+        "body_text": "Jeff had some Pen. Denise took 88 from him. Now Jeff has 96 Pen. How many Pen Jeff had primitively?",
+        "world_model": [],
+        "goal": "answer(X)",
+        "goal_solved": "answer(184)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 144,
+        "body_text": "Kristie had 121 apricot. James took 31 from him. Now How many apricot Kristie have reduced?",
+        "world_model": [],
+        "goal": "answer(X)",
+        "goal_solved": "answer(90)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 145,
+        "body_text": "Mavis had some nectarine. Elvira took 19 from him. Now Mavis has 87 nectarine. How many nectarine Mavis had at first?",
+        "world_model": [],
+        "goal": "answer(X)",
+        "goal_solved": "answer(106)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 146,
+        "body_text": "Lena had 8 apricot . He carve each apricot into 20 slices . How many apricot slices did Lena make?",
+        "world_model": [],
+        "goal": "answer(X)",
+        "goal_solved": "answer(160)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 147,
+        "body_text": "Jaimee had some lychee. Bryon took 15 from him. Now Jaimee has 98 lychee. How many lychee Jaimee had to begin with?",
+        "world_model": [],
+        "goal": "answer(X)",
+        "goal_solved": "answer(113)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 148,
+        "body_text": "Tina had 7 mango. Jasmine contributeed him some more. Now Tina has 166 mango. How many did Jasmine contribute him?",
+        "world_model": [],
+        "goal": "answer(X)",
+        "goal_solved": "answer(159)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 149,
+        "body_text": "John had 40 seashells. Robert accorded him some more. Now John has 65 seashells. How many did Robert accord him?",
+        "world_model": [],
+        "goal": "answer(X)",
+        "goal_solved": "answer(25)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 150,
+        "body_text": "William had some Biscuit. Raymond gave him 9 more. Now William has 42 Biscuit. How many Biscuit did William have in the first?",
+        "world_model": [],
+        "goal": "answer(X)",
+        "goal_solved": "answer(33)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 151,
+        "body_text": "Joshua had some banana. Marion gave him 5 more. Now Joshua has 16 banana. How many banana did Joshua have primitively?",
+        "world_model": [],
+        "goal": "answer(X)",
+        "goal_solved": "answer(11)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 152,
+        "body_text": "Lorri had some banana. He dice each banana into 2 slices. If total 166 banana slices Lorri make, then how many banana Lorri had?",
+        "world_model": [],
+        "goal": "answer(X)",
+        "goal_solved": "answer(83)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 153,
+        "body_text": "22 boys went down the slide. 13 more boys went down the slide. How many boys went down the slide?",
+        "world_model": [],
+        "goal": "answer(X)",
+        "goal_solved": "answer(35)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 154,
+        "body_text": "Marvin had 245 Chocolate. Gloria grabbed some Chocolate. Now Marvin has 68  Chocolate. How many did Gloria grabbeds?",
+        "world_model": [],
+        "goal": "answer(X)",
+        "goal_solved": "answer(177)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 155,
+        "body_text": "Charles had 112 mango. Lucy grasped some mango. Now Charles has 96  mango. How many did Lucy graspeds?",
+        "world_model": [],
+        "goal": "answer(X)",
+        "goal_solved": "answer(16)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 156,
+        "body_text": "Amanda wants to share some banana among 9 friends.If each friend get 17 banana, then how many banana john would have?",
+        "world_model": [],
+        "goal": "answer(X)",
+        "goal_solved": "answer(153)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 157,
+        "body_text": "Sonia had 114 Doll. Susan get hold of some Doll. Now Sonia has 16  Doll. How many did Susan get hold ofs?",
+        "world_model": [],
+        "goal": "answer(X)",
+        "goal_solved": "answer(98)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 158,
+        "body_text": "John had some strawberry. Madeline gave him 1 more. Now John has 37 strawberry. How many strawberry did John have to begin with?",
+        "world_model": [],
+        "goal": "answer(X)",
+        "goal_solved": "answer(36)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 159,
+        "body_text": "James has 94 Marbles. William gave him 103 more. How many Marbles does James have total?",
+        "world_model": [],
+        "goal": "answer(X)",
+        "goal_solved": "answer(197)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 160,
+        "body_text": "Vanessa had some peach. Larry gave him 9 more. Now Vanessa has 45 peach. How many peach did Vanessa have in the first?",
+        "world_model": [],
+        "goal": "answer(X)",
+        "goal_solved": "answer(36)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 161,
+        "body_text": "Mellisa acquire 8 bags of Biscuit . how many Biscuit in each bag? If total 32 Biscuit Mellisa  acquire.",
+        "world_model": [],
+        "goal": "answer(X)",
+        "goal_solved": "answer(4)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 162,
+        "body_text": "Jeremy had 233 quince. Ronald grabbed some quince. Now Jeremy has 24  quince. How many did Ronald grabbeds?",
+        "world_model": [],
+        "goal": "answer(X)",
+        "goal_solved": "answer(209)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 163,
+        "body_text": "Ruth had 40 pear. Ruby gifted him some more. Now Ruth has 123 pear. How many did Ruby gift him?",
+        "world_model": [],
+        "goal": "answer(X)",
+        "goal_solved": "answer(83)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 164,
+        "body_text": "Kathy had 149 Car. Tina took 142 from him. Now How many Car Kathy have take away?",
+        "world_model": [],
+        "goal": "answer(X)",
+        "goal_solved": "answer(7)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 165,
+        "body_text": "The Ferris wheel in Paradise Park has 14 seats. Each seat can hold 6 people. How many people can ride the Ferris wheel at the same time?",
+        "world_model": [],
+        "goal": "answer(X)",
+        "goal_solved": "answer(84)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 166,
+        "body_text": "Robert has 194 Marbles. Delores gave him 114 more. How many Marbles does Robert have join?",
+        "world_model": [],
+        "goal": "answer(X)",
+        "goal_solved": "answer(308)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 167,
+        "body_text": "Refugio had 25 Watch. Ronald offered him some more. Now Refugio has 133 Watch. How many did Ronald offer him?",
+        "world_model": [],
+        "goal": "answer(X)",
+        "goal_solved": "answer(108)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 168,
+        "body_text": "Cheri had 193 cherry. Michele grasped some cherry. Now Cheri has 32  cherry. How many did Michele graspeds?",
+        "world_model": [],
+        "goal": "answer(X)",
+        "goal_solved": "answer(161)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 169,
+        "body_text": "Marie wants to share some blueberry among 23 friends.If each friend get 36 blueberry, then how many blueberry john would have?",
+        "world_model": [],
+        "goal": "answer(X)",
+        "goal_solved": "answer(828)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 170,
+        "body_text": "Carrie had some apple. Bennie took 32 from him. Now Carrie has 59 apple. How many apple Carrie had incipiently?",
+        "world_model": [],
+        "goal": "answer(X)",
+        "goal_solved": "answer(91)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 171,
+        "body_text": "Dora had 147 Book. Shirley clasped some Book. Now Dora has 71  Book. How many did Shirley claspeds?",
+        "world_model": [],
+        "goal": "answer(X)",
+        "goal_solved": "answer(76)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 172,
+        "body_text": "Kimberly had 295 kiwi. William lay hold of some kiwi. Now Kimberly has 50  kiwi. How many did William lay hold ofs?",
+        "world_model": [],
+        "goal": "answer(X)",
+        "goal_solved": "answer(245)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 173,
+        "body_text": "James had 234 quince. Elizabeth clutched some quince. Now James has 62  quince. How many did Elizabeth clutcheds?",
+        "world_model": [],
+        "goal": "answer(X)",
+        "goal_solved": "answer(172)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 174,
+        "body_text": "The sum of 5 and a number is 20. Find the number.",
+        "world_model": [],
+        "goal": "answer(X)",
+        "goal_solved": "answer(15)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 175,
+        "body_text": "Walter has 39 Marbles. Shane gave him 77 more. How many Marbles does Walter have all?",
+        "world_model": [],
+        "goal": "answer(X)",
+        "goal_solved": "answer(116)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 176,
+        "body_text": "Bonnie has 20 Marbles. Edward gave him 12 more. How many Marbles does Bonnie have increased by?",
+        "world_model": [],
+        "goal": "answer(X)",
+        "goal_solved": "answer(32)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 177,
+        "body_text": "Sarah had some strawberry. Janet gave him 3 more. Now Sarah has 37 strawberry. How many strawberry did Sarah have incipiently?",
+        "world_model": [],
+        "goal": "answer(X)",
+        "goal_solved": "answer(34)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 178,
+        "body_text": "Lee had some papaya. Mathew gave him 1 more. Now Lee has 28 papaya. How many papaya did Lee have in the first?",
+        "world_model": [],
+        "goal": "answer(X)",
+        "goal_solved": "answer(27)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 179,
+        "body_text": "Becky had some Biscuit. Clinton gave him 1 more. Now Becky has 31 Biscuit. How many Biscuit did Becky have in the first?",
+        "world_model": [],
+        "goal": "answer(X)",
+        "goal_solved": "answer(30)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 180,
+        "body_text": "Lisa had some Book. Jane took 24 from him. Now Lisa has 37 Book. How many Book Lisa had earlier?",
+        "world_model": [],
+        "goal": "answer(X)",
+        "goal_solved": "answer(61)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 181,
+        "body_text": "Susan had some avocado. Tina took 43 from him. Now Susan has 54 avocado. How many avocado Susan had in the first?",
+        "world_model": [],
+        "goal": "answer(X)",
+        "goal_solved": "answer(97)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 182,
+        "body_text": "Martha had 64 blueberry. Robert took 18 from him. Now How many blueberry Martha have difference?",
+        "world_model": [],
+        "goal": "answer(X)",
+        "goal_solved": "answer(46)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 183,
+        "body_text": "Thaddeus had 125 Mango. Megan lay hold of some Mango. Now Thaddeus has 21  Mango. How many did Megan lay hold ofs?",
+        "world_model": [],
+        "goal": "answer(X)",
+        "goal_solved": "answer(104)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 184,
+        "body_text": "Milton had 238 peach. William clasped some peach. Now Milton has 51  peach. How many did William claspeds?",
+        "world_model": [],
+        "goal": "answer(X)",
+        "goal_solved": "answer(187)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 185,
+        "body_text": "Myron had 282 Biscuit. Tamera grabbed some Biscuit. Now Myron has 9  Biscuit. How many did Tamera grabbeds?",
+        "world_model": [],
+        "goal": "answer(X)",
+        "goal_solved": "answer(273)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 186,
+        "body_text": "Amanda had some toy. Matthew gave him 9 more. Now Amanda has 20 toy. How many toy did Amanda have earlier?",
+        "world_model": [],
+        "goal": "answer(X)",
+        "goal_solved": "answer(11)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 187,
+        "body_text": "Amanda had 105 Box. Mary took 54 from him. Now How many Box Amanda have subtracted?",
+        "world_model": [],
+        "goal": "answer(X)",
+        "goal_solved": "answer(51)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 188,
+        "body_text": "Susie had 147 plum. Roger took 63 from him. Now How many plum Susie have take away?",
+        "world_model": [],
+        "goal": "answer(X)",
+        "goal_solved": "answer(84)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 189,
+        "body_text": "Debra had some quince. Rickie gave him 3 more. Now Debra has 46 quince. How many quince did Debra have in the first?",
+        "world_model": [],
+        "goal": "answer(X)",
+        "goal_solved": "answer(43)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 190,
+        "body_text": "Leonard invest 4 bags of pear . how many pear in each bag? If total 80 pear Leonard  invest.",
+        "world_model": [],
+        "goal": "answer(X)",
+        "goal_solved": "answer(20)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 191,
+        "body_text": "Suzanne had 136 pineapple. Robert took 87 from him. Now How many pineapple Suzanne have left over?",
+        "world_model": [],
+        "goal": "answer(X)",
+        "goal_solved": "answer(49)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 192,
+        "body_text": "Ruth wants to share some plum among 25 friends.If each friend get 39 plum, then how many plum john would have?",
+        "world_model": [],
+        "goal": "answer(X)",
+        "goal_solved": "answer(975)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 193,
+        "body_text": "Kathleen wants to share some mango among 22 friends.If each friend get 24 mango, then how many mango john would have?",
+        "world_model": [],
+        "goal": "answer(X)",
+        "goal_solved": "answer(528)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 194,
+        "body_text": "Daniel had 23 watermelon . He chop each watermelon into 19 slices . How many watermelon slices did Daniel make?",
+        "world_model": [],
+        "goal": "answer(X)",
+        "goal_solved": "answer(437)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 195,
+        "body_text": "Sally earns $12.50 an hour cleaning houses. If she works for 12 hours, how much money will she make ?",
+        "world_model": [],
+        "goal": "answer(X)",
+        "goal_solved": "answer(150)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 196,
+        "body_text": "Francis had 13 nectarine . He hash each nectarine into 17 slices . How many nectarine slices did Francis make?",
+        "world_model": [],
+        "goal": "answer(X)",
+        "goal_solved": "answer(221)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 197,
+        "body_text": "Austin had some peach. Karen took 40 from him. Now Austin has 47 peach. How many peach Austin had initially?",
+        "world_model": [],
+        "goal": "answer(X)",
+        "goal_solved": "answer(87)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 198,
+        "body_text": "Jeremy has 50 Marbles. Clara gave him 182 more. How many Marbles does Jeremy have join?",
+        "world_model": [],
+        "goal": "answer(X)",
+        "goal_solved": "answer(232)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 199,
+        "body_text": "David had some lemon. Dustin took 28 from him. Now David has 51 lemon. How many lemon David had earlier?",
+        "world_model": [],
+        "goal": "answer(X)",
+        "goal_solved": "answer(79)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 200,
+        "body_text": "Shelly had 122 fig. Sylvia took 88 from him. Now How many fig Shelly have left over?",
+        "world_model": [],
+        "goal": "answer(X)",
+        "goal_solved": "answer(34)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 201,
+        "body_text": "Cathy has 161 Marbles. Ralph gave him 47 more. How many Marbles does Cathy have all together?",
+        "world_model": [],
+        "goal": "answer(X)",
+        "goal_solved": "answer(208)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 202,
+        "body_text": "Frank had 11 dollars. At the store he spent $3 on a new game. If he got another 14 dollars for his allowance, how much money does he have now?",
+        "world_model": [],
+        "goal": "answer(X)",
+        "goal_solved": "answer(22)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 203,
+        "body_text": "Irene had 10 lychee. Fred proffered him some more. Now Irene has 64 lychee. How many did Fred proffer him?",
+        "world_model": [],
+        "goal": "answer(X)",
+        "goal_solved": "answer(54)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 204,
+        "body_text": "Rose has 191 Marbles. Janice gave him 166 more. How many Marbles does Rose have to plus?",
+        "world_model": [],
+        "goal": "answer(X)",
+        "goal_solved": "answer(357)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 205,
+        "body_text": "Angela had some Biscuit. Iva took 31 from him. Now Angela has 79 Biscuit. How many Biscuit Angela had primitively?",
+        "world_model": [],
+        "goal": "answer(X)",
+        "goal_solved": "answer(110)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 206,
+        "body_text": "Teresia has 130 Marbles. Dennis gave him 95 more. How many Marbles does Teresia have altogether?",
+        "world_model": [],
+        "goal": "answer(X)",
+        "goal_solved": "answer(225)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 207,
+        "body_text": "Bryan had some kiwi. Ray took 55 from him. Now Bryan has 55 kiwi. How many kiwi Bryan had incipiently?",
+        "world_model": [],
+        "goal": "answer(X)",
+        "goal_solved": "answer(110)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 208,
+        "body_text": "Gregory has 177 Marbles. Holly gave him 74 more. How many Marbles does Gregory have total?",
+        "world_model": [],
+        "goal": "answer(X)",
+        "goal_solved": "answer(251)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 209,
+        "body_text": "Linda wants to share some coconut among 3 friends.If each friend get 34 coconut, then how many coconut john would have?",
+        "world_model": [],
+        "goal": "answer(X)",
+        "goal_solved": "answer(102)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 210,
+        "body_text": "Katrina wants to share some pear among 29 friends.If each friend get 2 pear, then how many pear john would have?",
+        "world_model": [],
+        "goal": "answer(X)",
+        "goal_solved": "answer(58)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 211,
+        "body_text": "Thomas had 26 Banana. Robert gifted him some more. Now Thomas has 154 Banana. How many did Robert gift him?",
+        "world_model": [],
+        "goal": "answer(X)",
+        "goal_solved": "answer(128)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 212,
+        "body_text": "Mary had 24 blackcurrant. Donovan offered him some more. Now Mary has 156 blackcurrant. How many did Donovan offer him?",
+        "world_model": [],
+        "goal": "answer(X)",
+        "goal_solved": "answer(132)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 213,
+        "body_text": "Dalton had some Press. William took 74 from him. Now Dalton has 81 Press. How many Press Dalton had initially?",
+        "world_model": [],
+        "goal": "answer(X)",
+        "goal_solved": "answer(155)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 214,
+        "body_text": "John had 22 fig. Robert supplyed him some more. Now John has 85 fig. How many did Robert supply him?",
+        "world_model": [],
+        "goal": "answer(X)",
+        "goal_solved": "answer(63)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 215,
+        "body_text": "Patricia has 24 Marbles. Richard gave him 193 more. How many Marbles does Patricia have join?",
+        "world_model": [],
+        "goal": "answer(X)",
+        "goal_solved": "answer(217)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 216,
+        "body_text": "Angela had some orange. Jose gave him 4 more. Now Angela has 50 orange. How many orange did Angela have to begin with?",
+        "world_model": [],
+        "goal": "answer(X)",
+        "goal_solved": "answer(46)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 217,
+        "body_text": "Dave had some watermelon. Tiffany gave him 5 more. Now Dave has 29 watermelon. How many watermelon did Dave have incipiently?",
+        "world_model": [],
+        "goal": "answer(X)",
+        "goal_solved": "answer(24)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 218,
+        "body_text": "Amanda has 25 Marbles. David gave him 36 more. How many Marbles does Amanda have join?",
+        "world_model": [],
+        "goal": "answer(X)",
+        "goal_solved": "answer(61)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 219,
+        "body_text": "Sean had 4 Biscuit . He divide each Biscuit into 12 slices . How many Biscuit slices did Sean make?",
+        "world_model": [],
+        "goal": "answer(X)",
+        "goal_solved": "answer(48)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 220,
+        "body_text": "Iris had some pineapple. Jodi gave him 8 more. Now Iris has 43 pineapple. How many pineapple did Iris have in the beginning?",
+        "world_model": [],
+        "goal": "answer(X)",
+        "goal_solved": "answer(35)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 221,
+        "body_text": "Annie has 158 Marbles. David gave him 142 more. How many Marbles does Annie have join?",
+        "world_model": [],
+        "goal": "answer(X)",
+        "goal_solved": "answer(300)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 222,
+        "body_text": "Julia had 149 blueberry. James took 51 from him. Now How many blueberry Julia have deducted?",
+        "world_model": [],
+        "goal": "answer(X)",
+        "goal_solved": "answer(98)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 223,
+        "body_text": "Jerry had 205 coconut. Carissa clutched some coconut. Now Jerry has 45  coconut. How many did Carissa clutcheds?",
+        "world_model": [],
+        "goal": "answer(X)",
+        "goal_solved": "answer(160)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 224,
+        "body_text": "Ronald wants to share some Flower among 17 friends.If each friend get 38 Flower, then how many Flower john would have?",
+        "world_model": [],
+        "goal": "answer(X)",
+        "goal_solved": "answer(646)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 225,
+        "body_text": "Shawn had 19 Flower . He cut each Flower into 5 slices . How many Flower slices did Shawn make?",
+        "world_model": [],
+        "goal": "answer(X)",
+        "goal_solved": "answer(95)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 226,
+        "body_text": "Olivia uploaded 5 pictures from her phone and 35 from her camera to facebook. If she sorted the pics into 8 different albums with the same amount of pics in each album, how many pictures were in each of the albums?",
+        "world_model": [],
+        "goal": "answer(X)",
+        "goal_solved": "answer(5)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 227,
+        "body_text": "Mary had 138 quince. Heather took 97 from him. Now How many quince Mary have minus?",
+        "world_model": [],
+        "goal": "answer(X)",
+        "goal_solved": "answer(41)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 228,
+        "body_text": "Lisa wants to share some Press among 38 friends.If each friend get 18 Press, then how many Press john would have?",
+        "world_model": [],
+        "goal": "answer(X)",
+        "goal_solved": "answer(684)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 229,
+        "body_text": "Glenn had 31 Banana . He cube each Banana into 18 slices . How many Banana slices did Glenn make?",
+        "world_model": [],
+        "goal": "answer(X)",
+        "goal_solved": "answer(558)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 230,
+        "body_text": "Maurice had some Box. Walter took 67 from him. Now Maurice has 83 Box. How many Box Maurice had primitively?",
+        "world_model": [],
+        "goal": "answer(X)",
+        "goal_solved": "answer(150)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 231,
+        "body_text": "Deborah has 182 Marbles. Dana gave him 164 more. How many Marbles does Deborah have together?",
+        "world_model": [],
+        "goal": "answer(X)",
+        "goal_solved": "answer(346)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 232,
+        "body_text": "Sandra had 12 Mango . He cube each Mango into 13 slices . How many Mango slices did Sandra make?",
+        "world_model": [],
+        "goal": "answer(X)",
+        "goal_solved": "answer(156)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 233,
+        "body_text": "Paul had some Banana. Karen gave him 5 more. Now Paul has 27 Banana. How many Banana did Paul have primitively?",
+        "world_model": [],
+        "goal": "answer(X)",
+        "goal_solved": "answer(22)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 234,
+        "body_text": "Gladys had 12 Chocolate. Joshua confered him some more. Now Gladys has 103 Chocolate. How many did Joshua confer him?",
+        "world_model": [],
+        "goal": "answer(X)",
+        "goal_solved": "answer(91)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 235,
+        "body_text": "Elsa had 38 fig. Lawrence donateed him some more. Now Elsa has 132 fig. How many did Lawrence donate him?",
+        "world_model": [],
+        "goal": "answer(X)",
+        "goal_solved": "answer(94)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 236,
+        "body_text": "Jacqueline had 36 blackcurrant . He cut up each blackcurrant into 2 slices . How many blackcurrant slices did Jacqueline make?",
+        "world_model": [],
+        "goal": "answer(X)",
+        "goal_solved": "answer(72)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 237,
+        "body_text": "Minnie wants to share some coconut among 24 friends.If each friend get 31 coconut, then how many coconut john would have?",
+        "world_model": [],
+        "goal": "answer(X)",
+        "goal_solved": "answer(744)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 238,
+        "body_text": "Billy had 140 Banana. Jody took 14 from him. Now How many Banana Billy have left over?",
+        "world_model": [],
+        "goal": "answer(X)",
+        "goal_solved": "answer(126)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 239,
+        "body_text": "Alyson wants to share some toy among 25 friends.If each friend get 8 toy, then how many toy john would have?",
+        "world_model": [],
+        "goal": "answer(X)",
+        "goal_solved": "answer(200)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 240,
+        "body_text": "Curtis had 290 Press. Craig lay hold of some Press. Now Curtis has 64  Press. How many did Craig lay hold ofs?",
+        "world_model": [],
+        "goal": "answer(X)",
+        "goal_solved": "answer(226)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 241,
+        "body_text": "Wendy had some fig. James took 37 from him. Now Wendy has 55 fig. How many fig Wendy had incipiently?",
+        "world_model": [],
+        "goal": "answer(X)",
+        "goal_solved": "answer(92)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 242,
+        "body_text": "Cleo had 49 lemon . He slice each lemon into 13 slices . How many lemon slices did Cleo make?",
+        "world_model": [],
+        "goal": "answer(X)",
+        "goal_solved": "answer(637)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 243,
+        "body_text": "Beth had some cherry. Joseph took 63 from him. Now Beth has 82 cherry. How many cherry Beth had originally?",
+        "world_model": [],
+        "goal": "answer(X)",
+        "goal_solved": "answer(145)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 244,
+        "body_text": "Jillian had 120 Chocolate. Karen gripped some Chocolate. Now Jillian has 27  Chocolate. How many did Karen grippeds?",
+        "world_model": [],
+        "goal": "answer(X)",
+        "goal_solved": "answer(93)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 245,
+        "body_text": "Rebecca had 23 nectarine. Justin offered him some more. Now Rebecca has 172 nectarine. How many did Justin offer him?",
+        "world_model": [],
+        "goal": "answer(X)",
+        "goal_solved": "answer(149)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 246,
+        "body_text": "Lucy had 190 Press. Sean take hold of some Press. Now Lucy has 63  Press. How many did Sean take hold ofs?",
+        "world_model": [],
+        "goal": "answer(X)",
+        "goal_solved": "answer(127)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 247,
+        "body_text": "Barbara had some Watch. Roman took 13 from him. Now Barbara has 62 Watch. How many Watch Barbara had to begin with?",
+        "world_model": [],
+        "goal": "answer(X)",
+        "goal_solved": "answer(75)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 248,
+        "body_text": "Benjamin had 263 Biscuit. Gregory clasped some Biscuit. Now Benjamin has 58  Biscuit. How many did Gregory claspeds?",
+        "world_model": [],
+        "goal": "answer(X)",
+        "goal_solved": "answer(205)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 249,
+        "body_text": "Jackie had some fig. John gave him 7 more. Now Jackie has 25 fig. How many fig did Jackie have originally?",
+        "world_model": [],
+        "goal": "answer(X)",
+        "goal_solved": "answer(18)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 250,
+        "body_text": "Brandon had some Pen. James took 28 from him. Now Brandon has 97 Pen. How many Pen Brandon had to begin with?",
+        "world_model": [],
+        "goal": "answer(X)",
+        "goal_solved": "answer(125)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 251,
+        "body_text": "Laura had some raspberry. Beatrice took 60 from him. Now Laura has 70 raspberry. How many raspberry Laura had incipiently?",
+        "world_model": [],
+        "goal": "answer(X)",
+        "goal_solved": "answer(130)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 252,
+        "body_text": "Ben had 290 lychee. Christopher clutched some lychee. Now Ben has 10  lychee. How many did Christopher clutcheds?",
+        "world_model": [],
+        "goal": "answer(X)",
+        "goal_solved": "answer(280)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 253,
+        "body_text": "Henry has 147 Marbles. Carla gave him 45 more. How many Marbles does Henry have to plus?",
+        "world_model": [],
+        "goal": "answer(X)",
+        "goal_solved": "answer(192)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 254,
+        "body_text": "Emily had some cherry. He divide each cherry into 10 slices. If total 60 cherry slices Emily make, then how many cherry Emily had?",
+        "world_model": [],
+        "goal": "answer(X)",
+        "goal_solved": "answer(6)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 255,
+        "body_text": "Martha had 25 fig . He chop each fig into 6 slices . How many fig slices did Martha make?",
+        "world_model": [],
+        "goal": "answer(X)",
+        "goal_solved": "answer(150)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 256,
+        "body_text": "Patrick had some Box. Ellen gave him 2 more. Now Patrick has 39 Box. How many Box did Patrick have incipiently?",
+        "world_model": [],
+        "goal": "answer(X)",
+        "goal_solved": "answer(37)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 257,
+        "body_text": "Janice has 109 Marbles. Ryan gave him 71 more. How many Marbles does Janice have how much?",
+        "world_model": [],
+        "goal": "answer(X)",
+        "goal_solved": "answer(180)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 258,
+        "body_text": "Juan had some Chocolate. Charlotte took 14 from him. Now Juan has 22 Chocolate. How many Chocolate Juan had incipiently?",
+        "world_model": [],
+        "goal": "answer(X)",
+        "goal_solved": "answer(36)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 259,
+        "body_text": "Mike had 34 peaches left at his roadside fruit stand. He went to the orchard and picked more peaches to stock up the stand. There are now 86 peaches at the stand, how many did he pick ?",
+        "world_model": [],
+        "goal": "answer(X)",
+        "goal_solved": "answer(52)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 260,
+        "body_text": "James wants to share some Flower among 18 friends.If each friend get 6 Flower, then how many Flower john would have?",
+        "world_model": [],
+        "goal": "answer(X)",
+        "goal_solved": "answer(108)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 261,
+        "body_text": "Frederick has 154 Marbles. John gave him 9 more. How many Marbles does Frederick have to plus?",
+        "world_model": [],
+        "goal": "answer(X)",
+        "goal_solved": "answer(163)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 262,
+        "body_text": "Rosa wants to halve 483 pineapples among 7 friends. How many would each friend obtain?",
+        "world_model": [],
+        "goal": "answer(X)",
+        "goal_solved": "answer(69)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 263,
+        "body_text": "Diane has 68 Marbles. Eula gave him 177 more. How many Marbles does Diane have increased by?",
+        "world_model": [],
+        "goal": "answer(X)",
+        "goal_solved": "answer(245)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 264,
+        "body_text": "Thomas had 197 fig. Sonia took 31 from him. Now How many fig Thomas have left?",
+        "world_model": [],
+        "goal": "answer(X)",
+        "goal_solved": "answer(166)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 265,
+        "body_text": "Louise had 162 apple. Frank grabbed some apple. Now Louise has 19  apple. How many did Frank grabbeds?",
+        "world_model": [],
+        "goal": "answer(X)",
+        "goal_solved": "answer(143)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 266,
+        "body_text": "Susie wants to share some Watch among 28 friends.If each friend get 10 Watch, then how many Watch john would have?",
+        "world_model": [],
+        "goal": "answer(X)",
+        "goal_solved": "answer(280)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 267,
+        "body_text": "Joseph had some kiwi. Angela took 69 from him. Now Joseph has 91 kiwi. How many kiwi Joseph had earlier?",
+        "world_model": [],
+        "goal": "answer(X)",
+        "goal_solved": "answer(160)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 268,
+        "body_text": "Kenneth had 18 orange. Jacqueline took 13 from him. Now How many orange Kenneth have left?",
+        "world_model": [],
+        "goal": "answer(X)",
+        "goal_solved": "answer(5)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 269,
+        "body_text": "Carolyn had some strawberry. Joseph gave him 9 more. Now Carolyn has 45 strawberry. How many strawberry did Carolyn have earlier?",
+        "world_model": [],
+        "goal": "answer(X)",
+        "goal_solved": "answer(36)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 270,
+        "body_text": "Bradly has 33 Marbles. Keith gave him 191 more. How many Marbles does Bradly have how much?",
+        "world_model": [],
+        "goal": "answer(X)",
+        "goal_solved": "answer(224)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 271,
+        "body_text": "Jason went to 11 football games this month. He went to 17 games last month, and plans to go to 16 games next month. How many games will he attend in all ?",
+        "world_model": [],
+        "goal": "answer(X)",
+        "goal_solved": "answer(44)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 272,
+        "body_text": "Peggy had 226 Banana. James lay hold of some Banana. Now Peggy has 89  Banana. How many did James lay hold ofs?",
+        "world_model": [],
+        "goal": "answer(X)",
+        "goal_solved": "answer(137)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 273,
+        "body_text": "George had 268 apricot. Mary take hold of some apricot. Now George has 63  apricot. How many did Mary take hold ofs?",
+        "world_model": [],
+        "goal": "answer(X)",
+        "goal_solved": "answer(205)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 274,
+        "body_text": "Leonard had some cherry. Leslie took 74 from him. Now Leonard has 89 cherry. How many cherry Leonard had originally?",
+        "world_model": [],
+        "goal": "answer(X)",
+        "goal_solved": "answer(163)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 275,
+        "body_text": "Monique had 249 Flower. Darla lay hold of some Flower. Now Monique has 6  Flower. How many did Darla lay hold ofs?",
+        "world_model": [],
+        "goal": "answer(X)",
+        "goal_solved": "answer(243)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 276,
+        "body_text": "Teresa wants to share some Pen among 24 friends.If each friend get 22 Pen, then how many Pen john would have?",
+        "world_model": [],
+        "goal": "answer(X)",
+        "goal_solved": "answer(528)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 277,
+        "body_text": "Bianca picked 39 tulips and 49 roses to make flower bouquets. If she only used 81 of the flowers though, how many extra flowers did Bianca pick?",
+        "world_model": [],
+        "goal": "answer(X)",
+        "goal_solved": "answer(7)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 278,
+        "body_text": "Sarah had some trucks. She gave 13 to Jeff, and now she has 38 trucks left. How many trucks did Sarah have to start with?",
+        "world_model": [],
+        "goal": "answer(X)",
+        "goal_solved": "answer(51)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 279,
+        "body_text": "George had some coconut. Denise gave him 7 more. Now George has 10 coconut. How many coconut did George have to begin with?",
+        "world_model": [],
+        "goal": "answer(X)",
+        "goal_solved": "answer(3)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 280,
+        "body_text": "Gordon had 180 Box. Larry took 137 from him. Now How many Box Gordon have remains?",
+        "world_model": [],
+        "goal": "answer(X)",
+        "goal_solved": "answer(43)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 281,
+        "body_text": "Tim has 22 books . Mike has 20 books . How many books do they have together ?",
+        "world_model": [],
+        "goal": "answer(X)",
+        "goal_solved": "answer(42)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 282,
+        "body_text": "Jean had 182 apple. Duane took 82 from him. Now How many apple Jean have left over?",
+        "world_model": [],
+        "goal": "answer(X)",
+        "goal_solved": "answer(100)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 283,
+        "body_text": "Paul has 26 Marbles. Elizabeth gave him 146 more. How many Marbles does Paul have in all?",
+        "world_model": [],
+        "goal": "answer(X)",
+        "goal_solved": "answer(172)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 284,
+        "body_text": "Ernestine had 34 watermelon . He dice each watermelon into 15 slices . How many watermelon slices did Ernestine make?",
+        "world_model": [],
+        "goal": "answer(X)",
+        "goal_solved": "answer(510)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 285,
+        "body_text": "Derrick had 197 nectarine. Marquetta take hold of some nectarine. Now Derrick has 57  nectarine. How many did Marquetta take hold ofs?",
+        "world_model": [],
+        "goal": "answer(X)",
+        "goal_solved": "answer(140)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 286,
+        "body_text": "Doris had some cherry. Mary gave him 5 more. Now Doris has 40 cherry. How many cherry did Doris have earlier?",
+        "world_model": [],
+        "goal": "answer(X)",
+        "goal_solved": "answer(35)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 287,
+        "body_text": "Marion has 128 Marbles. Viola gave him 91 more. How many Marbles does Marion have all together?",
+        "world_model": [],
+        "goal": "answer(X)",
+        "goal_solved": "answer(219)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 288,
+        "body_text": "Ann had 190 pear. Brian took 17 from him. Now How many pear Ann have removed?",
+        "world_model": [],
+        "goal": "answer(X)",
+        "goal_solved": "answer(173)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 289,
+        "body_text": "Margaret had some pineapple. Anna took 64 from him. Now Margaret has 66 pineapple. How many pineapple Margaret had initially?",
+        "world_model": [],
+        "goal": "answer(X)",
+        "goal_solved": "answer(130)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 290,
+        "body_text": "Calvin had some banana. Brian took 34 from him. Now Calvin has 94 banana. How many banana Calvin had at first?",
+        "world_model": [],
+        "goal": "answer(X)",
+        "goal_solved": "answer(128)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 291,
+        "body_text": "Lorena had some fig. Peter gave him 8 more. Now Lorena has 26 fig. How many fig did Lorena have to begin with?",
+        "world_model": [],
+        "goal": "answer(X)",
+        "goal_solved": "answer(18)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 292,
+        "body_text": "Claudia had 225 banana. Richard get hold of some banana. Now Claudia has 86  banana. How many did Richard get hold ofs?",
+        "world_model": [],
+        "goal": "answer(X)",
+        "goal_solved": "answer(139)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 293,
+        "body_text": "Howard had 187 avocado. Timothy took 82 from him. Now How many avocado Howard have less than?",
+        "world_model": [],
+        "goal": "answer(X)",
+        "goal_solved": "answer(105)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 294,
+        "body_text": "Thomas had some nectarine. Dorothy gave him 1 more. Now Thomas has 44 nectarine. How many nectarine did Thomas have primitively?",
+        "world_model": [],
+        "goal": "answer(X)",
+        "goal_solved": "answer(43)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 295,
+        "body_text": "Christopher had 150 lime. Sharon took 79 from him. Now How many lime Christopher have remains?",
+        "world_model": [],
+        "goal": "answer(X)",
+        "goal_solved": "answer(71)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 296,
+        "body_text": "Irma has 187 Marbles. James gave him 72 more. How many Marbles does Irma have all together?",
+        "world_model": [],
+        "goal": "answer(X)",
+        "goal_solved": "answer(259)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 297,
+        "body_text": "Rosemary has 172 Marbles. Robert gave him 129 more. How many Marbles does Rosemary have all together?",
+        "world_model": [],
+        "goal": "answer(X)",
+        "goal_solved": "answer(301)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 298,
+        "body_text": "A teacher had 29 worksheets to grade. If she graded 25, but then another 29 were turned in, how many worksheets would she have to grade?",
+        "world_model": [],
+        "goal": "answer(X)",
+        "goal_solved": "answer(33)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 299,
+        "body_text": "Stephen had 31 Bread . He chop each Bread into 2 slices . How many Bread slices did Stephen make?",
+        "world_model": [],
+        "goal": "answer(X)",
+        "goal_solved": "answer(62)",
+        "label": true,
+        "program": []
+    }
+]

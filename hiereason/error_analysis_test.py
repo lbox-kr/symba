@@ -28,8 +28,8 @@ def run_prompt(prompt, data, llm):
 
 def main(args):
     random.seed(41)
-    config = load_config(args.dataset)
-    set_logger("symba", dataset=args.dataset)
+    config = load_config(args.dataset, args.model)
+    set_logger("symba", dataset=args.dataset, model=args.model)
     startdate = datetime.now().strftime('%Y%m%d-%H:%M:%S')
 
     dataset = args.dataset
@@ -72,15 +72,16 @@ def main(args):
                 result_table.append([str(_bound), str(_length), str(round(sum/30*100, 2))])
         
         # Convert result into csv
-        result_dir = f"logs/symba_{startdate}_{args.dataset}_erroranalysis_result.csv"
-        with open(result_dir, "w", encoding="UTF-8") as file:
-            for r in result_table:
-                line = ",".join(r) # bound,length,recall(n/30)
-                file.write(line + "\n")
-        logging.info(str(cb))
+        # result_dir = f"logs/symba_{startdate}_{args.dataset}_erroranalysis_result.csv"
+        # with open(result_dir, "w", encoding="UTF-8") as file:
+        #     for r in result_table:
+        #         line = ",".join(r) # bound,length,recall(n/30)
+        #         file.write(line + "\n")
+        # logging.info(str(cb))
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument("--dataset", required=True, help="Dataset ID.")
+    parser.add_argument("--model", required=True, choices=["openai", "anthropic", "ollama"])
     args = parser.parse_args()
     main(args)

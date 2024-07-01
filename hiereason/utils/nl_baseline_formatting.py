@@ -141,7 +141,7 @@ def convert_goal(goal, dataset):
         per2 = match.group(3)
         sent = f"{per1} can be inferred as the {rel} of {per2}."
         return sent.capitalize()
-    elif dataset == "gsm8k":
+    elif dataset == "gsm8k" or dataset == "mawps":
         ans = re.match(r"answer\((.*)\)", goal).group(1)
         return ans
     elif dataset == "ecthr":
